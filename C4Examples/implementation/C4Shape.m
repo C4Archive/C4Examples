@@ -270,17 +270,42 @@
     CGPoint endPoint = [[curveDict valueForKey:@"endPoint"] CGPointValue];
     CGPoint controlPoint1 = [[curveDict valueForKey:@"controlPoint1"] CGPointValue];
     CGPoint controlPoint2 = [[curveDict valueForKey:@"controlPoint2"] CGPointValue];
-    _pointA = beginPoint;
-    _pointB = endPoint;
+
     _controlPointA = controlPoint1;
     _controlPointB = controlPoint2;
-    CGPathMoveToPoint(newPath, nil, 0,0);
-    const CGAffineTransform translation = CGAffineTransformMakeTranslation(-1*beginPoint.x, -1*beginPoint.y);
-    CGPathAddCurveToPoint(newPath, &translation, controlPoint1.x, controlPoint1.y, controlPoint2.x, controlPoint2.y, endPoint.x, endPoint.y);
+
+    //creates a frame around the two end points
+    CGPoint pts[2] = {beginPoint,endPoint};
+    CGRect containerRect = CGRectMakeFromPointArray(pts, 2);
     
+    //adjusts the points based on the origin of the frame
+    pts[0].x -= containerRect.origin.x;
+    pts[0].y -= containerRect.origin.y;
+    pts[1].x -= containerRect.origin.x;
+    pts[1].y -= containerRect.origin.y;
+    controlPoint1.x -= containerRect.origin.x;
+    controlPoint1.y -= containerRect.origin.y;
+    controlPoint2.x -= containerRect.origin.x;
+    controlPoint2.y -= containerRect.origin.y;
+
+    _pointA = beginPoint;
+    _pointB = endPoint;
+
+    //creates a bezier curve
+    CGPathMoveToPoint(newPath, nil,pts[0].x,pts[0].y);
+    const CGAffineTransform translation = CGAffineTransformIdentity;
+    CGPathAddCurveToPoint(newPath, &translation, controlPoint1.x, controlPoint1.y, controlPoint2.x, controlPoint2.y, pts[1].x, pts[1].y);
+
+    //animates
     [self.animationHelper animateKeyPath:@"path" toValue:(__bridge id)newPath];
-    //    CGRect pathRect = CGPathGetBoundingBox(newPath);
-    //    self.bounds = pathRect;
+
+    //grabs the bounding box for the new path
+    CGRect pathRect = CGPathGetPathBoundingBox(newPath);
+    //sets the frame of the object to contain the path
+    self.frame = CGRectMake(self.origin.x + pathRect.origin.x, self.origin.y+pathRect.origin.y, pathRect.size.width, pathRect.size.height);
+    //sets the bounds of the path to align properly inside the new frame
+    self.bounds = pathRect;
+
     CGPathRelease(newPath);
     _initialized = YES;
 }
@@ -292,14 +317,41 @@
     CGPoint beginPoint = [[curveDict valueForKey:@"beginPoint"] CGPointValue];
     CGPoint endPoint = [[curveDict valueForKey:@"endPoint"] CGPointValue];
     CGPoint controlPoint = [[curveDict valueForKey:@"controlPoint"] CGPointValue];
+    
+    //sets the control point to the coordinates given
+    _controlPointA = controlPoint;
+    
+    //creates a frame around the two end points
+    CGPoint pts[2] = {beginPoint,endPoint};
+    CGRect containerRect = CGRectMakeFromPointArray(pts, 2);
+    
+    //adjusts the points based on the origin of the frame
+    pts[0].x -= containerRect.origin.x;
+    pts[0].y -= containerRect.origin.y;
+    pts[1].x -= containerRect.origin.x;
+    pts[1].y -= containerRect.origin.y;
+    controlPoint.x -= containerRect.origin.x;
+    controlPoint.y -= containerRect.origin.y;
+    CGPathMoveToPoint(newPath, nil,pts[0].x,pts[0].y);
+    
+    //sets the begining and end points
     _pointA = beginPoint;
     _pointB = endPoint;
-    _controlPointA = controlPoint;
-    CGPathMoveToPoint(newPath, nil,0,0);
-    const CGAffineTransform translation = CGAffineTransformMakeTranslation(-1*beginPoint.x, -1*beginPoint.y);
-    CGPathAddQuadCurveToPoint(newPath, &translation, controlPoint.x,controlPoint.y, endPoint.x, endPoint.y);
     
+    //creates a quadratic curve
+    const CGAffineTransform translation = CGAffineTransformIdentity;
+    CGPathAddQuadCurveToPoint(newPath, &translation, controlPoint.x,controlPoint.y, pts[1].x, pts[1].y);
+    
+    //animates
     [self.animationHelper animateKeyPath:@"path" toValue:(__bridge id)newPath];
+
+    //grabs the bounding box for the new path
+    CGRect pathRect = CGPathGetPathBoundingBox(newPath);
+    //sets the frame of the object to contain the path
+    self.frame = CGRectMake(self.origin.x + pathRect.origin.x, self.origin.y+pathRect.origin.y, pathRect.size.width, pathRect.size.height);
+    //sets the bounds of the path to align properly inside the new frame
+    self.bounds = pathRect;
+    
     CGPathRelease(newPath);
     _initialized = YES;
 }
@@ -492,9 +544,8 @@
     }
     
     [self.animationHelper animateKeyPath:@"path" toValue:(__bridge id)newPath];
-    CGRect pathRect = CGPathGetBoundingBox(newPath);
+    CGRect pathRect = CGPathGetPathBoundingBox(newPath);
     self.bounds = pathRect; //Need this step to sync the appearance of the paths to the frame of the shape
-//    _origin = self.frame.origin;
     CGPathRelease(newPath);
     _initialized = YES;
 }
