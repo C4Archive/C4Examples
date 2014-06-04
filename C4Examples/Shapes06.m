@@ -8,31 +8,20 @@
 @implementation Shapes06
 
 -(void)setup {
-    C4Shape *rectangle, *square, *circle, *ellipse;
+    CGRect frame = CGRectMake(0, 0, 150, 150);
+    C4Shape *defaultColorShape = [C4Shape ellipse:frame];
+    defaultColorShape.center = CGPointMake(self.canvas.center.x, self.canvas.height / 3.);
     
-    //Create a rectangle
-    rectangle = [C4Shape rect:CGRectMake(0, 0, 200, 100)];
+    //create and position the shape with custom colors
+    C4Shape *customColorShape = [C4Shape ellipse:frame];
+    customColorShape.center = CGPointMake(self.canvas.center.x, self.canvas.height * 2 / 3.);;
     
-    //Create a square (same w & h)
-    square = [C4Shape rect:CGRectMake(0, 0, 100, 100)];
+    //set the fill and stroke colors for the custom shape
+    customColorShape.fillColor = [UIColor lightGrayColor];
+    customColorShape.strokeColor = C4RED;
     
-    //Create an ellipse
-    ellipse = [C4Shape ellipse:CGRectMake(0, 0, 200, 100)]; // same dimensions as rectangle
-    
-    //Create a circle (same w & h)
-    circle = [C4Shape ellipse:CGRectMake(0, 0, 100, 100)]; // same dimensions as square
-    
-    //Build an array with all the objects in it
-    NSArray *shapes = @[square,rectangle,circle,ellipse];
-    
-    //Position them all
-    for (int i = 0; i < shapes.count; i++) {
-        C4Shape *s = shapes[i];
-        s.center = CGPointMake(self.canvas.center.x, self.canvas.height / 5 * (i+1));
-    }
-    
-    //add all the shapes to the canvas
-    [self.canvas addObjects:shapes];
+    //add the shapes to the canvas
+    [self.canvas addObjects:@[defaultColorShape,customColorShape]];
 }
 
 @end

@@ -5,34 +5,54 @@
 
 #import "Shapes07.h"
 
-@implementation Shapes07
+@implementation Shapes07 {
+    C4Shape *poly1, *poly2;
+}
 
 -(void)setup {
-    C4Shape *rectangle, *square, *circle, *ellipse;
+    [self createAndStylePolygons];
+    [self createLabels];
     
-    //Create a rectangle
-    rectangle = [C4Shape rect:CGRectMake(0, 0, 200, 100)];
+    //define the fill rules for each polygon
+    poly1.fillRule = FILLNORMAL; //Default value
+    poly2.fillRule = FILLEVENODD;
+}
+
+-(void)createAndStylePolygons {
+    //the base width for the polygons
+    CGPoint polyPoints[7] = {
+        CGPointZero,
+        CGPointMake(150,-150),
+        CGPointMake(200,-100),
+        CGPointMake(100,0),
+        CGPointMake(0,-100),
+        CGPointMake(50,-150),
+        CGPointMake(200,0)
+    };
     
-    //Create a square (same w & h)
-    square = [C4Shape rect:CGRectMake(0, 0, 100, 100)];
+    //create poly1 and style it
+    poly1 = [C4Shape polygon:polyPoints pointCount:7];
+    poly1.center = CGPointMake(self.canvas.center.x, self.canvas.height / 3.);
     
-    //Create an ellipse
-    ellipse = [C4Shape ellipse:CGRectMake(0, 0, 200, 100)]; // same dimensions as rectangle
+    //create poly2 and style it
+    poly2 = [C4Shape polygon:polyPoints pointCount:7];
+    poly2.center = CGPointMake(self.canvas.center.x, self.canvas.height * 2/3);
     
-    //Create a circle (same w & h)
-    circle = [C4Shape ellipse:CGRectMake(0, 0, 100, 100)]; // same dimensions as square
+    //add all the polygons to the canvas
+    [self.canvas addObjects:@[poly1,poly2]];
+}
+
+-(void)createLabels {
+    C4Font *f = [C4Font fontWithName:@"DINAlternate-Bold" size:18.0f];
     
-    //Build an array with all the objects in it
-    NSArray *shapes = @[square,rectangle,circle,ellipse];
+    //create the FILLNORMAL label, center it to the base of poly1
+    C4Label *normal = [C4Label labelWithText:@"FILLNORMAL" font:f];
+    normal.center = CGPointMake(poly1.center.x, poly1.center.y - poly1.height/2 - normal.height);
     
-    //Position them all
-    for (int i = 0; i < shapes.count; i++) {
-        C4Shape *s = shapes[i];
-        s.center = CGPointMake(self.canvas.center.x, self.canvas.height / 5 * (i+1));
-    }
-    
-    //add all the shapes to the canvas
-    [self.canvas addObjects:shapes];
+    //create the FILLEVENODD label, center it to the base of poly2
+    C4Label *evenodd = [C4Label labelWithText:@"FILLEVENODD" font:f];
+    evenodd.center = CGPointMake(poly2.center.x, poly2.center.y + poly2.height/2 + evenodd.height);
+    [self.canvas addObjects:@[normal, evenodd]];
 }
 
 @end

@@ -8,31 +8,34 @@
 @implementation Shapes04
 
 -(void)setup {
-    C4Shape *rectangle, *square, *circle, *ellipse;
+    CGFloat radius = 75;
     
-    //Create a rectangle
-    rectangle = [C4Shape rect:CGRectMake(0, 0, 200, 100)];
+    CGPoint arcCenter = CGPointMake(self.canvas.center.x, self.canvas.height / 3.);
+    C4Shape *clockwiseArc, *counterClockwiseArc;
     
-    //Create a square (same w & h)
-    square = [C4Shape rect:CGRectMake(0, 0, 100, 100)];
+    //create the counter-clockwise arc
+    counterClockwiseArc = [C4Shape arcWithCenter:arcCenter radius:radius startAngle:0 endAngle:PI*2/3 clockwise:NO];
+    [counterClockwiseArc closeShape];
     
-    //Create an ellipse
-    ellipse = [C4Shape ellipse:CGRectMake(0, 0, 200, 100)]; // same dimensions as rectangle
+    //create the clockwise arc, first shifting the center of the arc
+    arcCenter.x += 8;
+    arcCenter.y += 14;
+    clockwiseArc = [C4Shape arcWithCenter:arcCenter radius:radius startAngle:0 endAngle:PI*2/3 clockwise:YES];
+    [clockwiseArc closeShape];
     
-    //Create a circle (same w & h)
-    circle = [C4Shape ellipse:CGRectMake(0, 0, 100, 100)]; // same dimensions as square
     
-    //Build an array with all the objects in it
-    NSArray *shapes = @[square,rectangle,circle,ellipse];
+    CGPoint wedgeCenter = CGPointMake(self.canvas.center.x, self.canvas.height * 2 / 3.);
+    C4Shape *clockwiseWedge, *counterClockwiseWedge;
+    //create the counter-clockwise wedge
+    counterClockwiseWedge = [C4Shape wedgeWithCenter:wedgeCenter radius:radius startAngle:0 endAngle:PI*2/3 clockwise:NO];
     
-    //Position them all
-    for (int i = 0; i < shapes.count; i++) {
-        C4Shape *s = shapes[i];
-        s.center = CGPointMake(self.canvas.center.x, self.canvas.height / 5 * (i+1));
-    }
+    //create the clockwise wedge, first shifting the center of the wedge
+    wedgeCenter.x += 9;
+    wedgeCenter.y += 14;
+    clockwiseWedge = [C4Shape wedgeWithCenter:wedgeCenter radius:radius startAngle:0 endAngle:PI*2/3 clockwise:YES];
     
-    //add all the shapes to the canvas
-    [self.canvas addObjects:shapes];
+    //add the shapes to the canvas
+    [self.canvas addObjects:@[counterClockwiseArc,clockwiseArc,counterClockwiseWedge,clockwiseWedge]];
 }
 
 @end

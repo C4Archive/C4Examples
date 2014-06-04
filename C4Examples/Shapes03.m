@@ -8,31 +8,25 @@
 @implementation Shapes03
 
 -(void)setup {
-    C4Shape *rectangle, *square, *circle, *ellipse;
+    C4Shape *bezierCurve = [self createBezier]; //create the bezier
+    bezierCurve.center = CGPointMake(self.canvas.center.x, self.canvas.height / 3.); //center it
     
-    //Create a rectangle
-    rectangle = [C4Shape rect:CGRectMake(0, 0, 200, 100)];
+    C4Shape *quadCurve = [self createQuad]; //create the quad
+    quadCurve.center = CGPointMake(self.canvas.center.x, self.canvas.height * 2. / 3.); //center it
     
-    //Create a square (same w & h)
-    square = [C4Shape rect:CGRectMake(0, 0, 100, 100)];
-    
-    //Create an ellipse
-    ellipse = [C4Shape ellipse:CGRectMake(0, 0, 200, 100)]; // same dimensions as rectangle
-    
-    //Create a circle (same w & h)
-    circle = [C4Shape ellipse:CGRectMake(0, 0, 100, 100)]; // same dimensions as square
-    
-    //Build an array with all the objects in it
-    NSArray *shapes = @[square,rectangle,circle,ellipse];
-    
-    //Position them all
-    for (int i = 0; i < shapes.count; i++) {
-        C4Shape *s = shapes[i];
-        s.center = CGPointMake(self.canvas.center.x, self.canvas.height / 5 * (i+1));
-    }
-    
-    //add all the shapes to the canvas
-    [self.canvas addObjects:shapes];
+    [self.canvas addObjects:@[bezierCurve,quadCurve]]; //add the shapes to the canvas
+}
+
+-(C4Shape *)createBezier {
+    CGPoint endPts[2] = {CGPointZero,CGPointMake(200,200)};
+    CGPoint ctrlPts[2] = {CGPointMake(-100, 200), CGPointMake(300, 0)};
+    return [C4Shape curve:endPts controlPoints:ctrlPts];
+}
+
+-(C4Shape *)createQuad {
+    CGPoint endPts[2] = {CGPointZero,CGPointMake(200, 0)};
+    CGPoint ctrlPt = CGPointMake(100, -200);
+    return [C4Shape quadCurve:endPts controlPoint:ctrlPt];
 }
 
 @end
