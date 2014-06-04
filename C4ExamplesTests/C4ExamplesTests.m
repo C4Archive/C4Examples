@@ -2,9 +2,6 @@
 //  C4ExamplesTests.m
 //  C4ExamplesTests
 //
-//  Created by travis on 2014-06-03.
-//  Copyright (c) 2014 C4. All rights reserved.
-//
 
 #import <XCTest/XCTest.h>
 
