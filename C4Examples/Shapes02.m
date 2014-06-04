@@ -58,4 +58,5 @@
         pts[i] = CGPointMake([C4Math randomInt:100], [C4Math randomInt:100]);
     return [C4Shape polygon:pts pointCount:10];
 }
+
 @end
