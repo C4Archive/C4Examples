@@ -183,6 +183,9 @@
         _closed = YES;
     }
     [self.animationHelper animateKeyPath:@"path" toValue:(__bridge id)translatedPath];
+    //grabs the bounding box for the new path
+    CGRect pathRect = CGPathGetPathBoundingBox(translatedPath);
+    self.bounds = pathRect;
     CGPathRelease(translatedPath);
     _initialized = YES;
 }
@@ -218,6 +221,8 @@
     _closed = YES;
     
     [self.animationHelper animateKeyPath:@"path" toValue:(__bridge id)translatedPath];
+    CGRect pathRect = CGPathGetPathBoundingBox(translatedPath);
+    self.bounds = pathRect;
     CGPathRelease(translatedPath);
     _initialized = YES;
 }

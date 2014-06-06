@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4ABCA7C19403DC20003B296 /* Shapes11.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ABCA7B19403DC20003B296 /* Shapes11.m */; };
+		C4ABCA7F194041130003B296 /* Shapes12.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ABCA7E194041130003B296 /* Shapes12.m */; };
+		C4ABCA821940431A0003B296 /* Shapes13.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ABCA811940431A0003B296 /* Shapes13.m */; };
+		C4ABCA851940483D0003B296 /* Shapes14.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ABCA841940483D0003B296 /* Shapes14.m */; };
+		C4ABCA88194049A70003B296 /* Shapes15.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ABCA87194049A70003B296 /* Shapes15.m */; };
+		C4ABCA8B19404C250003B296 /* Shapes16.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ABCA8A19404C250003B296 /* Shapes16.m */; };
+		C4ABCA8E19404E540003B296 /* Shapes17.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ABCA8D19404E540003B296 /* Shapes17.m */; };
+		C4ABCA91194051D40003B296 /* Shapes18.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ABCA90194051D40003B296 /* Shapes18.m */; };
+		C4ABCA94194052B60003B296 /* Shapes19.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ABCA93194052B60003B296 /* Shapes19.m */; };
+		C4ABCA97194052FD0003B296 /* Shapes20.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ABCA96194052FD0003B296 /* Shapes20.m */; };
+		C4D92AC61940068100A62623 /* Shapes08.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D92AC51940068100A62623 /* Shapes08.m */; };
+		C4D92AC919400E3900A62623 /* Shapes09.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D92AC819400E3900A62623 /* Shapes09.m */; };
+		C4D92ACC19401E0B00A62623 /* Shapes10.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D92ACB19401E0B00A62623 /* Shapes10.m */; };
 		D9167EA3193E988C00A9602C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA2193E988C00A9602C /* Accelerate.framework */; };
 		D9167EA5193E988C00A9602C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA4193E988C00A9602C /* AVFoundation.framework */; };
 		D9167EA7193E988C00A9602C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA6193E988C00A9602C /* CoreFoundation.framework */; };
@@ -87,6 +100,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4ABCA7A19403DC20003B296 /* Shapes11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes11.h; sourceTree = "<group>"; };
+		C4ABCA7B19403DC20003B296 /* Shapes11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes11.m; sourceTree = "<group>"; };
+		C4ABCA7D194041120003B296 /* Shapes12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes12.h; sourceTree = "<group>"; };
+		C4ABCA7E194041130003B296 /* Shapes12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes12.m; sourceTree = "<group>"; };
+		C4ABCA801940431A0003B296 /* Shapes13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes13.h; sourceTree = "<group>"; };
+		C4ABCA811940431A0003B296 /* Shapes13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes13.m; sourceTree = "<group>"; };
+		C4ABCA831940483D0003B296 /* Shapes14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes14.h; sourceTree = "<group>"; };
+		C4ABCA841940483D0003B296 /* Shapes14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes14.m; sourceTree = "<group>"; };
+		C4ABCA86194049A70003B296 /* Shapes15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes15.h; sourceTree = "<group>"; };
+		C4ABCA87194049A70003B296 /* Shapes15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes15.m; sourceTree = "<group>"; };
+		C4ABCA8919404C250003B296 /* Shapes16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes16.h; sourceTree = "<group>"; };
+		C4ABCA8A19404C250003B296 /* Shapes16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes16.m; sourceTree = "<group>"; };
+		C4ABCA8C19404E540003B296 /* Shapes17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes17.h; sourceTree = "<group>"; };
+		C4ABCA8D19404E540003B296 /* Shapes17.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes17.m; sourceTree = "<group>"; };
+		C4ABCA8F194051D40003B296 /* Shapes18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes18.h; sourceTree = "<group>"; };
+		C4ABCA90194051D40003B296 /* Shapes18.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes18.m; sourceTree = "<group>"; };
+		C4ABCA92194052B60003B296 /* Shapes19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes19.h; sourceTree = "<group>"; };
+		C4ABCA93194052B60003B296 /* Shapes19.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes19.m; sourceTree = "<group>"; };
+		C4ABCA95194052FD0003B296 /* Shapes20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes20.h; sourceTree = "<group>"; };
+		C4ABCA96194052FD0003B296 /* Shapes20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes20.m; sourceTree = "<group>"; };
+		C4D92AC41940068100A62623 /* Shapes08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shapes08.h; path = ../Shapes08.h; sourceTree = "<group>"; };
+		C4D92AC51940068100A62623 /* Shapes08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shapes08.m; path = ../Shapes08.m; sourceTree = "<group>"; };
+		C4D92AC719400E3900A62623 /* Shapes09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes09.h; sourceTree = "<group>"; };
+		C4D92AC819400E3900A62623 /* Shapes09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes09.m; sourceTree = "<group>"; };
+		C4D92ACA19401E0B00A62623 /* Shapes10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes10.h; sourceTree = "<group>"; };
+		C4D92ACB19401E0B00A62623 /* Shapes10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes10.m; sourceTree = "<group>"; };
 		D9167E9F193E988C00A9602C /* C4Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9167EA2193E988C00A9602C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D9167EA4193E988C00A9602C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -421,12 +460,12 @@
 		D9167F5C193E98C200A9602C /* Examples */ = {
 			isa = PBXGroup;
 			children = (
-				D9167FAE193EA0E500A9602C /* New Group */,
+				D9167FAE193EA0E500A9602C /* Shapes */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
 		};
-		D9167FAE193EA0E500A9602C /* New Group */ = {
+		D9167FAE193EA0E500A9602C /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
 				D9167F5D193EA01900A9602C /* Shapes01.h */,
@@ -443,8 +482,34 @@
 				D9167F69193EA0D900A9602C /* Shapes06.m */,
 				D9167F6A193EA0D900A9602C /* Shapes07.h */,
 				D9167F6B193EA0D900A9602C /* Shapes07.m */,
+				C4D92AC41940068100A62623 /* Shapes08.h */,
+				C4D92AC51940068100A62623 /* Shapes08.m */,
+				C4D92AC719400E3900A62623 /* Shapes09.h */,
+				C4D92AC819400E3900A62623 /* Shapes09.m */,
+				C4D92ACA19401E0B00A62623 /* Shapes10.h */,
+				C4D92ACB19401E0B00A62623 /* Shapes10.m */,
+				C4ABCA7A19403DC20003B296 /* Shapes11.h */,
+				C4ABCA7B19403DC20003B296 /* Shapes11.m */,
+				C4ABCA7D194041120003B296 /* Shapes12.h */,
+				C4ABCA7E194041130003B296 /* Shapes12.m */,
+				C4ABCA801940431A0003B296 /* Shapes13.h */,
+				C4ABCA811940431A0003B296 /* Shapes13.m */,
+				C4ABCA831940483D0003B296 /* Shapes14.h */,
+				C4ABCA841940483D0003B296 /* Shapes14.m */,
+				C4ABCA86194049A70003B296 /* Shapes15.h */,
+				C4ABCA87194049A70003B296 /* Shapes15.m */,
+				C4ABCA8919404C250003B296 /* Shapes16.h */,
+				C4ABCA8A19404C250003B296 /* Shapes16.m */,
+				C4ABCA8C19404E540003B296 /* Shapes17.h */,
+				C4ABCA8D19404E540003B296 /* Shapes17.m */,
+				C4ABCA8F194051D40003B296 /* Shapes18.h */,
+				C4ABCA90194051D40003B296 /* Shapes18.m */,
+				C4ABCA92194052B60003B296 /* Shapes19.h */,
+				C4ABCA93194052B60003B296 /* Shapes19.m */,
+				C4ABCA95194052FD0003B296 /* Shapes20.h */,
+				C4ABCA96194052FD0003B296 /* Shapes20.m */,
 			);
-			name = "New Group";
+			name = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -555,10 +620,13 @@
 				D9167F10193E988D00A9602C /* C4Image.m in Sources */,
 				D9167F28193E988D00A9602C /* C4Timer.m in Sources */,
 				D9167EFC193E988D00A9602C /* C4Camera.m in Sources */,
+				C4ABCA97194052FD0003B296 /* Shapes20.m in Sources */,
 				D9167F95193EA0D900A9602C /* Shapes03.m in Sources */,
 				D9167F97193EA0D900A9602C /* Shapes05.m in Sources */,
+				C4ABCA821940431A0003B296 /* Shapes13.m in Sources */,
 				D9167F02193E988D00A9602C /* C4Defines.m in Sources */,
 				D9167F12193E988D00A9602C /* C4Label.m in Sources */,
+				C4ABCA7C19403DC20003B296 /* Shapes11.m in Sources */,
 				D9167F06193E988D00A9602C /* C4EAGLES1Renderer.m in Sources */,
 				D9167F00193E988D00A9602C /* C4Control.m in Sources */,
 				D9167F22193E988D00A9602C /* C4Stepper.m in Sources */,
@@ -574,20 +642,30 @@
 				D9167F94193EA0D900A9602C /* Shapes02.m in Sources */,
 				D9167F1E193E988D00A9602C /* C4Shape.m in Sources */,
 				D9167F34193E988D00A9602C /* UIColor+CIColorFix.m in Sources */,
+				C4D92AC919400E3900A62623 /* Shapes09.m in Sources */,
 				D9167F1C193E988D00A9602C /* C4ScrollView.m in Sources */,
+				C4ABCA8B19404C250003B296 /* Shapes16.m in Sources */,
+				C4D92ACC19401E0B00A62623 /* Shapes10.m in Sources */,
+				C4ABCA88194049A70003B296 /* Shapes15.m in Sources */,
 				D9167F16193E988D00A9602C /* C4Movie.m in Sources */,
 				D9167F2E193E988D00A9602C /* C4UIGLControl.m in Sources */,
+				C4ABCA8E19404E540003B296 /* Shapes17.m in Sources */,
 				D9167F40193E988D00A9602C /* C4WorkSpace.m in Sources */,
 				D9167F0A193E988D00A9602C /* C4Foundation.m in Sources */,
+				C4ABCA851940483D0003B296 /* Shapes14.m in Sources */,
+				C4ABCA91194051D40003B296 /* Shapes18.m in Sources */,
 				D9167F32193E988D00A9602C /* C4UIShapeControl.m in Sources */,
 				D9167F5F193EA01900A9602C /* Shapes01.m in Sources */,
 				D9167F0C193E988D00A9602C /* C4GL.m in Sources */,
+				C4ABCA7F194041130003B296 /* Shapes12.m in Sources */,
 				D9167EF6193E988D00A9602C /* C4AnimationHelper.m in Sources */,
 				D9167F0E193E988D00A9602C /* C4GL1Renderer.m in Sources */,
 				D9167EBF193E988C00A9602C /* main.m in Sources */,
 				D9167EFE193E988D00A9602C /* C4CanvasController.m in Sources */,
 				D9167F2A193E988D00A9602C /* C4UIElement.m in Sources */,
+				C4D92AC61940068100A62623 /* Shapes08.m in Sources */,
 				D9167F14193E988D00A9602C /* C4Math.m in Sources */,
+				C4ABCA94194052B60003B296 /* Shapes19.m in Sources */,
 				D9167F2C193E988D00A9602C /* C4Vector.m in Sources */,
 				D9167F18193E988D00A9602C /* C4Object.m in Sources */,
 				D9167F26193E988D00A9602C /* C4Template.m in Sources */,

@@ -1,59 +1,89 @@
 //
 //  C4WorkSpace.m
-//  C4Examples
+//  Examples
+//
+//  Created by Travis Kirton
 //
 
-#import "C4Workspace.h"
+#import "C4WorkSpace.h"
 
-@implementation C4WorkSpace
+@implementation C4WorkSpace {
+    C4Shape *bezierCurve, *quadraticCurve;
+    C4Shape *controlA, *controlB, *controlC;
+}
 
 -(void)setup {
-    //create some shapes
-    C4Shape *line = [self createLine];
-    C4Shape *triangle = [self createTriangle];
-    C4Shape *polygon = [self createPolygon];
-    C4Shape *random = [self createRandom];
+    //create the end points for the bezier curve
+    CGPoint bezierEndPoints[2] = {
+        CGPointMake(0.3f*self.canvas.width,self.canvas.height/3),
+        CGPointMake(0.7f*self.canvas.width,self.canvas.height/3)
+    };
     
-    //add them to an array
-    NSArray *shapes = @[line, triangle, polygon, random];
+    //create the control points for the bezier curve
+    CGPoint bezierControlPoints[2] = {CGPointMake(32,32), CGPointMake(self.canvas.width-32,32)};
     
-    //position the shapes
-    for (int i = 0; i < shapes.count; i++) {
-        C4Shape *shape = shapes[i];
-        shape.center = CGPointMake(self.canvas.center.x, self.canvas.height / 5 * (i+1));
-    }
+    //create the bezier curve
+    bezierCurve = [C4Shape curve:bezierEndPoints controlPoints:bezierControlPoints];
+    [self.canvas addControl:bezierCurve];
     
-    //add the shapes to the canvas
-    [self.canvas addObjects:shapes];
+    //create the end points for the bezier curve
+    CGPoint quadEndPoints[2] = {
+        CGPointMake(0.3f*self.canvas.width,self.canvas.height*2/3),
+        CGPointMake(0.7f*self.canvas.width,self.canvas.height*2/3)
+    };
+    
+    //create the control point for the quadratic curve
+    CGPoint quadControlPoint = self.canvas.center;
+    quadControlPoint.y = self.canvas.height - 32;
+    
+    //create the bezier curve
+    quadraticCurve = [C4Shape quadCurve:quadEndPoints controlPoint:quadControlPoint];
+    [self.canvas addControl:quadraticCurve];
+    
+    //create 3 control shapes
+    CGRect controlFrame = CGRectMake(0, 0, 44, 44);
+    controlA = [C4Shape ellipse:controlFrame];
+    controlB = [C4Shape ellipse:controlFrame];
+    controlC = [C4Shape ellipse:controlFrame];
+    
+    //move control shapes points to the coordinates of the curve control points
+    controlA.center = bezierControlPoints[0];
+    controlB.center = bezierControlPoints[1];
+    controlC.center = quadControlPoint;
+    
+    //style the control shapes
+    controlA.lineWidth = controlB.lineWidth = controlC.lineWidth = 0.0f;
+    controlB.fillColor = C4RED;
+    controlC.fillColor = C4BLUE;
+    
+    [self.canvas addControl:controlA];
+    [self.canvas addControl:controlB];
+    [self.canvas addControl:controlC];
+    
+    [controlA onPan:^(CGPoint location, CGPoint translation, CGPoint velocity) {
+        [controlA move:location];
+        [self updateControlA];
+    }];
+    [controlB onPan:^(CGPoint location, CGPoint translation, CGPoint velocity) {
+        [controlB move:location];
+        [self updateControlB];
+    }];
+    [controlC onPan:^(CGPoint location, CGPoint translation, CGPoint velocity) {
+        [controlC move:location];
+        [self updateControlC];
+    }];
 }
 
--(C4Shape *)createLine {
-    CGPoint pts[2];    //create a 2 point array
-    pts[1] = CGPointMake(100, 100);
-    return [C4Shape line:pts];
+-(void)updateControlA {
+    bezierCurve.controlPointA = controlA.center;
 }
 
--(C4Shape *)createTriangle {
-    CGPoint pts[3];    //create a 3 point array
-    pts[1] = CGPointMake(0, 100);
-    pts[2] = CGPointMake(100, 0);
-    return [C4Shape triangle:pts];
+-(void)updateControlB {
+    bezierCurve.controlPointB = controlB.center;
 }
 
--(C4Shape *)createPolygon {
-    CGPoint pts[4];    //create a 4 point array
-    pts[1] = CGPointMake(0, 100);
-    pts[2] = CGPointMake(100, 0);
-    pts[3] = CGPointMake(100, 100);
-    return [C4Shape polygon:pts pointCount:4];
-}
-
--(C4Shape *)createRandom {
-    NSInteger randomCount = [C4Math randomInt:10]+10;    //create an array between 10 and 20 points
-    CGPoint pts[randomCount];
-    for(int i = 0; i < randomCount; i++)
-        pts[i] = CGPointMake([C4Math randomInt:100], [C4Math randomInt:100]);
-    return [C4Shape polygon:pts pointCount:10];
+-(void)updateControlC {
+    quadraticCurve.controlPointA = controlC.center;
 }
 
 @end
