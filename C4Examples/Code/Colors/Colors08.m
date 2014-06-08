@@ -1,13 +1,14 @@
 //
-//  C4WorkSpace.m
-//  Examples
+//  Colors08.m
+//  C4Examples
 //
-//  Created by Travis Kirton
+//  Created by Slant on 2014-06-08.
+//  Copyright (c) 2014 C4. All rights reserved.
 //
 
-#import "C4WorkSpace.h"
+#import "Colors08.h"
 
-@implementation C4WorkSpace {
+@implementation Colors08 {
     C4Shape *red, *blue, *grey;
     CGFloat r[4], b[4], g[4];
 }
@@ -58,17 +59,18 @@
     l.textColor = [UIColor whiteColor];
     l.center = CGPointMake(red.width / 2, red.height / 2);
     [red addControl:l];
-
+    
     colorString = [NSString stringWithFormat:@"{%4.2f,%4.2f,%4.2f,%4.2f}",b[0],b[1],b[2],b[3]];
     l = [C4Label labelWithText:colorString font:f];
     l.textColor = [UIColor whiteColor];
     l.center = CGPointMake(red.width / 2, red.height / 2);
     [blue addControl:l];
-
+    
     colorString = [NSString stringWithFormat:@"{%4.2f,%4.2f,%4.2f,%4.2f}",g[0],g[1],g[2],g[3]];
     l = [C4Label labelWithText:colorString font:f];
     l.textColor = [UIColor whiteColor];
     l.center = CGPointMake(red.width / 2, red.height / 2);
     [grey addControl:l];
 }
+
 @end

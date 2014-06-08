@@ -28,6 +28,14 @@
 		C44E6A171944F925006244AF /* Labels19.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A161944F925006244AF /* Labels19.m */; };
 		C44E6A1D1944FA96006244AF /* Labels20.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A1C1944FA96006244AF /* Labels20.m */; };
 		C44E6A201944FAC8006244AF /* Labels21.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A1F1944FAC8006244AF /* Labels21.m */; };
+		C44E6A24194517FF006244AF /* Colors01.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A23194517FF006244AF /* Colors01.m */; };
+		C44E6A2A194518D3006244AF /* Colors02.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A29194518D3006244AF /* Colors02.m */; };
+		C44E6A2D19451A64006244AF /* Colors03.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A2C19451A64006244AF /* Colors03.m */; };
+		C44E6A3019451EA0006244AF /* Colors04.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A2F19451EA0006244AF /* Colors04.m */; };
+		C44E6A3319451F7C006244AF /* Colors05.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A3219451F7C006244AF /* Colors05.m */; };
+		C44E6A3619452003006244AF /* Colors06.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A3519452003006244AF /* Colors06.m */; };
+		C44E6A391945215D006244AF /* Colors07.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A381945215D006244AF /* Colors07.m */; };
+		C44E6A3F194521CC006244AF /* Colors08.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A3E194521CC006244AF /* Colors08.m */; };
 		D9167EA3193E988C00A9602C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA2193E988C00A9602C /* Accelerate.framework */; };
 		D9167EA5193E988C00A9602C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA4193E988C00A9602C /* AVFoundation.framework */; };
 		D9167EA7193E988C00A9602C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA6193E988C00A9602C /* CoreFoundation.framework */; };
@@ -181,6 +189,22 @@
 		C44E6A1C1944FA96006244AF /* Labels20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels20.m; path = C4Examples/Code/Labels/Labels20.m; sourceTree = SOURCE_ROOT; };
 		C44E6A1E1944FAC8006244AF /* Labels21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels21.h; path = C4Examples/Code/Labels/Labels21.h; sourceTree = SOURCE_ROOT; };
 		C44E6A1F1944FAC8006244AF /* Labels21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels21.m; path = C4Examples/Code/Labels/Labels21.m; sourceTree = SOURCE_ROOT; };
+		C44E6A22194517FF006244AF /* Colors01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors01.h; path = Colors/Colors01.h; sourceTree = "<group>"; };
+		C44E6A23194517FF006244AF /* Colors01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors01.m; path = Colors/Colors01.m; sourceTree = "<group>"; };
+		C44E6A28194518D3006244AF /* Colors02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors02.h; path = Colors/Colors02.h; sourceTree = "<group>"; };
+		C44E6A29194518D3006244AF /* Colors02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors02.m; path = Colors/Colors02.m; sourceTree = "<group>"; };
+		C44E6A2B19451A64006244AF /* Colors03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors03.h; path = Colors/Colors03.h; sourceTree = "<group>"; };
+		C44E6A2C19451A64006244AF /* Colors03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors03.m; path = Colors/Colors03.m; sourceTree = "<group>"; };
+		C44E6A2E19451EA0006244AF /* Colors04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors04.h; path = Colors/Colors04.h; sourceTree = "<group>"; };
+		C44E6A2F19451EA0006244AF /* Colors04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors04.m; path = Colors/Colors04.m; sourceTree = "<group>"; };
+		C44E6A3119451F7C006244AF /* Colors05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors05.h; path = Colors/Colors05.h; sourceTree = "<group>"; };
+		C44E6A3219451F7C006244AF /* Colors05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors05.m; path = Colors/Colors05.m; sourceTree = "<group>"; };
+		C44E6A3419452003006244AF /* Colors06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors06.h; path = Colors/Colors06.h; sourceTree = "<group>"; };
+		C44E6A3519452003006244AF /* Colors06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors06.m; path = Colors/Colors06.m; sourceTree = "<group>"; };
+		C44E6A371945215D006244AF /* Colors07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors07.h; path = Colors/Colors07.h; sourceTree = "<group>"; };
+		C44E6A381945215D006244AF /* Colors07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors07.m; path = Colors/Colors07.m; sourceTree = "<group>"; };
+		C44E6A3D194521CC006244AF /* Colors08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors08.h; path = Colors/Colors08.h; sourceTree = "<group>"; };
+		C44E6A3E194521CC006244AF /* Colors08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors08.m; path = Colors/Colors08.m; sourceTree = "<group>"; };
 		D9167E9F193E988C00A9602C /* C4Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9167EA2193E988C00A9602C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D9167EA4193E988C00A9602C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -443,6 +467,29 @@
 			path = Shapes;
 			sourceTree = "<group>";
 		};
+		C44E6A21194517EB006244AF /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				C44E6A22194517FF006244AF /* Colors01.h */,
+				C44E6A23194517FF006244AF /* Colors01.m */,
+				C44E6A28194518D3006244AF /* Colors02.h */,
+				C44E6A29194518D3006244AF /* Colors02.m */,
+				C44E6A2B19451A64006244AF /* Colors03.h */,
+				C44E6A2C19451A64006244AF /* Colors03.m */,
+				C44E6A2E19451EA0006244AF /* Colors04.h */,
+				C44E6A2F19451EA0006244AF /* Colors04.m */,
+				C44E6A3119451F7C006244AF /* Colors05.h */,
+				C44E6A3219451F7C006244AF /* Colors05.m */,
+				C44E6A3419452003006244AF /* Colors06.h */,
+				C44E6A3519452003006244AF /* Colors06.m */,
+				C44E6A371945215D006244AF /* Colors07.h */,
+				C44E6A381945215D006244AF /* Colors07.m */,
+				C44E6A3D194521CC006244AF /* Colors08.h */,
+				C44E6A3E194521CC006244AF /* Colors08.m */,
+			);
+			name = Colors;
+			sourceTree = "<group>";
+		};
 		D9167E96193E988C00A9602C = {
 			isa = PBXGroup;
 			children = (
@@ -635,6 +682,7 @@
 		D916C3251943CF2400846C5C /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				C44E6A21194517EB006244AF /* Colors */,
 				D916C3261943CF2400846C5C /* Images */,
 				D916C3371943CF2400846C5C /* Movies */,
 				D916C34C1943CF2400846C5C /* Shapes */,
@@ -873,6 +921,7 @@
 				D916C38E1943CF2400846C5C /* Shapes08.m in Sources */,
 				D9167F36193E988D00A9602C /* UIView+C4AddControl.m in Sources */,
 				C44E69FE1944F4E2006244AF /* Labels15.m in Sources */,
+				C44E6A3319451F7C006244AF /* Colors05.m in Sources */,
 				D9167F30193E988D00A9602C /* C4UIMovieControl.m in Sources */,
 				D916C3881943CF2400846C5C /* Shapes02.m in Sources */,
 				D9167F20193E988D00A9602C /* C4Slider.m in Sources */,
@@ -880,6 +929,9 @@
 				D9167F04193E988D00A9602C /* C4EAGLESRenderer.m in Sources */,
 				D916C3821943CF2400846C5C /* Movies06.m in Sources */,
 				D9167F08193E988D00A9602C /* C4Font.m in Sources */,
+				C44E6A2A194518D3006244AF /* Colors02.m in Sources */,
+				C44E6A3619452003006244AF /* Colors06.m in Sources */,
+				C44E6A391945215D006244AF /* Colors07.m in Sources */,
 				D9167F1E193E988D00A9602C /* C4Shape.m in Sources */,
 				D9167F34193E988D00A9602C /* UIColor+CIColorFix.m in Sources */,
 				D916C39A1943CF2400846C5C /* Shapes20.m in Sources */,
@@ -903,10 +955,12 @@
 				C44E6A201944FAC8006244AF /* Labels21.m in Sources */,
 				D9167F40193E988D00A9602C /* C4WorkSpace.m in Sources */,
 				D9167F0A193E988D00A9602C /* C4Foundation.m in Sources */,
+				C44E6A3019451EA0006244AF /* Colors04.m in Sources */,
 				D916C3921943CF2400846C5C /* Shapes12.m in Sources */,
 				D9167F32193E988D00A9602C /* C4UIShapeControl.m in Sources */,
 				D916C3751943CF2400846C5C /* Images01.m in Sources */,
 				D9167F0C193E988D00A9602C /* C4GL.m in Sources */,
+				C44E6A3F194521CC006244AF /* Colors08.m in Sources */,
 				D916C38D1943CF2400846C5C /* Shapes07.m in Sources */,
 				D916C3761943CF2400846C5C /* Images02.m in Sources */,
 				D9167EF6193E988D00A9602C /* C4AnimationHelper.m in Sources */,
@@ -917,6 +971,7 @@
 				D9167EBF193E988C00A9602C /* main.m in Sources */,
 				D916C38F1943CF2400846C5C /* Shapes09.m in Sources */,
 				D9167EFE193E988D00A9602C /* C4CanvasController.m in Sources */,
+				C44E6A24194517FF006244AF /* Colors01.m in Sources */,
 				C44E69F11944F4E2006244AF /* Labels01.m in Sources */,
 				D916C3801943CF2400846C5C /* Movies04.m in Sources */,
 				D9167F2A193E988D00A9602C /* C4UIElement.m in Sources */,
@@ -928,6 +983,7 @@
 				C44E69F81944F4E2006244AF /* Labels09.m in Sources */,
 				D916C3971943CF2400846C5C /* Shapes17.m in Sources */,
 				D916C38B1943CF2400846C5C /* Shapes05.m in Sources */,
+				C44E6A2D19451A64006244AF /* Colors03.m in Sources */,
 				D9167F18193E988D00A9602C /* C4Object.m in Sources */,
 				D916C37E1943CF2400846C5C /* Movies02.m in Sources */,
 				C44E69F21944F4E2006244AF /* Labels03.m in Sources */,
