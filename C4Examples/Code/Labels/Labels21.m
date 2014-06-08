@@ -1,13 +1,14 @@
 //
-//  C4WorkSpace.m
-//  Examples
+//  Labels21.m
+//  C4Examples
 //
-//  Created by Travis Kirton
+//  Created by Slant on 2014-06-08.
+//  Copyright (c) 2014 C4. All rights reserved.
 //
 
-#import "C4WorkSpace.h"
+#import "Labels21.h"
 
-@implementation C4WorkSpace
+@implementation Labels21
 
 -(void)setup {
     //set up the label

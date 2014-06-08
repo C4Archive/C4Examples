@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C44E69821944E1F2006244AF /* Labels02.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69811944E1F2006244AF /* Labels02.m */; };
+		C44E69F11944F4E2006244AF /* Labels01.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69D61944F4E2006244AF /* Labels01.m */; };
+		C44E69F21944F4E2006244AF /* Labels03.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69D81944F4E2006244AF /* Labels03.m */; };
+		C44E69F31944F4E2006244AF /* Labels04.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69DA1944F4E2006244AF /* Labels04.m */; };
+		C44E69F41944F4E2006244AF /* Labels05.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69DC1944F4E2006244AF /* Labels05.m */; };
+		C44E69F51944F4E2006244AF /* Labels06.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69DE1944F4E2006244AF /* Labels06.m */; };
+		C44E69F61944F4E2006244AF /* Labels07.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69E01944F4E2006244AF /* Labels07.m */; };
+		C44E69F71944F4E2006244AF /* Labels08.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69E21944F4E2006244AF /* Labels08.m */; };
+		C44E69F81944F4E2006244AF /* Labels09.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69E41944F4E2006244AF /* Labels09.m */; };
+		C44E69F91944F4E2006244AF /* Labels10.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69E61944F4E2006244AF /* Labels10.m */; };
+		C44E69FA1944F4E2006244AF /* Labels11.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69E81944F4E2006244AF /* Labels11.m */; };
+		C44E69FB1944F4E2006244AF /* Labels12.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69EA1944F4E2006244AF /* Labels12.m */; };
+		C44E69FC1944F4E2006244AF /* Labels13.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69EC1944F4E2006244AF /* Labels13.m */; };
+		C44E69FD1944F4E2006244AF /* Labels14.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69EE1944F4E2006244AF /* Labels14.m */; };
+		C44E69FE1944F4E2006244AF /* Labels15.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E69F01944F4E2006244AF /* Labels15.m */; };
+		C44E6A051944F708006244AF /* Labels16.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A041944F708006244AF /* Labels16.m */; };
+		C44E6A0B1944F7CB006244AF /* Labels17.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A0A1944F7CB006244AF /* Labels17.m */; };
+		C44E6A111944F8BA006244AF /* Labels18.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A101944F8BA006244AF /* Labels18.m */; };
+		C44E6A171944F925006244AF /* Labels19.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A161944F925006244AF /* Labels19.m */; };
+		C44E6A1D1944FA96006244AF /* Labels20.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A1C1944FA96006244AF /* Labels20.m */; };
+		C44E6A201944FAC8006244AF /* Labels21.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A1F1944FAC8006244AF /* Labels21.m */; };
 		D9167EA3193E988C00A9602C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA2193E988C00A9602C /* Accelerate.framework */; };
 		D9167EA5193E988C00A9602C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA4193E988C00A9602C /* AVFoundation.framework */; };
 		D9167EA7193E988C00A9602C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA6193E988C00A9602C /* CoreFoundation.framework */; };
@@ -118,6 +139,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C44E69801944E1F2006244AF /* Labels02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels02.h; path = C4Examples/Code/Labels/Labels02.h; sourceTree = SOURCE_ROOT; };
+		C44E69811944E1F2006244AF /* Labels02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels02.m; path = C4Examples/Code/Labels/Labels02.m; sourceTree = SOURCE_ROOT; };
+		C44E69D51944F4E2006244AF /* Labels01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels01.h; path = C4Examples/Code/Labels/Labels01.h; sourceTree = SOURCE_ROOT; };
+		C44E69D61944F4E2006244AF /* Labels01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels01.m; path = C4Examples/Code/Labels/Labels01.m; sourceTree = SOURCE_ROOT; };
+		C44E69D71944F4E2006244AF /* Labels03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels03.h; path = C4Examples/Code/Labels/Labels03.h; sourceTree = SOURCE_ROOT; };
+		C44E69D81944F4E2006244AF /* Labels03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels03.m; path = C4Examples/Code/Labels/Labels03.m; sourceTree = SOURCE_ROOT; };
+		C44E69D91944F4E2006244AF /* Labels04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels04.h; path = C4Examples/Code/Labels/Labels04.h; sourceTree = SOURCE_ROOT; };
+		C44E69DA1944F4E2006244AF /* Labels04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels04.m; path = C4Examples/Code/Labels/Labels04.m; sourceTree = SOURCE_ROOT; };
+		C44E69DB1944F4E2006244AF /* Labels05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels05.h; path = C4Examples/Code/Labels/Labels05.h; sourceTree = SOURCE_ROOT; };
+		C44E69DC1944F4E2006244AF /* Labels05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels05.m; path = C4Examples/Code/Labels/Labels05.m; sourceTree = SOURCE_ROOT; };
+		C44E69DD1944F4E2006244AF /* Labels06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels06.h; path = C4Examples/Code/Labels/Labels06.h; sourceTree = SOURCE_ROOT; };
+		C44E69DE1944F4E2006244AF /* Labels06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels06.m; path = C4Examples/Code/Labels/Labels06.m; sourceTree = SOURCE_ROOT; };
+		C44E69DF1944F4E2006244AF /* Labels07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels07.h; path = C4Examples/Code/Labels/Labels07.h; sourceTree = SOURCE_ROOT; };
+		C44E69E01944F4E2006244AF /* Labels07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels07.m; path = C4Examples/Code/Labels/Labels07.m; sourceTree = SOURCE_ROOT; };
+		C44E69E11944F4E2006244AF /* Labels08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels08.h; path = C4Examples/Code/Labels/Labels08.h; sourceTree = SOURCE_ROOT; };
+		C44E69E21944F4E2006244AF /* Labels08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels08.m; path = C4Examples/Code/Labels/Labels08.m; sourceTree = SOURCE_ROOT; };
+		C44E69E31944F4E2006244AF /* Labels09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels09.h; path = C4Examples/Code/Labels/Labels09.h; sourceTree = SOURCE_ROOT; };
+		C44E69E41944F4E2006244AF /* Labels09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels09.m; path = C4Examples/Code/Labels/Labels09.m; sourceTree = SOURCE_ROOT; };
+		C44E69E51944F4E2006244AF /* Labels10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels10.h; path = C4Examples/Code/Labels/Labels10.h; sourceTree = SOURCE_ROOT; };
+		C44E69E61944F4E2006244AF /* Labels10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels10.m; path = C4Examples/Code/Labels/Labels10.m; sourceTree = SOURCE_ROOT; };
+		C44E69E71944F4E2006244AF /* Labels11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels11.h; path = C4Examples/Code/Labels/Labels11.h; sourceTree = SOURCE_ROOT; };
+		C44E69E81944F4E2006244AF /* Labels11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels11.m; path = C4Examples/Code/Labels/Labels11.m; sourceTree = SOURCE_ROOT; };
+		C44E69E91944F4E2006244AF /* Labels12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels12.h; path = C4Examples/Code/Labels/Labels12.h; sourceTree = SOURCE_ROOT; };
+		C44E69EA1944F4E2006244AF /* Labels12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels12.m; path = C4Examples/Code/Labels/Labels12.m; sourceTree = SOURCE_ROOT; };
+		C44E69EB1944F4E2006244AF /* Labels13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels13.h; path = C4Examples/Code/Labels/Labels13.h; sourceTree = SOURCE_ROOT; };
+		C44E69EC1944F4E2006244AF /* Labels13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels13.m; path = C4Examples/Code/Labels/Labels13.m; sourceTree = SOURCE_ROOT; };
+		C44E69ED1944F4E2006244AF /* Labels14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels14.h; path = C4Examples/Code/Labels/Labels14.h; sourceTree = SOURCE_ROOT; };
+		C44E69EE1944F4E2006244AF /* Labels14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels14.m; path = C4Examples/Code/Labels/Labels14.m; sourceTree = SOURCE_ROOT; };
+		C44E69EF1944F4E2006244AF /* Labels15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels15.h; path = C4Examples/Code/Labels/Labels15.h; sourceTree = SOURCE_ROOT; };
+		C44E69F01944F4E2006244AF /* Labels15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels15.m; path = C4Examples/Code/Labels/Labels15.m; sourceTree = SOURCE_ROOT; };
+		C44E6A031944F708006244AF /* Labels16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels16.h; path = C4Examples/Code/Labels/Labels16.h; sourceTree = SOURCE_ROOT; };
+		C44E6A041944F708006244AF /* Labels16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels16.m; path = C4Examples/Code/Labels/Labels16.m; sourceTree = SOURCE_ROOT; };
+		C44E6A091944F7CB006244AF /* Labels17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels17.h; path = C4Examples/Code/Labels/Labels17.h; sourceTree = SOURCE_ROOT; };
+		C44E6A0A1944F7CB006244AF /* Labels17.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels17.m; path = C4Examples/Code/Labels/Labels17.m; sourceTree = SOURCE_ROOT; };
+		C44E6A0F1944F8BA006244AF /* Labels18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels18.h; path = C4Examples/Code/Labels/Labels18.h; sourceTree = SOURCE_ROOT; };
+		C44E6A101944F8BA006244AF /* Labels18.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels18.m; path = C4Examples/Code/Labels/Labels18.m; sourceTree = SOURCE_ROOT; };
+		C44E6A151944F925006244AF /* Labels19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels19.h; path = C4Examples/Code/Labels/Labels19.h; sourceTree = SOURCE_ROOT; };
+		C44E6A161944F925006244AF /* Labels19.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels19.m; path = C4Examples/Code/Labels/Labels19.m; sourceTree = SOURCE_ROOT; };
+		C44E6A1B1944FA96006244AF /* Labels20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels20.h; path = C4Examples/Code/Labels/Labels20.h; sourceTree = SOURCE_ROOT; };
+		C44E6A1C1944FA96006244AF /* Labels20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels20.m; path = C4Examples/Code/Labels/Labels20.m; sourceTree = SOURCE_ROOT; };
+		C44E6A1E1944FAC8006244AF /* Labels21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Labels21.h; path = C4Examples/Code/Labels/Labels21.h; sourceTree = SOURCE_ROOT; };
+		C44E6A1F1944FAC8006244AF /* Labels21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Labels21.m; path = C4Examples/Code/Labels/Labels21.m; sourceTree = SOURCE_ROOT; };
 		D9167E9F193E988C00A9602C /* C4Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9167EA2193E988C00A9602C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D9167EA4193E988C00A9602C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -330,6 +393,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C44E69791944E163006244AF /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				C44E69D51944F4E2006244AF /* Labels01.h */,
+				C44E69D61944F4E2006244AF /* Labels01.m */,
+				C44E69801944E1F2006244AF /* Labels02.h */,
+				C44E69811944E1F2006244AF /* Labels02.m */,
+				C44E69D71944F4E2006244AF /* Labels03.h */,
+				C44E69D81944F4E2006244AF /* Labels03.m */,
+				C44E69D91944F4E2006244AF /* Labels04.h */,
+				C44E69DA1944F4E2006244AF /* Labels04.m */,
+				C44E69DB1944F4E2006244AF /* Labels05.h */,
+				C44E69DC1944F4E2006244AF /* Labels05.m */,
+				C44E69DD1944F4E2006244AF /* Labels06.h */,
+				C44E69DE1944F4E2006244AF /* Labels06.m */,
+				C44E69DF1944F4E2006244AF /* Labels07.h */,
+				C44E69E01944F4E2006244AF /* Labels07.m */,
+				C44E69E11944F4E2006244AF /* Labels08.h */,
+				C44E69E21944F4E2006244AF /* Labels08.m */,
+				C44E69E31944F4E2006244AF /* Labels09.h */,
+				C44E69E41944F4E2006244AF /* Labels09.m */,
+				C44E69E51944F4E2006244AF /* Labels10.h */,
+				C44E69E61944F4E2006244AF /* Labels10.m */,
+				C44E69E71944F4E2006244AF /* Labels11.h */,
+				C44E69E81944F4E2006244AF /* Labels11.m */,
+				C44E69E91944F4E2006244AF /* Labels12.h */,
+				C44E69EA1944F4E2006244AF /* Labels12.m */,
+				C44E69EB1944F4E2006244AF /* Labels13.h */,
+				C44E69EC1944F4E2006244AF /* Labels13.m */,
+				C44E69ED1944F4E2006244AF /* Labels14.h */,
+				C44E69EE1944F4E2006244AF /* Labels14.m */,
+				C44E69EF1944F4E2006244AF /* Labels15.h */,
+				C44E69F01944F4E2006244AF /* Labels15.m */,
+				C44E6A031944F708006244AF /* Labels16.h */,
+				C44E6A041944F708006244AF /* Labels16.m */,
+				C44E6A091944F7CB006244AF /* Labels17.h */,
+				C44E6A0A1944F7CB006244AF /* Labels17.m */,
+				C44E6A0F1944F8BA006244AF /* Labels18.h */,
+				C44E6A101944F8BA006244AF /* Labels18.m */,
+				C44E6A151944F925006244AF /* Labels19.h */,
+				C44E6A161944F925006244AF /* Labels19.m */,
+				C44E6A1B1944FA96006244AF /* Labels20.h */,
+				C44E6A1C1944FA96006244AF /* Labels20.m */,
+				C44E6A1E1944FAC8006244AF /* Labels21.h */,
+				C44E6A1F1944FAC8006244AF /* Labels21.m */,
+			);
+			name = Labels;
+			path = Shapes;
+			sourceTree = "<group>";
+		};
 		D9167E96193E988C00A9602C = {
 			isa = PBXGroup;
 			children = (
@@ -525,6 +638,7 @@
 				D916C3261943CF2400846C5C /* Images */,
 				D916C3371943CF2400846C5C /* Movies */,
 				D916C34C1943CF2400846C5C /* Shapes */,
+				C44E69791944E163006244AF /* Labels */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -732,14 +846,19 @@
 				D916C3941943CF2400846C5C /* Shapes14.m in Sources */,
 				D9167F28193E988D00A9602C /* C4Timer.m in Sources */,
 				D916C3961943CF2400846C5C /* Shapes16.m in Sources */,
+				C44E69F61944F4E2006244AF /* Labels07.m in Sources */,
 				D916C38C1943CF2400846C5C /* Shapes06.m in Sources */,
 				D916C3901943CF2400846C5C /* Shapes10.m in Sources */,
+				C44E69F31944F4E2006244AF /* Labels04.m in Sources */,
 				D9167EFC193E988D00A9602C /* C4Camera.m in Sources */,
 				D916C3791943CF2400846C5C /* Images05.m in Sources */,
+				C44E69F71944F4E2006244AF /* Labels08.m in Sources */,
+				C44E6A0B1944F7CB006244AF /* Labels17.m in Sources */,
 				D9167F02193E988D00A9602C /* C4Defines.m in Sources */,
 				D9167F12193E988D00A9602C /* C4Label.m in Sources */,
 				D9167F06193E988D00A9602C /* C4EAGLES1Renderer.m in Sources */,
 				D9167F00193E988D00A9602C /* C4Control.m in Sources */,
+				C44E69FA1944F4E2006244AF /* Labels11.m in Sources */,
 				D9167F22193E988D00A9602C /* C4Stepper.m in Sources */,
 				D916C3861943CF2400846C5C /* Movies10.m in Sources */,
 				D9167F1A193E988D00A9602C /* C4Sample.m in Sources */,
@@ -753,9 +872,11 @@
 				D916C3811943CF2400846C5C /* Movies05.m in Sources */,
 				D916C38E1943CF2400846C5C /* Shapes08.m in Sources */,
 				D9167F36193E988D00A9602C /* UIView+C4AddControl.m in Sources */,
+				C44E69FE1944F4E2006244AF /* Labels15.m in Sources */,
 				D9167F30193E988D00A9602C /* C4UIMovieControl.m in Sources */,
 				D916C3881943CF2400846C5C /* Shapes02.m in Sources */,
 				D9167F20193E988D00A9602C /* C4Slider.m in Sources */,
+				C44E6A051944F708006244AF /* Labels16.m in Sources */,
 				D9167F04193E988D00A9602C /* C4EAGLESRenderer.m in Sources */,
 				D916C3821943CF2400846C5C /* Movies06.m in Sources */,
 				D9167F08193E988D00A9602C /* C4Font.m in Sources */,
@@ -764,13 +885,22 @@
 				D916C39A1943CF2400846C5C /* Shapes20.m in Sources */,
 				D916C3841943CF2400846C5C /* Movies08.m in Sources */,
 				D9167F1C193E988D00A9602C /* C4ScrollView.m in Sources */,
+				C44E69F91944F4E2006244AF /* Labels10.m in Sources */,
+				C44E69FB1944F4E2006244AF /* Labels12.m in Sources */,
 				D916C37B1943CF2400846C5C /* Images07.m in Sources */,
+				C44E69FC1944F4E2006244AF /* Labels13.m in Sources */,
+				C44E69821944E1F2006244AF /* Labels02.m in Sources */,
 				D916C3911943CF2400846C5C /* Shapes11.m in Sources */,
+				C44E6A1D1944FA96006244AF /* Labels20.m in Sources */,
 				D9167F16193E988D00A9602C /* C4Movie.m in Sources */,
+				C44E6A111944F8BA006244AF /* Labels18.m in Sources */,
+				C44E6A171944F925006244AF /* Labels19.m in Sources */,
 				D916C3981943CF2400846C5C /* Shapes18.m in Sources */,
 				D916C37A1943CF2400846C5C /* Images06.m in Sources */,
 				D916C37D1943CF2400846C5C /* Movies01.m in Sources */,
+				C44E69F41944F4E2006244AF /* Labels05.m in Sources */,
 				D9167F2E193E988D00A9602C /* C4UIGLControl.m in Sources */,
+				C44E6A201944FAC8006244AF /* Labels21.m in Sources */,
 				D9167F40193E988D00A9602C /* C4WorkSpace.m in Sources */,
 				D9167F0A193E988D00A9602C /* C4Foundation.m in Sources */,
 				D916C3921943CF2400846C5C /* Shapes12.m in Sources */,
@@ -787,6 +917,7 @@
 				D9167EBF193E988C00A9602C /* main.m in Sources */,
 				D916C38F1943CF2400846C5C /* Shapes09.m in Sources */,
 				D9167EFE193E988D00A9602C /* C4CanvasController.m in Sources */,
+				C44E69F11944F4E2006244AF /* Labels01.m in Sources */,
 				D916C3801943CF2400846C5C /* Movies04.m in Sources */,
 				D9167F2A193E988D00A9602C /* C4UIElement.m in Sources */,
 				D916C3951943CF2400846C5C /* Shapes15.m in Sources */,
@@ -794,11 +925,15 @@
 				D916C38A1943CF2400846C5C /* Shapes04.m in Sources */,
 				D9167F2C193E988D00A9602C /* C4Vector.m in Sources */,
 				D916C37C1943CF2400846C5C /* Images08.m in Sources */,
+				C44E69F81944F4E2006244AF /* Labels09.m in Sources */,
 				D916C3971943CF2400846C5C /* Shapes17.m in Sources */,
 				D916C38B1943CF2400846C5C /* Shapes05.m in Sources */,
 				D9167F18193E988D00A9602C /* C4Object.m in Sources */,
 				D916C37E1943CF2400846C5C /* Movies02.m in Sources */,
+				C44E69F21944F4E2006244AF /* Labels03.m in Sources */,
+				C44E69F51944F4E2006244AF /* Labels06.m in Sources */,
 				D9167F26193E988D00A9602C /* C4Template.m in Sources */,
+				C44E69FD1944F4E2006244AF /* Labels14.m in Sources */,
 				D916C3781943CF2400846C5C /* Images04.m in Sources */,
 				D9167EEE193E988D00A9602C /* C4AppDelegate.m in Sources */,
 				D916C3991943CF2400846C5C /* Shapes19.m in Sources */,
