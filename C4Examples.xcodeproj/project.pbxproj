@@ -43,6 +43,9 @@
 		C44E6A4F19452CEF006244AF /* Fonts05.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A4E19452CEF006244AF /* Fonts05.m */; };
 		C44E6A5219452ECA006244AF /* Fonts07.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A5119452ECA006244AF /* Fonts07.m */; };
 		C44E6A5519453024006244AF /* Fonts06.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A5419453024006244AF /* Fonts06.m */; };
+		C44E6A591945312F006244AF /* Timers01.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A581945312F006244AF /* Timers01.m */; };
+		C44E6A5C194531D7006244AF /* Timers02.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A5B194531D7006244AF /* Timers02.m */; };
+		C44E6A5F194533EA006244AF /* Timers03.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A5E194533EA006244AF /* Timers03.m */; };
 		D9167EA3193E988C00A9602C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA2193E988C00A9602C /* Accelerate.framework */; };
 		D9167EA5193E988C00A9602C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA4193E988C00A9602C /* AVFoundation.framework */; };
 		D9167EA7193E988C00A9602C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA6193E988C00A9602C /* CoreFoundation.framework */; };
@@ -226,6 +229,12 @@
 		C44E6A5119452ECA006244AF /* Fonts07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fonts07.m; path = Fonts/Fonts07.m; sourceTree = "<group>"; };
 		C44E6A5319453024006244AF /* Fonts06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fonts06.h; path = Fonts/Fonts06.h; sourceTree = "<group>"; };
 		C44E6A5419453024006244AF /* Fonts06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fonts06.m; path = Fonts/Fonts06.m; sourceTree = "<group>"; };
+		C44E6A571945312F006244AF /* Timers01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timers01.h; path = Timers/Timers01.h; sourceTree = "<group>"; };
+		C44E6A581945312F006244AF /* Timers01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Timers01.m; path = Timers/Timers01.m; sourceTree = "<group>"; };
+		C44E6A5A194531D7006244AF /* Timers02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timers02.h; path = Timers/Timers02.h; sourceTree = "<group>"; };
+		C44E6A5B194531D7006244AF /* Timers02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Timers02.m; path = Timers/Timers02.m; sourceTree = "<group>"; };
+		C44E6A5D194533EA006244AF /* Timers03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timers03.h; path = Timers/Timers03.h; sourceTree = "<group>"; };
+		C44E6A5E194533EA006244AF /* Timers03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Timers03.m; path = Timers/Timers03.m; sourceTree = "<group>"; };
 		D9167E9F193E988C00A9602C /* C4Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9167EA2193E988C00A9602C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D9167EA4193E988C00A9602C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -532,6 +541,19 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
+		C44E6A56194530DA006244AF /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				C44E6A571945312F006244AF /* Timers01.h */,
+				C44E6A581945312F006244AF /* Timers01.m */,
+				C44E6A5A194531D7006244AF /* Timers02.h */,
+				C44E6A5B194531D7006244AF /* Timers02.m */,
+				C44E6A5D194533EA006244AF /* Timers03.h */,
+				C44E6A5E194533EA006244AF /* Timers03.m */,
+			);
+			name = Timers;
+			sourceTree = "<group>";
+		};
 		D9167E96193E988C00A9602C = {
 			isa = PBXGroup;
 			children = (
@@ -724,6 +746,7 @@
 		D916C3251943CF2400846C5C /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				C44E6A56194530DA006244AF /* Timers */,
 				C44E6A4019452819006244AF /* Fonts */,
 				C44E6A21194517EB006244AF /* Colors */,
 				D916C3261943CF2400846C5C /* Images */,
@@ -992,6 +1015,7 @@
 				C44E69821944E1F2006244AF /* Labels02.m in Sources */,
 				D916C3911943CF2400846C5C /* Shapes11.m in Sources */,
 				C44E6A1D1944FA96006244AF /* Labels20.m in Sources */,
+				C44E6A5C194531D7006244AF /* Timers02.m in Sources */,
 				D9167F16193E988D00A9602C /* C4Movie.m in Sources */,
 				C44E6A111944F8BA006244AF /* Labels18.m in Sources */,
 				C44E6A171944F925006244AF /* Labels19.m in Sources */,
@@ -1011,6 +1035,7 @@
 				D9167F0C193E988D00A9602C /* C4GL.m in Sources */,
 				C44E6A3F194521CC006244AF /* Colors08.m in Sources */,
 				D916C38D1943CF2400846C5C /* Shapes07.m in Sources */,
+				C44E6A5F194533EA006244AF /* Timers03.m in Sources */,
 				D916C3761943CF2400846C5C /* Images02.m in Sources */,
 				D9167EF6193E988D00A9602C /* C4AnimationHelper.m in Sources */,
 				D916C3931943CF2400846C5C /* Shapes13.m in Sources */,
@@ -1038,6 +1063,7 @@
 				D916C37E1943CF2400846C5C /* Movies02.m in Sources */,
 				C44E69F21944F4E2006244AF /* Labels03.m in Sources */,
 				C44E69F51944F4E2006244AF /* Labels06.m in Sources */,
+				C44E6A591945312F006244AF /* Timers01.m in Sources */,
 				D9167F26193E988D00A9602C /* C4Template.m in Sources */,
 				C44E69FD1944F4E2006244AF /* Labels14.m in Sources */,
 				D916C3781943CF2400846C5C /* Images04.m in Sources */,
