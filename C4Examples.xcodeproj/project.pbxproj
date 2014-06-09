@@ -36,6 +36,13 @@
 		C44E6A3619452003006244AF /* Colors06.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A3519452003006244AF /* Colors06.m */; };
 		C44E6A391945215D006244AF /* Colors07.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A381945215D006244AF /* Colors07.m */; };
 		C44E6A3F194521CC006244AF /* Colors08.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A3E194521CC006244AF /* Colors08.m */; };
+		C44E6A431945290C006244AF /* Fonts01.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A421945290C006244AF /* Fonts01.m */; };
+		C44E6A46194529D8006244AF /* Fonts02.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A45194529D8006244AF /* Fonts02.m */; };
+		C44E6A4919452A97006244AF /* Fonts03.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A4819452A97006244AF /* Fonts03.m */; };
+		C44E6A4C19452AC9006244AF /* Fonts04.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A4B19452AC9006244AF /* Fonts04.m */; };
+		C44E6A4F19452CEF006244AF /* Fonts05.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A4E19452CEF006244AF /* Fonts05.m */; };
+		C44E6A5219452ECA006244AF /* Fonts07.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A5119452ECA006244AF /* Fonts07.m */; };
+		C44E6A5519453024006244AF /* Fonts06.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A5419453024006244AF /* Fonts06.m */; };
 		D9167EA3193E988C00A9602C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA2193E988C00A9602C /* Accelerate.framework */; };
 		D9167EA5193E988C00A9602C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA4193E988C00A9602C /* AVFoundation.framework */; };
 		D9167EA7193E988C00A9602C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA6193E988C00A9602C /* CoreFoundation.framework */; };
@@ -205,6 +212,20 @@
 		C44E6A381945215D006244AF /* Colors07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors07.m; path = Colors/Colors07.m; sourceTree = "<group>"; };
 		C44E6A3D194521CC006244AF /* Colors08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors08.h; path = Colors/Colors08.h; sourceTree = "<group>"; };
 		C44E6A3E194521CC006244AF /* Colors08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors08.m; path = Colors/Colors08.m; sourceTree = "<group>"; };
+		C44E6A411945290C006244AF /* Fonts01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fonts01.h; path = Fonts/Fonts01.h; sourceTree = "<group>"; };
+		C44E6A421945290C006244AF /* Fonts01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fonts01.m; path = Fonts/Fonts01.m; sourceTree = "<group>"; };
+		C44E6A44194529D8006244AF /* Fonts02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fonts02.h; path = Fonts/Fonts02.h; sourceTree = "<group>"; };
+		C44E6A45194529D8006244AF /* Fonts02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fonts02.m; path = Fonts/Fonts02.m; sourceTree = "<group>"; };
+		C44E6A4719452A97006244AF /* Fonts03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fonts03.h; path = Fonts/Fonts03.h; sourceTree = "<group>"; };
+		C44E6A4819452A97006244AF /* Fonts03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fonts03.m; path = Fonts/Fonts03.m; sourceTree = "<group>"; };
+		C44E6A4A19452AC8006244AF /* Fonts04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fonts04.h; path = Fonts/Fonts04.h; sourceTree = "<group>"; };
+		C44E6A4B19452AC9006244AF /* Fonts04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fonts04.m; path = Fonts/Fonts04.m; sourceTree = "<group>"; };
+		C44E6A4D19452CEF006244AF /* Fonts05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fonts05.h; path = Fonts/Fonts05.h; sourceTree = "<group>"; };
+		C44E6A4E19452CEF006244AF /* Fonts05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fonts05.m; path = Fonts/Fonts05.m; sourceTree = "<group>"; };
+		C44E6A5019452ECA006244AF /* Fonts07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fonts07.h; path = Fonts/Fonts07.h; sourceTree = "<group>"; };
+		C44E6A5119452ECA006244AF /* Fonts07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fonts07.m; path = Fonts/Fonts07.m; sourceTree = "<group>"; };
+		C44E6A5319453024006244AF /* Fonts06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fonts06.h; path = Fonts/Fonts06.h; sourceTree = "<group>"; };
+		C44E6A5419453024006244AF /* Fonts06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fonts06.m; path = Fonts/Fonts06.m; sourceTree = "<group>"; };
 		D9167E9F193E988C00A9602C /* C4Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9167EA2193E988C00A9602C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D9167EA4193E988C00A9602C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -490,6 +511,27 @@
 			name = Colors;
 			sourceTree = "<group>";
 		};
+		C44E6A4019452819006244AF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C44E6A411945290C006244AF /* Fonts01.h */,
+				C44E6A421945290C006244AF /* Fonts01.m */,
+				C44E6A44194529D8006244AF /* Fonts02.h */,
+				C44E6A45194529D8006244AF /* Fonts02.m */,
+				C44E6A4719452A97006244AF /* Fonts03.h */,
+				C44E6A4819452A97006244AF /* Fonts03.m */,
+				C44E6A4A19452AC8006244AF /* Fonts04.h */,
+				C44E6A4B19452AC9006244AF /* Fonts04.m */,
+				C44E6A4D19452CEF006244AF /* Fonts05.h */,
+				C44E6A4E19452CEF006244AF /* Fonts05.m */,
+				C44E6A5319453024006244AF /* Fonts06.h */,
+				C44E6A5419453024006244AF /* Fonts06.m */,
+				C44E6A5019452ECA006244AF /* Fonts07.h */,
+				C44E6A5119452ECA006244AF /* Fonts07.m */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		D9167E96193E988C00A9602C = {
 			isa = PBXGroup;
 			children = (
@@ -682,6 +724,7 @@
 		D916C3251943CF2400846C5C /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				C44E6A4019452819006244AF /* Fonts */,
 				C44E6A21194517EB006244AF /* Colors */,
 				D916C3261943CF2400846C5C /* Images */,
 				D916C3371943CF2400846C5C /* Movies */,
@@ -893,9 +936,13 @@
 				D9167F10193E988D00A9602C /* C4Image.m in Sources */,
 				D916C3941943CF2400846C5C /* Shapes14.m in Sources */,
 				D9167F28193E988D00A9602C /* C4Timer.m in Sources */,
+				C44E6A431945290C006244AF /* Fonts01.m in Sources */,
 				D916C3961943CF2400846C5C /* Shapes16.m in Sources */,
+				C44E6A46194529D8006244AF /* Fonts02.m in Sources */,
 				C44E69F61944F4E2006244AF /* Labels07.m in Sources */,
+				C44E6A4919452A97006244AF /* Fonts03.m in Sources */,
 				D916C38C1943CF2400846C5C /* Shapes06.m in Sources */,
+				C44E6A4C19452AC9006244AF /* Fonts04.m in Sources */,
 				D916C3901943CF2400846C5C /* Shapes10.m in Sources */,
 				C44E69F31944F4E2006244AF /* Labels04.m in Sources */,
 				D9167EFC193E988D00A9602C /* C4Camera.m in Sources */,
@@ -924,6 +971,7 @@
 				C44E6A3319451F7C006244AF /* Colors05.m in Sources */,
 				D9167F30193E988D00A9602C /* C4UIMovieControl.m in Sources */,
 				D916C3881943CF2400846C5C /* Shapes02.m in Sources */,
+				C44E6A4F19452CEF006244AF /* Fonts05.m in Sources */,
 				D9167F20193E988D00A9602C /* C4Slider.m in Sources */,
 				C44E6A051944F708006244AF /* Labels16.m in Sources */,
 				D9167F04193E988D00A9602C /* C4EAGLESRenderer.m in Sources */,
@@ -951,6 +999,7 @@
 				D916C37A1943CF2400846C5C /* Images06.m in Sources */,
 				D916C37D1943CF2400846C5C /* Movies01.m in Sources */,
 				C44E69F41944F4E2006244AF /* Labels05.m in Sources */,
+				C44E6A5519453024006244AF /* Fonts06.m in Sources */,
 				D9167F2E193E988D00A9602C /* C4UIGLControl.m in Sources */,
 				C44E6A201944FAC8006244AF /* Labels21.m in Sources */,
 				D9167F40193E988D00A9602C /* C4WorkSpace.m in Sources */,
@@ -985,6 +1034,7 @@
 				D916C38B1943CF2400846C5C /* Shapes05.m in Sources */,
 				C44E6A2D19451A64006244AF /* Colors03.m in Sources */,
 				D9167F18193E988D00A9602C /* C4Object.m in Sources */,
+				C44E6A5219452ECA006244AF /* Fonts07.m in Sources */,
 				D916C37E1943CF2400846C5C /* Movies02.m in Sources */,
 				C44E69F21944F4E2006244AF /* Labels03.m in Sources */,
 				C44E69F51944F4E2006244AF /* Labels06.m in Sources */,

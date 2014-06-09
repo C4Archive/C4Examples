@@ -1,13 +1,14 @@
 //
-//  C4WorkSpace.m
-//  Examples
+//  Fonts06.m
+//  C4Examples
 //
-//  Created by Travis Kirton
+//  Created by Slant on 2014-06-08.
+//  Copyright (c) 2014 C4. All rights reserved.
 //
 
-#import "C4WorkSpace.h"
+#import "Fonts06.h"
 
-@implementation C4WorkSpace
+@implementation Fonts06
 
 -(void)setup {
     //will print to the console ALL the family names of availble fonts
