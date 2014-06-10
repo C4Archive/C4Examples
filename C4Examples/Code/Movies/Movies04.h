@@ -6,8 +6,9 @@
 //  Copyright (c) 2014 C4. All rights reserved.
 //
 
-#import "C4WorkSpace.h"
+#import "C4CanvasController.h"
 
-@interface Movies04 : C4WorkSpace
+@interface Movies04  : C4CanvasController
+
 
 @end

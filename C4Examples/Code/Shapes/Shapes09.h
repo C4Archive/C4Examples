@@ -6,8 +6,9 @@
 //  Copyright (c) 2014 C4. All rights reserved.
 //
 
-#import "C4WorkSpace.h"
+#import "C4CanvasController.h"
 
-@interface Shapes09 : C4WorkSpace
+@interface Shapes09  : C4CanvasController
+
 
 @end

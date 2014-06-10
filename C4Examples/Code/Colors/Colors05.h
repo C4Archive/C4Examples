@@ -6,8 +6,9 @@
 //  Copyright (c) 2014 C4. All rights reserved.
 //
 
-#import "C4WorkSpace.h"
+#import "C4CanvasController.h"
 
-@interface Colors05 : C4WorkSpace
+@interface Colors05  : C4CanvasController
+
 
 @end
