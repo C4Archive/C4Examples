@@ -7,10 +7,20 @@
 
 #import "C4WorkSpace.h"
 
-@implementation C4WorkSpace
+@implementation C4WorkSpace {
+    C4Image *m, *img;
+}
 
 -(void)setup {
-    //work your magic here
+    img = [C4Image imageNamed:@"C4Sky"];
+    
+    m = [C4Image imageNamed:@"C4Gradient"];
+    m.width = img.width;
+    
+    img.mask = m;
+    
+    img.center = self.canvas.center;
+    [self.canvas addControl:img];
 }
 
 @end
