@@ -33,8 +33,9 @@
     self = [super initWithCoder:decoder];
     if (!self)
         return nil;
-    [self createCanvas];
-    [self listenFor:@"movieIsReadyForPlayback" andRun:^(NSNotification *n) {
+        [self createCanvas];
+    [self setup];
+        [self listenFor:@"movieIsReadyForPlayback" andRun:^(NSNotification *n) {
         [self movieIsReadyForPlayback:n];
     }];
     return self;
@@ -44,10 +45,6 @@
     self = [super initWithNibName:nibName bundle:nibBundle];
     if (!self)
         return nil;
-    [self createCanvas];
-    [self listenFor:@"movieIsReadyForPlayback" andRun:^(NSNotification *n) {
-        [self movieIsReadyForPlayback:n];
-    }];
     return self;
 }
 
@@ -57,11 +54,23 @@
         [self.view removeGestureRecognizer:g];
     }
 }
+-(void)awakeFromNib {
+    [self createCanvas];
+
+    CGSize size = self.view.bounds.size;
+    self.canvas.frame = CGRectMake(0, 0, size.width, size.height);
+    [self.view addSubview:self.canvas.view];
+
+    [self listenFor:@"movieIsReadyForPlayback" andRun:^(NSNotification *n) {
+        [self movieIsReadyForPlayback:n];
+    }];
+    [self setup];
+}
 
 - (void)createCanvas {
     _canvas = [[C4Control alloc] init];
     _canvas.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    
+
     [self.canvas onTap:^(CGPoint location) {
         [self tapped:location];
     }];
@@ -77,15 +86,16 @@
     [self.canvas onPan:^(CGPoint location, CGPoint translation, CGPoint velocity) {
         [self panned:location translation:translation velocity:velocity];
     }];
+
 }
 
 - (void)setup {
 }
 
 - (void)viewDidLoad {
-    CGSize size = self.view.bounds.size;
-    self.canvas.frame = CGRectMake(0, 0, size.width, size.height);
-    [self.view addSubview:self.canvas.view];
+//    CGSize size = self.view.bounds.size;
+//    self.canvas.frame = CGRectMake(0, 0, size.width, size.height);
+//    [self.view addSubview:self.canvas.view];
 }
 
 

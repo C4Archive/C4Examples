@@ -12,7 +12,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="GS3-xT-xTZ" kind="relationship" relationship="rootViewController" id="JNe-B5-Ag7"/>
+                        <segue destination="ub5-eo-q39" kind="relationship" relationship="rootViewController" id="l8z-3g-JNv"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dSb-LX-pWa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -35,19 +35,19 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ExampleCell" id="7cc-BX-aRL" customClass="C4ExampleCell">
-                                <rect key="frame" x="4" y="118" width="150" height="150"/>
+                                <rect key="frame" x="4" y="54" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyf-gu-iMU">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Example" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyf-gu-iMU">
                                             <rect key="frame" x="0.0" y="125" width="150" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j2G-vg-DRG">
+                                        <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j2G-vg-DRG">
                                             <rect key="frame" x="0.0" y="0.0" width="150" height="121"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -55,15 +55,6 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <constraints>
-                                    <constraint firstItem="zyf-gu-iMU" firstAttribute="top" secondItem="j2G-vg-DRG" secondAttribute="bottom" constant="4" id="1LL-Ns-h2J"/>
-                                    <constraint firstItem="j2G-vg-DRG" firstAttribute="leading" secondItem="7cc-BX-aRL" secondAttribute="leading" id="33J-Dt-h02"/>
-                                    <constraint firstItem="j2G-vg-DRG" firstAttribute="top" secondItem="7cc-BX-aRL" secondAttribute="top" id="79X-bb-hYW"/>
-                                    <constraint firstAttribute="bottom" secondItem="zyf-gu-iMU" secondAttribute="bottom" constant="4" id="CTf-gg-znG"/>
-                                    <constraint firstAttribute="trailing" secondItem="j2G-vg-DRG" secondAttribute="trailing" id="O4l-ta-JrV"/>
-                                    <constraint firstItem="zyf-gu-iMU" firstAttribute="leading" secondItem="7cc-BX-aRL" secondAttribute="leading" id="jAg-zF-HbS"/>
-                                    <constraint firstAttribute="trailing" secondItem="zyf-gu-iMU" secondAttribute="trailing" id="mrs-wS-yHB"/>
-                                </constraints>
                                 <connections>
                                     <outlet property="titleLabel" destination="zyf-gu-iMU" id="jom-B6-ZJg"/>
                                     <outlet property="workSpaceView" destination="j2G-vg-DRG" id="9Of-un-3Tx"/>
@@ -71,10 +62,10 @@
                             </collectionViewCell>
                         </cells>
                         <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Header" id="z1u-zQ-UZr" customClass="C4SectionHeaderView">
-                            <rect key="frame" x="0.0" y="64" width="320" height="50"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
-                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgS-ON-N0I">
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Section" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgS-ON-N0I">
                                     <rect key="frame" x="132" y="15" width="57" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
@@ -82,10 +73,6 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <constraints>
-                                <constraint firstAttribute="centerX" secondItem="WgS-ON-N0I" secondAttribute="centerX" id="TBM-Vt-J95"/>
-                                <constraint firstAttribute="centerY" secondItem="WgS-ON-N0I" secondAttribute="centerY" id="Uaf-qv-Qhx"/>
-                            </constraints>
                             <connections>
                                 <outlet property="titleLabel" destination="WgS-ON-N0I" id="EhS-xJ-IHU"/>
                             </connections>
@@ -100,6 +87,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="raV-jA-avm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="308" y="37"/>
+        </scene>
+        <!--Work Space-->
+        <scene sceneID="cb5-cu-EVU">
+            <objects>
+                <viewController id="ub5-eo-q39" customClass="C4WorkSpace" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GcQ-v2-pGd"/>
+                        <viewControllerLayoutGuide type="bottom" id="rch-ed-fV3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NCR-wI-qa5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZfA-uM-UPo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6kr-ct-ndp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="308" y="688"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
