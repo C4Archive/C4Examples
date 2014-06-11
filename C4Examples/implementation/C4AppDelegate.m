@@ -24,21 +24,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[[NSThread currentThread] threadDictionary] setValue:[C4AssertionHandler class] forKey:NSAssertionHandlerKey];
-    // NB: your windowing code goes here - e.g. self.window.rootViewController = self.viewController;
-    
-    application.statusBarHidden = YES;
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.workspace = [[C4WorkSpace alloc] init];
-    _window.rootViewController = self.workspace;
-    
-    [self.window makeKeyAndVisible];
-    
-    //strangely, if the following call to set the background color isn't made, then the view doesn't receive touch events...
-    self.workspace.view.backgroundColor = [UIColor whiteColor];
     
     [[AVAudioSession sharedInstance] setCategory: AVAudioSessionCategorySoloAmbient error: nil];
     [[AVAudioSession sharedInstance] setActive:YES error:nil];
-    [self.workspace setup];
     return YES;
 }
 

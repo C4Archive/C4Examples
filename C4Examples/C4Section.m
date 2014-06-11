@@ -1,4 +1,4 @@
-// Copyright © 2012 Travis Kirton
+// Copyright © 2014 Travis Kirton, Alejandro Isaza
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to
@@ -17,17 +17,15 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import "C4Section.h"
 
-/** This document describes the basic C4AppDelegate, a subclass of UIResponder which conforms to the UIApplicationDelegate protocol.
- 
- The C4AppDelegate class is used to define the main window of an application, and to specify the a canvas controller of the C4CanvasController type (rather than the defaults for both).
- */
+@implementation C4Section
 
-@interface C4AppDelegate : UIResponder <UIApplicationDelegate, UIScrollViewDelegate>
-
-/** The main application window.
- */
-@property(nonatomic, strong) UIWindow *window;
++ (instancetype)sectionWithTitle:(NSString*)title examples:(NSArray*)examples {
+    C4Section* section = [[C4Section alloc] init];
+    section.title = title;
+    section.examples = examples;
+    return section;
+}
 
 @end

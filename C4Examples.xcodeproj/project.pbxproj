@@ -46,6 +46,11 @@
 		C44E6A591945312F006244AF /* Timers01.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A581945312F006244AF /* Timers01.m */; };
 		C44E6A5C194531D7006244AF /* Timers02.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A5B194531D7006244AF /* Timers02.m */; };
 		C44E6A5F194533EA006244AF /* Timers03.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A5E194533EA006244AF /* Timers03.m */; };
+		A972A1031947F0A900AF52B2 /* C4ExamplesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A972A1021947F0A900AF52B2 /* C4ExamplesCollectionViewController.m */; };
+		A972A1061947F35600AF52B2 /* C4Example.m in Sources */ = {isa = PBXBuildFile; fileRef = A972A1051947F35600AF52B2 /* C4Example.m */; };
+		A972A1091947F3B800AF52B2 /* C4Section.m in Sources */ = {isa = PBXBuildFile; fileRef = A972A1081947F3B800AF52B2 /* C4Section.m */; };
+		A972A10C1947F82500AF52B2 /* C4ExampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A972A10B1947F82500AF52B2 /* C4ExampleCell.m */; };
+		A972A10F1947FC1000AF52B2 /* C4SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A972A10E1947FC1000AF52B2 /* C4SectionHeaderView.m */; };
 		D9167EA3193E988C00A9602C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA2193E988C00A9602C /* Accelerate.framework */; };
 		D9167EA5193E988C00A9602C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA4193E988C00A9602C /* AVFoundation.framework */; };
 		D9167EA7193E988C00A9602C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA6193E988C00A9602C /* CoreFoundation.framework */; };
@@ -235,6 +240,16 @@
 		C44E6A5B194531D7006244AF /* Timers02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Timers02.m; path = Timers/Timers02.m; sourceTree = "<group>"; };
 		C44E6A5D194533EA006244AF /* Timers03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timers03.h; path = Timers/Timers03.h; sourceTree = "<group>"; };
 		C44E6A5E194533EA006244AF /* Timers03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Timers03.m; path = Timers/Timers03.m; sourceTree = "<group>"; };
+		A972A1011947F0A900AF52B2 /* C4ExamplesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4ExamplesCollectionViewController.h; sourceTree = "<group>"; };
+		A972A1021947F0A900AF52B2 /* C4ExamplesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4ExamplesCollectionViewController.m; sourceTree = "<group>"; };
+		A972A1041947F35600AF52B2 /* C4Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4Example.h; sourceTree = "<group>"; };
+		A972A1051947F35600AF52B2 /* C4Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4Example.m; sourceTree = "<group>"; };
+		A972A1071947F3B800AF52B2 /* C4Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4Section.h; sourceTree = "<group>"; };
+		A972A1081947F3B800AF52B2 /* C4Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4Section.m; sourceTree = "<group>"; };
+		A972A10A1947F82500AF52B2 /* C4ExampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4ExampleCell.h; sourceTree = "<group>"; };
+		A972A10B1947F82500AF52B2 /* C4ExampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4ExampleCell.m; sourceTree = "<group>"; };
+		A972A10D1947FC1000AF52B2 /* C4SectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4SectionHeaderView.h; sourceTree = "<group>"; };
+		A972A10E1947FC1000AF52B2 /* C4SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4SectionHeaderView.m; sourceTree = "<group>"; };
 		D9167E9F193E988C00A9602C /* C4Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9167EA2193E988C00A9602C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D9167EA4193E988C00A9602C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -595,6 +610,16 @@
 		D9167EB8193E988C00A9602C /* C4Examples */ = {
 			isa = PBXGroup;
 			children = (
+				A972A1071947F3B800AF52B2 /* C4Section.h */,
+				A972A1081947F3B800AF52B2 /* C4Section.m */,
+				A972A1041947F35600AF52B2 /* C4Example.h */,
+				A972A1051947F35600AF52B2 /* C4Example.m */,
+				A972A10D1947FC1000AF52B2 /* C4SectionHeaderView.h */,
+				A972A10E1947FC1000AF52B2 /* C4SectionHeaderView.m */,
+				A972A10A1947F82500AF52B2 /* C4ExampleCell.h */,
+				A972A10B1947F82500AF52B2 /* C4ExampleCell.m */,
+				A972A1011947F0A900AF52B2 /* C4ExamplesCollectionViewController.h */,
+				A972A1021947F0A900AF52B2 /* C4ExamplesCollectionViewController.m */,
 				D9167F3E193E988D00A9602C /* C4WorkSpace.h */,
 				D9167F3F193E988D00A9602C /* C4WorkSpace.m */,
 				D9167F5C193E98C200A9602C /* Examples */,
@@ -955,6 +980,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A972A10F1947FC1000AF52B2 /* C4SectionHeaderView.m in Sources */,
 				D9167F24193E988D00A9602C /* C4Switch.m in Sources */,
 				D9167F10193E988D00A9602C /* C4Image.m in Sources */,
 				D916C3941943CF2400846C5C /* Shapes14.m in Sources */,
@@ -988,6 +1014,7 @@
 				D9167EF4193E988D00A9602C /* C4ActivityIndicator.m in Sources */,
 				D916C3831943CF2400846C5C /* Movies07.m in Sources */,
 				D916C3811943CF2400846C5C /* Movies05.m in Sources */,
+				A972A1031947F0A900AF52B2 /* C4ExamplesCollectionViewController.m in Sources */,
 				D916C38E1943CF2400846C5C /* Shapes08.m in Sources */,
 				D9167F36193E988D00A9602C /* UIView+C4AddControl.m in Sources */,
 				C44E69FE1944F4E2006244AF /* Labels15.m in Sources */,
@@ -1029,6 +1056,7 @@
 				D9167F40193E988D00A9602C /* C4WorkSpace.m in Sources */,
 				D9167F0A193E988D00A9602C /* C4Foundation.m in Sources */,
 				C44E6A3019451EA0006244AF /* Colors04.m in Sources */,
+				A972A10C1947F82500AF52B2 /* C4ExampleCell.m in Sources */,
 				D916C3921943CF2400846C5C /* Shapes12.m in Sources */,
 				D9167F32193E988D00A9602C /* C4UIShapeControl.m in Sources */,
 				D916C3751943CF2400846C5C /* Images01.m in Sources */,
@@ -1041,6 +1069,7 @@
 				D916C3931943CF2400846C5C /* Shapes13.m in Sources */,
 				D916C3771943CF2400846C5C /* Images03.m in Sources */,
 				D916C3871943CF2400846C5C /* Shapes01.m in Sources */,
+				A972A1061947F35600AF52B2 /* C4Example.m in Sources */,
 				D9167F0E193E988D00A9602C /* C4GL1Renderer.m in Sources */,
 				D9167EBF193E988C00A9602C /* main.m in Sources */,
 				D916C38F1943CF2400846C5C /* Shapes09.m in Sources */,
@@ -1049,6 +1078,7 @@
 				C44E69F11944F4E2006244AF /* Labels01.m in Sources */,
 				D916C3801943CF2400846C5C /* Movies04.m in Sources */,
 				D9167F2A193E988D00A9602C /* C4UIElement.m in Sources */,
+				A972A1091947F3B800AF52B2 /* C4Section.m in Sources */,
 				D916C3951943CF2400846C5C /* Shapes15.m in Sources */,
 				D9167F14193E988D00A9602C /* C4Math.m in Sources */,
 				D916C38A1943CF2400846C5C /* Shapes04.m in Sources */,
