@@ -163,6 +163,35 @@
 		D9307F60194A56A000DFF4BC /* Control25.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F5F194A56A000DFF4BC /* Control25.m */; };
 		D9307F63194A575B00DFF4BC /* Control26.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F62194A575B00DFF4BC /* Control26.m */; };
 		D9307F66194A57C200DFF4BC /* Control27.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F65194A57C200DFF4BC /* Control27.m */; };
+		D9307F6D194A5AD600DFF4BC /* Filter01.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F6C194A5AD600DFF4BC /* Filter01.m */; };
+		D9307F70194A5AF700DFF4BC /* Filter02.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F6F194A5AF700DFF4BC /* Filter02.m */; };
+		D9307F73194A5B2200DFF4BC /* Filter03.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F72194A5B2200DFF4BC /* Filter03.m */; };
+		D9307F76194A5B5F00DFF4BC /* Filter04.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F75194A5B5F00DFF4BC /* Filter04.m */; };
+		D9307F79194A5B8400DFF4BC /* Filter05.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F78194A5B8400DFF4BC /* Filter05.m */; };
+		D9307F7C194A5B9600DFF4BC /* Filter06.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F7B194A5B9600DFF4BC /* Filter06.m */; };
+		D9307F7F194A5BC700DFF4BC /* Filter07.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F7E194A5BC700DFF4BC /* Filter07.m */; };
+		D9307F82194A5C0400DFF4BC /* Filter08.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F81194A5C0400DFF4BC /* Filter08.m */; };
+		D9307F85194A5C3200DFF4BC /* Filter09.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F84194A5C3200DFF4BC /* Filter09.m */; };
+		D9307F88194A5C5700DFF4BC /* Filter10.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F87194A5C5700DFF4BC /* Filter10.m */; };
+		D9307F8B194A5C8600DFF4BC /* Filter11.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F8A194A5C8600DFF4BC /* Filter11.m */; };
+		D9307F8E194A5CB100DFF4BC /* Filter12.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F8D194A5CB100DFF4BC /* Filter12.m */; };
+		D9307F91194A5D0A00DFF4BC /* Filter13.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F90194A5D0A00DFF4BC /* Filter13.m */; };
+		D9307F94194A5D4800DFF4BC /* Filter14.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F93194A5D4800DFF4BC /* Filter14.m */; };
+		D9307F97194A5D6900DFF4BC /* Filter15.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F96194A5D6900DFF4BC /* Filter15.m */; };
+		D9307F9A194A5DB600DFF4BC /* Filter16.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F99194A5DB600DFF4BC /* Filter16.m */; };
+		D9307F9D194A5DD700DFF4BC /* Filter17.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F9C194A5DD700DFF4BC /* Filter17.m */; };
+		D9307FA0194A5E0E00DFF4BC /* Filter18.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F9F194A5E0E00DFF4BC /* Filter18.m */; };
+		D9307FA3194A5E3F00DFF4BC /* Filter19.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FA2194A5E3F00DFF4BC /* Filter19.m */; };
+		D9307FA6194A5E6700DFF4BC /* Filter20.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FA5194A5E6700DFF4BC /* Filter20.m */; };
+		D9307FA9194A5E8700DFF4BC /* Filter21.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FA8194A5E8700DFF4BC /* Filter21.m */; };
+		D9307FAC194A5EB700DFF4BC /* Filter22.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FAB194A5EB700DFF4BC /* Filter22.m */; };
+		D9307FAF194A5EF300DFF4BC /* Filter23.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FAE194A5EF300DFF4BC /* Filter23.m */; };
+		D9307FB2194A5F3C00DFF4BC /* Filter24.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FB1194A5F3C00DFF4BC /* Filter24.m */; };
+		D9307FB5194A5FD100DFF4BC /* Filter25.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FB4194A5FD100DFF4BC /* Filter25.m */; };
+		D9307FB8194A601600DFF4BC /* Filter26.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FB7194A601600DFF4BC /* Filter26.m */; };
+		D9307FBB194A603B00DFF4BC /* Filter27.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FBA194A603B00DFF4BC /* Filter27.m */; };
+		D9307FBE194A608F00DFF4BC /* Filter28.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FBD194A608F00DFF4BC /* Filter28.m */; };
+		D9307FC1194A60E100DFF4BC /* Filter29.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FC0194A60E100DFF4BC /* Filter29.m */; };
 		D9D2B0111948FEFD00784ABF /* Control01.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0101948FEFD00784ABF /* Control01.m */; };
 		D9D2B0151948FF5800784ABF /* Control02.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0141948FF5800784ABF /* Control02.m */; };
 		D9D2B0181948FFEC00784ABF /* Control03.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0171948FFEC00784ABF /* Control03.m */; };
@@ -483,6 +512,64 @@
 		D9307F62194A575B00DFF4BC /* Control26.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control26.m; path = Control/Control26.m; sourceTree = "<group>"; };
 		D9307F64194A57C200DFF4BC /* Control27.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control27.h; path = Control/Control27.h; sourceTree = "<group>"; };
 		D9307F65194A57C200DFF4BC /* Control27.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control27.m; path = Control/Control27.m; sourceTree = "<group>"; };
+		D9307F6B194A5AD600DFF4BC /* Filter01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter01.h; path = Filters/Filter01.h; sourceTree = "<group>"; };
+		D9307F6C194A5AD600DFF4BC /* Filter01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter01.m; path = Filters/Filter01.m; sourceTree = "<group>"; };
+		D9307F6E194A5AF700DFF4BC /* Filter02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter02.h; path = Filters/Filter02.h; sourceTree = "<group>"; };
+		D9307F6F194A5AF700DFF4BC /* Filter02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter02.m; path = Filters/Filter02.m; sourceTree = "<group>"; };
+		D9307F71194A5B2200DFF4BC /* Filter03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter03.h; path = Filters/Filter03.h; sourceTree = "<group>"; };
+		D9307F72194A5B2200DFF4BC /* Filter03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter03.m; path = Filters/Filter03.m; sourceTree = "<group>"; };
+		D9307F74194A5B5F00DFF4BC /* Filter04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter04.h; path = Filters/Filter04.h; sourceTree = "<group>"; };
+		D9307F75194A5B5F00DFF4BC /* Filter04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter04.m; path = Filters/Filter04.m; sourceTree = "<group>"; };
+		D9307F77194A5B8400DFF4BC /* Filter05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter05.h; path = Filters/Filter05.h; sourceTree = "<group>"; };
+		D9307F78194A5B8400DFF4BC /* Filter05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter05.m; path = Filters/Filter05.m; sourceTree = "<group>"; };
+		D9307F7A194A5B9600DFF4BC /* Filter06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter06.h; path = Filters/Filter06.h; sourceTree = "<group>"; };
+		D9307F7B194A5B9600DFF4BC /* Filter06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter06.m; path = Filters/Filter06.m; sourceTree = "<group>"; };
+		D9307F7D194A5BC700DFF4BC /* Filter07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter07.h; path = Filters/Filter07.h; sourceTree = "<group>"; };
+		D9307F7E194A5BC700DFF4BC /* Filter07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter07.m; path = Filters/Filter07.m; sourceTree = "<group>"; };
+		D9307F80194A5C0400DFF4BC /* Filter08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter08.h; path = Filters/Filter08.h; sourceTree = "<group>"; };
+		D9307F81194A5C0400DFF4BC /* Filter08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter08.m; path = Filters/Filter08.m; sourceTree = "<group>"; };
+		D9307F83194A5C3200DFF4BC /* Filter09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter09.h; path = Filters/Filter09.h; sourceTree = "<group>"; };
+		D9307F84194A5C3200DFF4BC /* Filter09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter09.m; path = Filters/Filter09.m; sourceTree = "<group>"; };
+		D9307F86194A5C5700DFF4BC /* Filter10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter10.h; path = Filters/Filter10.h; sourceTree = "<group>"; };
+		D9307F87194A5C5700DFF4BC /* Filter10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter10.m; path = Filters/Filter10.m; sourceTree = "<group>"; };
+		D9307F89194A5C8600DFF4BC /* Filter11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter11.h; path = Filters/Filter11.h; sourceTree = "<group>"; };
+		D9307F8A194A5C8600DFF4BC /* Filter11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter11.m; path = Filters/Filter11.m; sourceTree = "<group>"; };
+		D9307F8C194A5CB100DFF4BC /* Filter12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter12.h; path = Filters/Filter12.h; sourceTree = "<group>"; };
+		D9307F8D194A5CB100DFF4BC /* Filter12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter12.m; path = Filters/Filter12.m; sourceTree = "<group>"; };
+		D9307F8F194A5D0A00DFF4BC /* Filter13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter13.h; path = Filters/Filter13.h; sourceTree = "<group>"; };
+		D9307F90194A5D0A00DFF4BC /* Filter13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter13.m; path = Filters/Filter13.m; sourceTree = "<group>"; };
+		D9307F92194A5D4800DFF4BC /* Filter14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter14.h; path = Filters/Filter14.h; sourceTree = "<group>"; };
+		D9307F93194A5D4800DFF4BC /* Filter14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter14.m; path = Filters/Filter14.m; sourceTree = "<group>"; };
+		D9307F95194A5D6900DFF4BC /* Filter15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter15.h; path = Filters/Filter15.h; sourceTree = "<group>"; };
+		D9307F96194A5D6900DFF4BC /* Filter15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter15.m; path = Filters/Filter15.m; sourceTree = "<group>"; };
+		D9307F98194A5DB600DFF4BC /* Filter16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter16.h; path = Filters/Filter16.h; sourceTree = "<group>"; };
+		D9307F99194A5DB600DFF4BC /* Filter16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter16.m; path = Filters/Filter16.m; sourceTree = "<group>"; };
+		D9307F9B194A5DD700DFF4BC /* Filter17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter17.h; path = Filters/Filter17.h; sourceTree = "<group>"; };
+		D9307F9C194A5DD700DFF4BC /* Filter17.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter17.m; path = Filters/Filter17.m; sourceTree = "<group>"; };
+		D9307F9E194A5E0E00DFF4BC /* Filter18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter18.h; path = Filters/Filter18.h; sourceTree = "<group>"; };
+		D9307F9F194A5E0E00DFF4BC /* Filter18.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter18.m; path = Filters/Filter18.m; sourceTree = "<group>"; };
+		D9307FA1194A5E3F00DFF4BC /* Filter19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter19.h; path = Filters/Filter19.h; sourceTree = "<group>"; };
+		D9307FA2194A5E3F00DFF4BC /* Filter19.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter19.m; path = Filters/Filter19.m; sourceTree = "<group>"; };
+		D9307FA4194A5E6700DFF4BC /* Filter20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter20.h; path = Filters/Filter20.h; sourceTree = "<group>"; };
+		D9307FA5194A5E6700DFF4BC /* Filter20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter20.m; path = Filters/Filter20.m; sourceTree = "<group>"; };
+		D9307FA7194A5E8700DFF4BC /* Filter21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter21.h; path = Filters/Filter21.h; sourceTree = "<group>"; };
+		D9307FA8194A5E8700DFF4BC /* Filter21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter21.m; path = Filters/Filter21.m; sourceTree = "<group>"; };
+		D9307FAA194A5EB700DFF4BC /* Filter22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter22.h; path = Filters/Filter22.h; sourceTree = "<group>"; };
+		D9307FAB194A5EB700DFF4BC /* Filter22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter22.m; path = Filters/Filter22.m; sourceTree = "<group>"; };
+		D9307FAD194A5EF300DFF4BC /* Filter23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter23.h; path = Filters/Filter23.h; sourceTree = "<group>"; };
+		D9307FAE194A5EF300DFF4BC /* Filter23.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter23.m; path = Filters/Filter23.m; sourceTree = "<group>"; };
+		D9307FB0194A5F3C00DFF4BC /* Filter24.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter24.h; path = Filters/Filter24.h; sourceTree = "<group>"; };
+		D9307FB1194A5F3C00DFF4BC /* Filter24.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter24.m; path = Filters/Filter24.m; sourceTree = "<group>"; };
+		D9307FB3194A5FD100DFF4BC /* Filter25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter25.h; path = Filters/Filter25.h; sourceTree = "<group>"; };
+		D9307FB4194A5FD100DFF4BC /* Filter25.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter25.m; path = Filters/Filter25.m; sourceTree = "<group>"; };
+		D9307FB6194A601600DFF4BC /* Filter26.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter26.h; path = Filters/Filter26.h; sourceTree = "<group>"; };
+		D9307FB7194A601600DFF4BC /* Filter26.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter26.m; path = Filters/Filter26.m; sourceTree = "<group>"; };
+		D9307FB9194A603B00DFF4BC /* Filter27.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter27.h; path = Filters/Filter27.h; sourceTree = "<group>"; };
+		D9307FBA194A603B00DFF4BC /* Filter27.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter27.m; path = Filters/Filter27.m; sourceTree = "<group>"; };
+		D9307FBC194A608F00DFF4BC /* Filter28.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter28.h; path = Filters/Filter28.h; sourceTree = "<group>"; };
+		D9307FBD194A608F00DFF4BC /* Filter28.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter28.m; path = Filters/Filter28.m; sourceTree = "<group>"; };
+		D9307FBF194A60E100DFF4BC /* Filter29.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter29.h; path = Filters/Filter29.h; sourceTree = "<group>"; };
+		D9307FC0194A60E100DFF4BC /* Filter29.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter29.m; path = Filters/Filter29.m; sourceTree = "<group>"; };
 		D9D2B00F1948FEFD00784ABF /* Control01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control01.h; path = Control/Control01.h; sourceTree = "<group>"; };
 		D9D2B0101948FEFD00784ABF /* Control01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control01.m; path = Control/Control01.m; sourceTree = "<group>"; };
 		D9D2B0131948FF5800784ABF /* Control02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control02.h; path = Control/Control02.h; sourceTree = "<group>"; };
@@ -860,6 +947,7 @@
 				D916C34C1943CF2400846C5C /* Shapes */,
 				C44E69791944E163006244AF /* Labels */,
 				D9D2B0121948FF0D00784ABF /* Control */,
+				D9307F6A194A5A9E00DFF4BC /* Filters */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -959,6 +1047,71 @@
 				D916C3741943CF2400846C5C /* Shapes20.m */,
 			);
 			path = Shapes;
+			sourceTree = "<group>";
+		};
+		D9307F6A194A5A9E00DFF4BC /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				D9307F6B194A5AD600DFF4BC /* Filter01.h */,
+				D9307F6C194A5AD600DFF4BC /* Filter01.m */,
+				D9307F6E194A5AF700DFF4BC /* Filter02.h */,
+				D9307F6F194A5AF700DFF4BC /* Filter02.m */,
+				D9307F71194A5B2200DFF4BC /* Filter03.h */,
+				D9307F72194A5B2200DFF4BC /* Filter03.m */,
+				D9307F74194A5B5F00DFF4BC /* Filter04.h */,
+				D9307F75194A5B5F00DFF4BC /* Filter04.m */,
+				D9307F77194A5B8400DFF4BC /* Filter05.h */,
+				D9307F78194A5B8400DFF4BC /* Filter05.m */,
+				D9307F7A194A5B9600DFF4BC /* Filter06.h */,
+				D9307F7B194A5B9600DFF4BC /* Filter06.m */,
+				D9307F7D194A5BC700DFF4BC /* Filter07.h */,
+				D9307F7E194A5BC700DFF4BC /* Filter07.m */,
+				D9307F80194A5C0400DFF4BC /* Filter08.h */,
+				D9307F81194A5C0400DFF4BC /* Filter08.m */,
+				D9307F83194A5C3200DFF4BC /* Filter09.h */,
+				D9307F84194A5C3200DFF4BC /* Filter09.m */,
+				D9307F86194A5C5700DFF4BC /* Filter10.h */,
+				D9307F87194A5C5700DFF4BC /* Filter10.m */,
+				D9307F89194A5C8600DFF4BC /* Filter11.h */,
+				D9307F8A194A5C8600DFF4BC /* Filter11.m */,
+				D9307F8C194A5CB100DFF4BC /* Filter12.h */,
+				D9307F8D194A5CB100DFF4BC /* Filter12.m */,
+				D9307F8F194A5D0A00DFF4BC /* Filter13.h */,
+				D9307F90194A5D0A00DFF4BC /* Filter13.m */,
+				D9307F92194A5D4800DFF4BC /* Filter14.h */,
+				D9307F93194A5D4800DFF4BC /* Filter14.m */,
+				D9307F95194A5D6900DFF4BC /* Filter15.h */,
+				D9307F96194A5D6900DFF4BC /* Filter15.m */,
+				D9307F98194A5DB600DFF4BC /* Filter16.h */,
+				D9307F99194A5DB600DFF4BC /* Filter16.m */,
+				D9307F9B194A5DD700DFF4BC /* Filter17.h */,
+				D9307F9C194A5DD700DFF4BC /* Filter17.m */,
+				D9307F9E194A5E0E00DFF4BC /* Filter18.h */,
+				D9307F9F194A5E0E00DFF4BC /* Filter18.m */,
+				D9307FA1194A5E3F00DFF4BC /* Filter19.h */,
+				D9307FA2194A5E3F00DFF4BC /* Filter19.m */,
+				D9307FA4194A5E6700DFF4BC /* Filter20.h */,
+				D9307FA5194A5E6700DFF4BC /* Filter20.m */,
+				D9307FA7194A5E8700DFF4BC /* Filter21.h */,
+				D9307FA8194A5E8700DFF4BC /* Filter21.m */,
+				D9307FAA194A5EB700DFF4BC /* Filter22.h */,
+				D9307FAB194A5EB700DFF4BC /* Filter22.m */,
+				D9307FAD194A5EF300DFF4BC /* Filter23.h */,
+				D9307FAE194A5EF300DFF4BC /* Filter23.m */,
+				D9307FB0194A5F3C00DFF4BC /* Filter24.h */,
+				D9307FB1194A5F3C00DFF4BC /* Filter24.m */,
+				D9307FB3194A5FD100DFF4BC /* Filter25.h */,
+				D9307FB4194A5FD100DFF4BC /* Filter25.m */,
+				D9307FB6194A601600DFF4BC /* Filter26.h */,
+				D9307FB7194A601600DFF4BC /* Filter26.m */,
+				D9307FB9194A603B00DFF4BC /* Filter27.h */,
+				D9307FBA194A603B00DFF4BC /* Filter27.m */,
+				D9307FBC194A608F00DFF4BC /* Filter28.h */,
+				D9307FBD194A608F00DFF4BC /* Filter28.m */,
+				D9307FBF194A60E100DFF4BC /* Filter29.h */,
+				D9307FC0194A60E100DFF4BC /* Filter29.m */,
+			);
+			name = Filters;
 			sourceTree = "<group>";
 		};
 		D9D2B0121948FF0D00784ABF /* Control */ = {
@@ -1123,12 +1276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9307FC1194A60E100DFF4BC /* Filter29.m in Sources */,
 				A972A10F1947FC1000AF52B2 /* C4SectionHeaderView.m in Sources */,
 				D9167F24193E988D00A9602C /* C4Switch.m in Sources */,
 				D9167F10193E988D00A9602C /* C4Image.m in Sources */,
 				D916C3941943CF2400846C5C /* Shapes14.m in Sources */,
 				D9167F28193E988D00A9602C /* C4Timer.m in Sources */,
 				C44E6A431945290C006244AF /* Fonts01.m in Sources */,
+				D9307F8E194A5CB100DFF4BC /* Filter12.m in Sources */,
 				D9D2B0181948FFEC00784ABF /* Control03.m in Sources */,
 				D916C3961943CF2400846C5C /* Shapes16.m in Sources */,
 				C44E6A46194529D8006244AF /* Fonts02.m in Sources */,
@@ -1137,12 +1292,15 @@
 				D916C38C1943CF2400846C5C /* Shapes06.m in Sources */,
 				C44E6A4C19452AC9006244AF /* Fonts04.m in Sources */,
 				D9307F4B194A4F3D00DFF4BC /* Control18.m in Sources */,
+				D9307FBE194A608F00DFF4BC /* Filter28.m in Sources */,
 				D9307F60194A56A000DFF4BC /* Control25.m in Sources */,
+				D9307F9A194A5DB600DFF4BC /* Filter16.m in Sources */,
 				D916C3901943CF2400846C5C /* Shapes10.m in Sources */,
 				C44E69F31944F4E2006244AF /* Labels04.m in Sources */,
 				D9167EFC193E988D00A9602C /* C4Camera.m in Sources */,
 				D916C3791943CF2400846C5C /* Images05.m in Sources */,
 				C44E69F71944F4E2006244AF /* Labels08.m in Sources */,
+				D9307FA9194A5E8700DFF4BC /* Filter21.m in Sources */,
 				C44E6A0B1944F7CB006244AF /* Labels17.m in Sources */,
 				D9167F02193E988D00A9602C /* C4Defines.m in Sources */,
 				D9167F12193E988D00A9602C /* C4Label.m in Sources */,
@@ -1153,6 +1311,7 @@
 				D9167F22193E988D00A9602C /* C4Stepper.m in Sources */,
 				D916C3861943CF2400846C5C /* Movies10.m in Sources */,
 				D9D2B03619490CC400784ABF /* Control12.m in Sources */,
+				D9307F79194A5B8400DFF4BC /* Filter05.m in Sources */,
 				D9167F1A193E988D00A9602C /* C4Sample.m in Sources */,
 				D916C3851943CF2400846C5C /* Movies09.m in Sources */,
 				D916C37F1943CF2400846C5C /* Movies03.m in Sources */,
@@ -1165,6 +1324,7 @@
 				D916C3811943CF2400846C5C /* Movies05.m in Sources */,
 				A972A1031947F0A900AF52B2 /* C4ExamplesCollectionViewController.m in Sources */,
 				D916C38E1943CF2400846C5C /* Shapes08.m in Sources */,
+				D9307F82194A5C0400DFF4BC /* Filter08.m in Sources */,
 				D9167F36193E988D00A9602C /* UIView+C4AddControl.m in Sources */,
 				C44E69FE1944F4E2006244AF /* Labels15.m in Sources */,
 				C44E6A3319451F7C006244AF /* Colors05.m in Sources */,
@@ -1176,15 +1336,18 @@
 				D9167F20193E988D00A9602C /* C4Slider.m in Sources */,
 				C44E6A051944F708006244AF /* Labels16.m in Sources */,
 				D9307F3C194A4D6600DFF4BC /* Control14.m in Sources */,
+				D9307F85194A5C3200DFF4BC /* Filter09.m in Sources */,
 				D9167F04193E988D00A9602C /* C4EAGLESRenderer.m in Sources */,
 				D916C3821943CF2400846C5C /* Movies06.m in Sources */,
 				D9167F08193E988D00A9602C /* C4Font.m in Sources */,
 				D9307F4E194A511200DFF4BC /* Control19.m in Sources */,
+				D9307FAC194A5EB700DFF4BC /* Filter22.m in Sources */,
 				C44E6A2A194518D3006244AF /* Colors02.m in Sources */,
 				C44E6A3619452003006244AF /* Colors06.m in Sources */,
 				C44E6A391945215D006244AF /* Colors07.m in Sources */,
 				D9167F1E193E988D00A9602C /* C4Shape.m in Sources */,
 				D9167F34193E988D00A9602C /* UIColor+CIColorFix.m in Sources */,
+				D9307FB5194A5FD100DFF4BC /* Filter25.m in Sources */,
 				D9D2B021194900DF00784ABF /* Control06.m in Sources */,
 				D9D2B024194903A300784ABF /* Control07.m in Sources */,
 				D9307F57194A54C800DFF4BC /* Control22.m in Sources */,
@@ -1194,17 +1357,25 @@
 				C44E69F91944F4E2006244AF /* Labels10.m in Sources */,
 				C44E69FB1944F4E2006244AF /* Labels12.m in Sources */,
 				D916C37B1943CF2400846C5C /* Images07.m in Sources */,
+				D9307F6D194A5AD600DFF4BC /* Filter01.m in Sources */,
+				D9307F91194A5D0A00DFF4BC /* Filter13.m in Sources */,
 				C44E69FC1944F4E2006244AF /* Labels13.m in Sources */,
 				C44E69821944E1F2006244AF /* Labels02.m in Sources */,
 				D9D2B0271949052B00784ABF /* Control08.m in Sources */,
+				D9307FAF194A5EF300DFF4BC /* Filter23.m in Sources */,
+				D9307F94194A5D4800DFF4BC /* Filter14.m in Sources */,
 				D916C3911943CF2400846C5C /* Shapes11.m in Sources */,
 				D9D2B01E1949005D00784ABF /* Control05.m in Sources */,
+				D9307F73194A5B2200DFF4BC /* Filter03.m in Sources */,
+				D9307F70194A5AF700DFF4BC /* Filter02.m in Sources */,
 				C44E6A1D1944FA96006244AF /* Labels20.m in Sources */,
 				C44E6A5C194531D7006244AF /* Timers02.m in Sources */,
 				D9167F16193E988D00A9602C /* C4Movie.m in Sources */,
 				C44E6A111944F8BA006244AF /* Labels18.m in Sources */,
 				D9307F5A194A559F00DFF4BC /* Control23.m in Sources */,
 				C44E6A171944F925006244AF /* Labels19.m in Sources */,
+				D9307FB2194A5F3C00DFF4BC /* Filter24.m in Sources */,
+				D9307FA0194A5E0E00DFF4BC /* Filter18.m in Sources */,
 				D916C3981943CF2400846C5C /* Shapes18.m in Sources */,
 				D916C37A1943CF2400846C5C /* Images06.m in Sources */,
 				D9307F42194A4D9100DFF4BC /* Control15.m in Sources */,
@@ -1214,6 +1385,7 @@
 				C44E69F41944F4E2006244AF /* Labels05.m in Sources */,
 				C44E6A5519453024006244AF /* Fonts06.m in Sources */,
 				D9167F2E193E988D00A9602C /* C4UIGLControl.m in Sources */,
+				D9307F9D194A5DD700DFF4BC /* Filter17.m in Sources */,
 				C44E6A201944FAC8006244AF /* Labels21.m in Sources */,
 				D9167F40193E988D00A9602C /* C4WorkSpace.m in Sources */,
 				D9167F0A193E988D00A9602C /* C4Foundation.m in Sources */,
@@ -1221,16 +1393,21 @@
 				A972A10C1947F82500AF52B2 /* C4ExampleCell.m in Sources */,
 				D916C3921943CF2400846C5C /* Shapes12.m in Sources */,
 				D9167F32193E988D00A9602C /* C4UIShapeControl.m in Sources */,
+				D9307FBB194A603B00DFF4BC /* Filter27.m in Sources */,
 				D916C3751943CF2400846C5C /* Images01.m in Sources */,
 				D9307F54194A542400DFF4BC /* Control21.m in Sources */,
+				D9307F97194A5D6900DFF4BC /* Filter15.m in Sources */,
 				D9D2B0111948FEFD00784ABF /* Control01.m in Sources */,
 				D9167F0C193E988D00A9602C /* C4GL.m in Sources */,
+				D9307FA3194A5E3F00DFF4BC /* Filter19.m in Sources */,
+				D9307F8B194A5C8600DFF4BC /* Filter11.m in Sources */,
 				C44E6A3F194521CC006244AF /* Colors08.m in Sources */,
 				D916C38D1943CF2400846C5C /* Shapes07.m in Sources */,
 				C44E6A5F194533EA006244AF /* Timers03.m in Sources */,
 				D916C3761943CF2400846C5C /* Images02.m in Sources */,
 				D9167EF6193E988D00A9602C /* C4AnimationHelper.m in Sources */,
 				D916C3931943CF2400846C5C /* Shapes13.m in Sources */,
+				D9307FA6194A5E6700DFF4BC /* Filter20.m in Sources */,
 				D916C3771943CF2400846C5C /* Images03.m in Sources */,
 				D916C3871943CF2400846C5C /* Shapes01.m in Sources */,
 				D9307F63194A575B00DFF4BC /* Control26.m in Sources */,
@@ -1245,6 +1422,7 @@
 				C44E69F11944F4E2006244AF /* Labels01.m in Sources */,
 				D916C3801943CF2400846C5C /* Movies04.m in Sources */,
 				D9167F2A193E988D00A9602C /* C4UIElement.m in Sources */,
+				D9307F76194A5B5F00DFF4BC /* Filter04.m in Sources */,
 				A972A1091947F3B800AF52B2 /* C4Section.m in Sources */,
 				D9D2B02D1949074200784ABF /* Control10.m in Sources */,
 				D916C3951943CF2400846C5C /* Shapes15.m in Sources */,
@@ -1260,9 +1438,13 @@
 				C44E6A2D19451A64006244AF /* Colors03.m in Sources */,
 				D9167F18193E988D00A9602C /* C4Object.m in Sources */,
 				C44E6A5219452ECA006244AF /* Fonts07.m in Sources */,
+				D9307FB8194A601600DFF4BC /* Filter26.m in Sources */,
 				D916C37E1943CF2400846C5C /* Movies02.m in Sources */,
+				D9307F7F194A5BC700DFF4BC /* Filter07.m in Sources */,
 				C44E69F21944F4E2006244AF /* Labels03.m in Sources */,
 				C44E69F51944F4E2006244AF /* Labels06.m in Sources */,
+				D9307F88194A5C5700DFF4BC /* Filter10.m in Sources */,
+				D9307F7C194A5B9600DFF4BC /* Filter06.m in Sources */,
 				C44E6A591945312F006244AF /* Timers01.m in Sources */,
 				D9167F26193E988D00A9602C /* C4Template.m in Sources */,
 				C44E69FD1944F4E2006244AF /* Labels14.m in Sources */,

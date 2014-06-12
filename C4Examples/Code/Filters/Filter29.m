@@ -1,12 +1,14 @@
 //
-//  C4WorkSpace.m
-//  Examples
+//  Filter29.m
+//  C4Examples
 //
-//  Created by Travis Kirton
+//  Created by travis on 2014-06-12.
+//  Copyright (c) 2014 C4. All rights reserved.
 //
 
-#import "C4WorkSpace.h"
-@implementation C4WorkSpace
+#import "Filter29.h"
+
+@implementation Filter29
 
 -(void)setup {
     C4Image *img = [C4Image imageNamed:@"C4Table"];
@@ -15,4 +17,5 @@
     
     [img temperatureAndTint:CGSizeMake(6500, 200) target:CGSizeMake(6500, 500)];
 }
+
 @end
