@@ -1,12 +1,14 @@
 //
-//  C4WorkSpace.m
-//  Examples
+//  Control27.m
+//  C4Examples
 //
-//  Created by Travis Kirton
+//  Created by travis on 2014-06-12.
+//  Copyright (c) 2014 C4. All rights reserved.
 //
 
-#import "C4WorkSpace.h"
-@implementation C4WorkSpace {
+#import "Control27.h"
+
+@implementation Control27 {
     C4Shape *s1, *s2;
 }
 

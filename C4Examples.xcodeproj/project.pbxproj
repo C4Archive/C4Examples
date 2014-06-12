@@ -149,6 +149,20 @@
 		D916C3981943CF2400846C5C /* Shapes18.m in Sources */ = {isa = PBXBuildFile; fileRef = D916C3701943CF2400846C5C /* Shapes18.m */; };
 		D916C3991943CF2400846C5C /* Shapes19.m in Sources */ = {isa = PBXBuildFile; fileRef = D916C3721943CF2400846C5C /* Shapes19.m */; };
 		D916C39A1943CF2400846C5C /* Shapes20.m in Sources */ = {isa = PBXBuildFile; fileRef = D916C3741943CF2400846C5C /* Shapes20.m */; };
+		D9307F3C194A4D6600DFF4BC /* Control14.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F3B194A4D6600DFF4BC /* Control14.m */; };
+		D9307F42194A4D9100DFF4BC /* Control15.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F41194A4D9100DFF4BC /* Control15.m */; };
+		D9307F45194A4E6200DFF4BC /* Control16.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F44194A4E6200DFF4BC /* Control16.m */; };
+		D9307F48194A4EDA00DFF4BC /* Control17.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F47194A4EDA00DFF4BC /* Control17.m */; };
+		D9307F4B194A4F3D00DFF4BC /* Control18.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F4A194A4F3D00DFF4BC /* Control18.m */; };
+		D9307F4E194A511200DFF4BC /* Control19.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F4D194A511200DFF4BC /* Control19.m */; };
+		D9307F51194A51DF00DFF4BC /* Control20.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F50194A51DF00DFF4BC /* Control20.m */; };
+		D9307F54194A542400DFF4BC /* Control21.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F53194A542400DFF4BC /* Control21.m */; };
+		D9307F57194A54C800DFF4BC /* Control22.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F56194A54C800DFF4BC /* Control22.m */; };
+		D9307F5A194A559F00DFF4BC /* Control23.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F59194A559F00DFF4BC /* Control23.m */; };
+		D9307F5D194A560000DFF4BC /* Control24.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F5C194A560000DFF4BC /* Control24.m */; };
+		D9307F60194A56A000DFF4BC /* Control25.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F5F194A56A000DFF4BC /* Control25.m */; };
+		D9307F63194A575B00DFF4BC /* Control26.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F62194A575B00DFF4BC /* Control26.m */; };
+		D9307F66194A57C200DFF4BC /* Control27.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307F65194A57C200DFF4BC /* Control27.m */; };
 		D9D2B0111948FEFD00784ABF /* Control01.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0101948FEFD00784ABF /* Control01.m */; };
 		D9D2B0151948FF5800784ABF /* Control02.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0141948FF5800784ABF /* Control02.m */; };
 		D9D2B0181948FFEC00784ABF /* Control03.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0171948FFEC00784ABF /* Control03.m */; };
@@ -441,6 +455,34 @@
 		D916C3721943CF2400846C5C /* Shapes19.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes19.m; sourceTree = "<group>"; };
 		D916C3731943CF2400846C5C /* Shapes20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes20.h; sourceTree = "<group>"; };
 		D916C3741943CF2400846C5C /* Shapes20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes20.m; sourceTree = "<group>"; };
+		D9307F3A194A4D6600DFF4BC /* Control14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control14.h; path = Control/Control14.h; sourceTree = "<group>"; };
+		D9307F3B194A4D6600DFF4BC /* Control14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control14.m; path = Control/Control14.m; sourceTree = "<group>"; };
+		D9307F40194A4D9100DFF4BC /* Control15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control15.h; path = Control/Control15.h; sourceTree = "<group>"; };
+		D9307F41194A4D9100DFF4BC /* Control15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control15.m; path = Control/Control15.m; sourceTree = "<group>"; };
+		D9307F43194A4E6200DFF4BC /* Control16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control16.h; path = Control/Control16.h; sourceTree = "<group>"; };
+		D9307F44194A4E6200DFF4BC /* Control16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control16.m; path = Control/Control16.m; sourceTree = "<group>"; };
+		D9307F46194A4EDA00DFF4BC /* Control17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control17.h; path = Control/Control17.h; sourceTree = "<group>"; };
+		D9307F47194A4EDA00DFF4BC /* Control17.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control17.m; path = Control/Control17.m; sourceTree = "<group>"; };
+		D9307F49194A4F3D00DFF4BC /* Control18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control18.h; path = Control/Control18.h; sourceTree = "<group>"; };
+		D9307F4A194A4F3D00DFF4BC /* Control18.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control18.m; path = Control/Control18.m; sourceTree = "<group>"; };
+		D9307F4C194A511200DFF4BC /* Control19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control19.h; path = Control/Control19.h; sourceTree = "<group>"; };
+		D9307F4D194A511200DFF4BC /* Control19.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control19.m; path = Control/Control19.m; sourceTree = "<group>"; };
+		D9307F4F194A51DF00DFF4BC /* Control20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control20.h; path = Control/Control20.h; sourceTree = "<group>"; };
+		D9307F50194A51DF00DFF4BC /* Control20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control20.m; path = Control/Control20.m; sourceTree = "<group>"; };
+		D9307F52194A542400DFF4BC /* Control21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control21.h; path = Control/Control21.h; sourceTree = "<group>"; };
+		D9307F53194A542400DFF4BC /* Control21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control21.m; path = Control/Control21.m; sourceTree = "<group>"; };
+		D9307F55194A54C800DFF4BC /* Control22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control22.h; path = Control/Control22.h; sourceTree = "<group>"; };
+		D9307F56194A54C800DFF4BC /* Control22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control22.m; path = Control/Control22.m; sourceTree = "<group>"; };
+		D9307F58194A559F00DFF4BC /* Control23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control23.h; path = Control/Control23.h; sourceTree = "<group>"; };
+		D9307F59194A559F00DFF4BC /* Control23.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control23.m; path = Control/Control23.m; sourceTree = "<group>"; };
+		D9307F5B194A560000DFF4BC /* Control24.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control24.h; path = Control/Control24.h; sourceTree = "<group>"; };
+		D9307F5C194A560000DFF4BC /* Control24.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control24.m; path = Control/Control24.m; sourceTree = "<group>"; };
+		D9307F5E194A56A000DFF4BC /* Control25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control25.h; path = Control/Control25.h; sourceTree = "<group>"; };
+		D9307F5F194A56A000DFF4BC /* Control25.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control25.m; path = Control/Control25.m; sourceTree = "<group>"; };
+		D9307F61194A575B00DFF4BC /* Control26.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control26.h; path = Control/Control26.h; sourceTree = "<group>"; };
+		D9307F62194A575B00DFF4BC /* Control26.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control26.m; path = Control/Control26.m; sourceTree = "<group>"; };
+		D9307F64194A57C200DFF4BC /* Control27.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control27.h; path = Control/Control27.h; sourceTree = "<group>"; };
+		D9307F65194A57C200DFF4BC /* Control27.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control27.m; path = Control/Control27.m; sourceTree = "<group>"; };
 		D9D2B00F1948FEFD00784ABF /* Control01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control01.h; path = Control/Control01.h; sourceTree = "<group>"; };
 		D9D2B0101948FEFD00784ABF /* Control01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control01.m; path = Control/Control01.m; sourceTree = "<group>"; };
 		D9D2B0131948FF5800784ABF /* Control02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control02.h; path = Control/Control02.h; sourceTree = "<group>"; };
@@ -948,6 +990,34 @@
 				D9D2B03519490CC400784ABF /* Control12.m */,
 				D9D2B037194910F600784ABF /* Control13.h */,
 				D9D2B038194910F600784ABF /* Control13.m */,
+				D9307F3A194A4D6600DFF4BC /* Control14.h */,
+				D9307F3B194A4D6600DFF4BC /* Control14.m */,
+				D9307F40194A4D9100DFF4BC /* Control15.h */,
+				D9307F41194A4D9100DFF4BC /* Control15.m */,
+				D9307F43194A4E6200DFF4BC /* Control16.h */,
+				D9307F44194A4E6200DFF4BC /* Control16.m */,
+				D9307F46194A4EDA00DFF4BC /* Control17.h */,
+				D9307F47194A4EDA00DFF4BC /* Control17.m */,
+				D9307F49194A4F3D00DFF4BC /* Control18.h */,
+				D9307F4A194A4F3D00DFF4BC /* Control18.m */,
+				D9307F4C194A511200DFF4BC /* Control19.h */,
+				D9307F4D194A511200DFF4BC /* Control19.m */,
+				D9307F4F194A51DF00DFF4BC /* Control20.h */,
+				D9307F50194A51DF00DFF4BC /* Control20.m */,
+				D9307F52194A542400DFF4BC /* Control21.h */,
+				D9307F53194A542400DFF4BC /* Control21.m */,
+				D9307F55194A54C800DFF4BC /* Control22.h */,
+				D9307F56194A54C800DFF4BC /* Control22.m */,
+				D9307F58194A559F00DFF4BC /* Control23.h */,
+				D9307F59194A559F00DFF4BC /* Control23.m */,
+				D9307F5B194A560000DFF4BC /* Control24.h */,
+				D9307F5C194A560000DFF4BC /* Control24.m */,
+				D9307F5E194A56A000DFF4BC /* Control25.h */,
+				D9307F5F194A56A000DFF4BC /* Control25.m */,
+				D9307F61194A575B00DFF4BC /* Control26.h */,
+				D9307F62194A575B00DFF4BC /* Control26.m */,
+				D9307F64194A57C200DFF4BC /* Control27.h */,
+				D9307F65194A57C200DFF4BC /* Control27.m */,
 			);
 			name = Control;
 			sourceTree = "<group>";
@@ -1066,6 +1136,8 @@
 				C44E6A4919452A97006244AF /* Fonts03.m in Sources */,
 				D916C38C1943CF2400846C5C /* Shapes06.m in Sources */,
 				C44E6A4C19452AC9006244AF /* Fonts04.m in Sources */,
+				D9307F4B194A4F3D00DFF4BC /* Control18.m in Sources */,
+				D9307F60194A56A000DFF4BC /* Control25.m in Sources */,
 				D916C3901943CF2400846C5C /* Shapes10.m in Sources */,
 				C44E69F31944F4E2006244AF /* Labels04.m in Sources */,
 				D9167EFC193E988D00A9602C /* C4Camera.m in Sources */,
@@ -1084,6 +1156,7 @@
 				D9167F1A193E988D00A9602C /* C4Sample.m in Sources */,
 				D916C3851943CF2400846C5C /* Movies09.m in Sources */,
 				D916C37F1943CF2400846C5C /* Movies03.m in Sources */,
+				D9307F51194A51DF00DFF4BC /* Control20.m in Sources */,
 				D916C3891943CF2400846C5C /* Shapes03.m in Sources */,
 				D9167EFA193E988D00A9602C /* C4Button.m in Sources */,
 				D9167EF8193E988D00A9602C /* C4AssertionHandler.m in Sources */,
@@ -1096,14 +1169,17 @@
 				C44E69FE1944F4E2006244AF /* Labels15.m in Sources */,
 				C44E6A3319451F7C006244AF /* Colors05.m in Sources */,
 				D9167F30193E988D00A9602C /* C4UIMovieControl.m in Sources */,
+				D9307F66194A57C200DFF4BC /* Control27.m in Sources */,
 				D916C3881943CF2400846C5C /* Shapes02.m in Sources */,
 				C44E6A4F19452CEF006244AF /* Fonts05.m in Sources */,
 				D9D2B01B1949002800784ABF /* Control04.m in Sources */,
 				D9167F20193E988D00A9602C /* C4Slider.m in Sources */,
 				C44E6A051944F708006244AF /* Labels16.m in Sources */,
+				D9307F3C194A4D6600DFF4BC /* Control14.m in Sources */,
 				D9167F04193E988D00A9602C /* C4EAGLESRenderer.m in Sources */,
 				D916C3821943CF2400846C5C /* Movies06.m in Sources */,
 				D9167F08193E988D00A9602C /* C4Font.m in Sources */,
+				D9307F4E194A511200DFF4BC /* Control19.m in Sources */,
 				C44E6A2A194518D3006244AF /* Colors02.m in Sources */,
 				C44E6A3619452003006244AF /* Colors06.m in Sources */,
 				C44E6A391945215D006244AF /* Colors07.m in Sources */,
@@ -1111,6 +1187,7 @@
 				D9167F34193E988D00A9602C /* UIColor+CIColorFix.m in Sources */,
 				D9D2B021194900DF00784ABF /* Control06.m in Sources */,
 				D9D2B024194903A300784ABF /* Control07.m in Sources */,
+				D9307F57194A54C800DFF4BC /* Control22.m in Sources */,
 				D916C39A1943CF2400846C5C /* Shapes20.m in Sources */,
 				D916C3841943CF2400846C5C /* Movies08.m in Sources */,
 				D9167F1C193E988D00A9602C /* C4ScrollView.m in Sources */,
@@ -1126,10 +1203,14 @@
 				C44E6A5C194531D7006244AF /* Timers02.m in Sources */,
 				D9167F16193E988D00A9602C /* C4Movie.m in Sources */,
 				C44E6A111944F8BA006244AF /* Labels18.m in Sources */,
+				D9307F5A194A559F00DFF4BC /* Control23.m in Sources */,
 				C44E6A171944F925006244AF /* Labels19.m in Sources */,
 				D916C3981943CF2400846C5C /* Shapes18.m in Sources */,
 				D916C37A1943CF2400846C5C /* Images06.m in Sources */,
+				D9307F42194A4D9100DFF4BC /* Control15.m in Sources */,
 				D916C37D1943CF2400846C5C /* Movies01.m in Sources */,
+				D9307F5D194A560000DFF4BC /* Control24.m in Sources */,
+				D9307F48194A4EDA00DFF4BC /* Control17.m in Sources */,
 				C44E69F41944F4E2006244AF /* Labels05.m in Sources */,
 				C44E6A5519453024006244AF /* Fonts06.m in Sources */,
 				D9167F2E193E988D00A9602C /* C4UIGLControl.m in Sources */,
@@ -1141,6 +1222,7 @@
 				D916C3921943CF2400846C5C /* Shapes12.m in Sources */,
 				D9167F32193E988D00A9602C /* C4UIShapeControl.m in Sources */,
 				D916C3751943CF2400846C5C /* Images01.m in Sources */,
+				D9307F54194A542400DFF4BC /* Control21.m in Sources */,
 				D9D2B0111948FEFD00784ABF /* Control01.m in Sources */,
 				D9167F0C193E988D00A9602C /* C4GL.m in Sources */,
 				C44E6A3F194521CC006244AF /* Colors08.m in Sources */,
@@ -1151,6 +1233,7 @@
 				D916C3931943CF2400846C5C /* Shapes13.m in Sources */,
 				D916C3771943CF2400846C5C /* Images03.m in Sources */,
 				D916C3871943CF2400846C5C /* Shapes01.m in Sources */,
+				D9307F63194A575B00DFF4BC /* Control26.m in Sources */,
 				D9D2B03319490A2700784ABF /* Control11.m in Sources */,
 				A972A1061947F35600AF52B2 /* C4Example.m in Sources */,
 				D9167F0E193E988D00A9602C /* C4GL1Renderer.m in Sources */,
@@ -1158,6 +1241,7 @@
 				D916C38F1943CF2400846C5C /* Shapes09.m in Sources */,
 				D9167EFE193E988D00A9602C /* C4CanvasController.m in Sources */,
 				C44E6A24194517FF006244AF /* Colors01.m in Sources */,
+				D9307F45194A4E6200DFF4BC /* Control16.m in Sources */,
 				C44E69F11944F4E2006244AF /* Labels01.m in Sources */,
 				D916C3801943CF2400846C5C /* Movies04.m in Sources */,
 				D9167F2A193E988D00A9602C /* C4UIElement.m in Sources */,
