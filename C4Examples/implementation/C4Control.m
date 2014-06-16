@@ -874,6 +874,57 @@
     }
 }
 
+-(void)stopRunningBlockForEvent:(C4ControlEvents)event {
+    if(![self conformsToProtocol:@protocol(C4UIElement)]) {
+        C4Log(@"You should only use run:forEvent: on C4UIElement objects.");
+        return;
+    }
+    switch (event) {
+        case TOUCHDOWN:
+            self.touchDownBlock = nil;
+            [(UIControl *)self.view removeTarget:self action:@selector(touchDownAction) forControlEvents:UIControlEventTouchDown];
+            break;
+        case TOUCHDOWNDRAGINSIDE:
+            self.touchDownDragInsideBlock = nil;
+            [(UIControl *)self.view removeTarget:self action:@selector(touchDownDragInsideAction) forControlEvents:UIControlEventTouchDragInside];
+            break;
+        case TOUCHDOWNDRAGOUTSIDE:
+            self.touchDownDragOutsideBlock = nil;
+            [(UIControl *)self.view removeTarget:self action:@selector(touchDownDragOutsideAction) forControlEvents:UIControlEventTouchDragOutside];
+            break;
+        case TOUCHDOWNDRAGENTER:
+            self.touchDownDragEnterBlock = nil;
+            [(UIControl *)self.view removeTarget:self action:@selector(touchDownDragEnterAction) forControlEvents:UIControlEventTouchDragEnter];
+            break;
+        case TOUCHDOWNDRAGEXIT:
+            self.touchDownDragExitBlock = nil;
+            [(UIControl *)self.view removeTarget:self action:@selector(touchDownDragExitAction) forControlEvents:UIControlEventTouchDragExit];
+            break;
+        case TOUCHUPINSIDE:
+            self.touchUpInsideBlock = nil;
+            [(UIControl *)self.view removeTarget:self action:@selector(touchUpInsideAction) forControlEvents:UIControlEventTouchUpInside];
+            break;
+        case TOUCHUPOUTSIDE:
+            self.touchUpOutsideBlock = nil;
+            [(UIControl *)self.view removeTarget:self action:@selector(touchUpOutsideAction) forControlEvents:UIControlEventTouchUpOutside];
+            break;
+        case TOUCHCANCEL:
+            self.touchCancelBlock = nil;
+            [(UIControl *)self.view removeTarget:self action:@selector(touchCancelAction) forControlEvents:UIControlEventTouchCancel];
+            break;
+        case VALUECHANGED:
+            self.valueChangedBlock = nil;
+            [(UIControl *)self.view removeTarget:self action:@selector(valueChangedAction) forControlEvents:UIControlEventValueChanged];
+            break;
+        case ALLTOUCHEVENTS:
+            self.allTouchEventsBlock = nil;
+            [(UIControl *)self.view removeTarget:self action:@selector(allTouchEventsAction) forControlEvents:UIControlEventAllTouchEvents];
+            break;
+        default:
+            break;
+    }
+}
+
 -(void)touchDownAction {
     self.touchDownBlock();
 }
