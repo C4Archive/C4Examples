@@ -33,11 +33,11 @@
     self = [super initWithCoder:decoder];
     if (!self)
         return nil;
-        [self createCanvas];
-    [self setup];
-        [self listenFor:@"movieIsReadyForPlayback" andRun:^(NSNotification *n) {
-        [self movieIsReadyForPlayback:n];
-    }];
+//        [self createCanvas];
+//    [self setup];
+//        [self listenFor:@"movieIsReadyForPlayback" andRun:^(NSNotification *n) {
+//        [self movieIsReadyForPlayback:n];
+//    }];
     return self;
 }
 
@@ -105,7 +105,7 @@
 }
 
 - (void)listenFor:(NSString *)notification fromObject:(id)object andRun:(NotificationBlock)block {
-    [[NSNotificationCenter defaultCenter] addObserverForName:notification object:self queue:nil usingBlock:block];
+    [[NSNotificationCenter defaultCenter] addObserverForName:notification object:object queue:nil usingBlock:block];
 }
 
 - (void)listenFor:(NSString *)notification fromObjects:(NSArray *)objectArray andRun:(NotificationBlock)block {
