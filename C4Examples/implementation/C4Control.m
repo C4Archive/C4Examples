@@ -56,6 +56,18 @@
 @property(nonatomic, strong) UISwipeGestureRecognizer *swipeDownGestureRecognizer;
 @property(nonatomic, copy) C4SwipeGestureBlock swipeDownBlock;
 
+@property(nonatomic, copy) TargetActionBlock touchDownBlock;
+@property(nonatomic, copy) TargetActionBlock touchDownRepeatBlock;
+@property(nonatomic, copy) TargetActionBlock touchDownDragInsideBlock;
+@property(nonatomic, copy) TargetActionBlock touchDownDragOutsideBlock;
+@property(nonatomic, copy) TargetActionBlock touchDownDragEnterBlock;
+@property(nonatomic, copy) TargetActionBlock touchDownDragExitBlock;
+@property(nonatomic, copy) TargetActionBlock touchUpInsideBlock;
+@property(nonatomic, copy) TargetActionBlock touchUpOutsideBlock;
+@property(nonatomic, copy) TargetActionBlock touchCancelBlock;
+@property(nonatomic, copy) TargetActionBlock valueChangedBlock;
+@property(nonatomic, copy) TargetActionBlock allTouchEventsBlock;
+
 @end
 
 
@@ -94,7 +106,6 @@
         [self.view removeGestureRecognizer:g];
     }
 }
-
 
 #pragma mark UIView animatable properties
 
@@ -810,6 +821,88 @@
     void (^block)(void) = d[@"block"];
     block();
     d = nil;
+}
+
+-(void)run:(TargetActionBlock)block forEvent:(C4ControlEvents)event {
+    if(![self conformsToProtocol:@protocol(C4UIElement)]) {
+        C4Log(@"You should only use run:forEvent: on C4UIElement objects.");
+        return;
+    }
+    switch (event) {
+        case TOUCHDOWN:
+            self.touchDownBlock = block;
+            [(UIControl *)self.view addTarget:self action:@selector(touchDownAction) forControlEvents:UIControlEventTouchDown];
+            break;
+        case TOUCHDOWNDRAGINSIDE:
+            self.touchDownDragInsideBlock = block;
+            [(UIControl *)self.view addTarget:self action:@selector(touchDownDragInsideAction) forControlEvents:UIControlEventTouchDragInside];
+            break;
+        case TOUCHDOWNDRAGOUTSIDE:
+            self.touchDownDragOutsideBlock = block;
+            [(UIControl *)self.view addTarget:self action:@selector(touchDownDragOutsideAction) forControlEvents:UIControlEventTouchDragOutside];
+            break;
+        case TOUCHDOWNDRAGENTER:
+            self.touchDownDragEnterBlock = block;
+            [(UIControl *)self.view addTarget:self action:@selector(touchDownDragEnterAction) forControlEvents:UIControlEventTouchDragEnter];
+            break;
+        case TOUCHDOWNDRAGEXIT:
+            self.touchDownDragExitBlock = block;
+            [(UIControl *)self.view addTarget:self action:@selector(touchDownDragExitAction) forControlEvents:UIControlEventTouchDragExit];
+            break;
+        case TOUCHUPINSIDE:
+            self.touchUpInsideBlock = block;
+            [(UIControl *)self.view addTarget:self action:@selector(touchUpInsideAction) forControlEvents:UIControlEventTouchUpInside];
+            break;
+        case TOUCHUPOUTSIDE:
+            self.touchUpOutsideBlock = block;
+            [(UIControl *)self.view addTarget:self action:@selector(touchUpOutsideAction) forControlEvents:UIControlEventTouchUpOutside];
+            break;
+        case TOUCHCANCEL:
+            self.touchCancelBlock = block;
+            [(UIControl *)self.view addTarget:self action:@selector(touchCancelAction) forControlEvents:UIControlEventTouchCancel];
+            break;
+        case VALUECHANGED:
+            self.valueChangedBlock = block;
+            [(UIControl *)self.view addTarget:self action:@selector(valueChangedAction) forControlEvents:UIControlEventValueChanged];
+            break;
+        case ALLTOUCHEVENTS:
+            self.allTouchEventsBlock = block;
+            [(UIControl *)self.view addTarget:self action:@selector(allTouchEventsAction) forControlEvents:UIControlEventAllTouchEvents];
+            break;
+        default:
+            break;
+    }
+}
+
+-(void)touchDownAction {
+    self.touchDownBlock();
+}
+-(void)touchDownDragInsideAction {
+    self.touchDownDragInsideBlock();
+}
+-(void)touchDownDragOutsideAction {
+    self.touchDownDragOutsideBlock();
+}
+-(void)touchDownDragEnterAction {
+    self.touchDownDragEnterBlock();
+}
+-(void)touchDownDragExitAction {
+    self.touchDownDragExitBlock();
+}
+-(void)touchUpInsideAction {
+    self.touchUpInsideBlock();
+}
+-(void)touchUpOutsideAction {
+    self.touchUpOutsideBlock();
+}
+-(void)touchCancelAction {
+    self.touchCancelBlock();
+}
+-(void)valueChangedAction {
+    self.valueChangedBlock();
+}
+-(void)allTouchEventsAction {
+    self.allTouchEventsBlock();
 }
 
 #pragma mark Other Additions
