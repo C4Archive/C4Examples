@@ -98,11 +98,13 @@
                         <viewControllerLayoutGuide type="bottom" id="53M-96-5ri"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bsx-m3-vW3">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="K7L-Pn-6UQ"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yj5-Zg-540" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

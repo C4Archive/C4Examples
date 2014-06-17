@@ -192,6 +192,22 @@
 		D9307FBB194A603B00DFF4BC /* Filter27.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FBA194A603B00DFF4BC /* Filter27.m */; };
 		D9307FBE194A608F00DFF4BC /* Filter28.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FBD194A608F00DFF4BC /* Filter28.m */; };
 		D9307FC1194A60E100DFF4BC /* Filter29.m in Sources */ = {isa = PBXBuildFile; fileRef = D9307FC0194A60E100DFF4BC /* Filter29.m */; };
+		D96ABFBE1950C1AF00F10055 /* Math01.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFBD1950C1AF00F10055 /* Math01.m */; };
+		D96ABFC21950C29800F10055 /* Math02.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFC11950C29800F10055 /* Math02.m */; };
+		D96ABFC51950C30600F10055 /* Math03.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFC41950C30600F10055 /* Math03.m */; };
+		D96ABFC81950C33E00F10055 /* Math04.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFC71950C33E00F10055 /* Math04.m */; };
+		D96ABFCB1950C49900F10055 /* Math05.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFCA1950C49900F10055 /* Math05.m */; };
+		D96ABFCE1950C6AD00F10055 /* Math06.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFCD1950C6AD00F10055 /* Math06.m */; };
+		D96ABFD11950C6F100F10055 /* Math07.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFD01950C6F100F10055 /* Math07.m */; };
+		D96ABFD41950C79200F10055 /* Math08.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFD31950C79200F10055 /* Math08.m */; };
+		D96ABFD71950C81D00F10055 /* Math09.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFD61950C81D00F10055 /* Math09.m */; };
+		D96ABFDA1950C8CB00F10055 /* Math10.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFD91950C8CB00F10055 /* Math10.m */; };
+		D96ABFDD1950C9BF00F10055 /* Math11.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFDC1950C9BF00F10055 /* Math11.m */; };
+		D96ABFE01950C9D600F10055 /* Math12.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFDF1950C9D600F10055 /* Math12.m */; };
+		D96ABFE31950CAC700F10055 /* Math13.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFE21950CAC700F10055 /* Math13.m */; };
+		D96ABFE61950CC1800F10055 /* Math14.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFE51950CC1800F10055 /* Math14.m */; };
+		D96ABFE91950CC9400F10055 /* Math15.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFE81950CC9400F10055 /* Math15.m */; };
+		D96ABFEC1950CE5400F10055 /* Math16.m in Sources */ = {isa = PBXBuildFile; fileRef = D96ABFEB1950CE5400F10055 /* Math16.m */; };
 		D9D2B0111948FEFD00784ABF /* Control01.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0101948FEFD00784ABF /* Control01.m */; };
 		D9D2B0151948FF5800784ABF /* Control02.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0141948FF5800784ABF /* Control02.m */; };
 		D9D2B0181948FFEC00784ABF /* Control03.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0171948FFEC00784ABF /* Control03.m */; };
@@ -570,6 +586,38 @@
 		D9307FBD194A608F00DFF4BC /* Filter28.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter28.m; path = Filters/Filter28.m; sourceTree = "<group>"; };
 		D9307FBF194A60E100DFF4BC /* Filter29.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter29.h; path = Filters/Filter29.h; sourceTree = "<group>"; };
 		D9307FC0194A60E100DFF4BC /* Filter29.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter29.m; path = Filters/Filter29.m; sourceTree = "<group>"; };
+		D96ABFBC1950C1AF00F10055 /* Math01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math01.h; path = Math/Math01.h; sourceTree = "<group>"; };
+		D96ABFBD1950C1AF00F10055 /* Math01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math01.m; path = Math/Math01.m; sourceTree = "<group>"; };
+		D96ABFC01950C29800F10055 /* Math02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math02.h; path = Math/Math02.h; sourceTree = "<group>"; };
+		D96ABFC11950C29800F10055 /* Math02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math02.m; path = Math/Math02.m; sourceTree = "<group>"; };
+		D96ABFC31950C30600F10055 /* Math03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math03.h; path = Math/Math03.h; sourceTree = "<group>"; };
+		D96ABFC41950C30600F10055 /* Math03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math03.m; path = Math/Math03.m; sourceTree = "<group>"; };
+		D96ABFC61950C33E00F10055 /* Math04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math04.h; path = Math/Math04.h; sourceTree = "<group>"; };
+		D96ABFC71950C33E00F10055 /* Math04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math04.m; path = Math/Math04.m; sourceTree = "<group>"; };
+		D96ABFC91950C49900F10055 /* Math05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math05.h; path = Math/Math05.h; sourceTree = "<group>"; };
+		D96ABFCA1950C49900F10055 /* Math05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math05.m; path = Math/Math05.m; sourceTree = "<group>"; };
+		D96ABFCC1950C6AD00F10055 /* Math06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math06.h; path = Math/Math06.h; sourceTree = "<group>"; };
+		D96ABFCD1950C6AD00F10055 /* Math06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math06.m; path = Math/Math06.m; sourceTree = "<group>"; };
+		D96ABFCF1950C6F100F10055 /* Math07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math07.h; path = Math/Math07.h; sourceTree = "<group>"; };
+		D96ABFD01950C6F100F10055 /* Math07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math07.m; path = Math/Math07.m; sourceTree = "<group>"; };
+		D96ABFD21950C79200F10055 /* Math08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math08.h; path = Math/Math08.h; sourceTree = "<group>"; };
+		D96ABFD31950C79200F10055 /* Math08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math08.m; path = Math/Math08.m; sourceTree = "<group>"; };
+		D96ABFD51950C81D00F10055 /* Math09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math09.h; path = Math/Math09.h; sourceTree = "<group>"; };
+		D96ABFD61950C81D00F10055 /* Math09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math09.m; path = Math/Math09.m; sourceTree = "<group>"; };
+		D96ABFD81950C8CB00F10055 /* Math10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math10.h; path = Math/Math10.h; sourceTree = "<group>"; };
+		D96ABFD91950C8CB00F10055 /* Math10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math10.m; path = Math/Math10.m; sourceTree = "<group>"; };
+		D96ABFDB1950C9BF00F10055 /* Math11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math11.h; path = Math/Math11.h; sourceTree = "<group>"; };
+		D96ABFDC1950C9BF00F10055 /* Math11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math11.m; path = Math/Math11.m; sourceTree = "<group>"; };
+		D96ABFDE1950C9D600F10055 /* Math12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math12.h; path = Math/Math12.h; sourceTree = "<group>"; };
+		D96ABFDF1950C9D600F10055 /* Math12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math12.m; path = Math/Math12.m; sourceTree = "<group>"; };
+		D96ABFE11950CAC700F10055 /* Math13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math13.h; path = Math/Math13.h; sourceTree = "<group>"; };
+		D96ABFE21950CAC700F10055 /* Math13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math13.m; path = Math/Math13.m; sourceTree = "<group>"; };
+		D96ABFE41950CC1800F10055 /* Math14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math14.h; path = Math/Math14.h; sourceTree = "<group>"; };
+		D96ABFE51950CC1800F10055 /* Math14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math14.m; path = Math/Math14.m; sourceTree = "<group>"; };
+		D96ABFE71950CC9400F10055 /* Math15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math15.h; path = Math/Math15.h; sourceTree = "<group>"; };
+		D96ABFE81950CC9400F10055 /* Math15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math15.m; path = Math/Math15.m; sourceTree = "<group>"; };
+		D96ABFEA1950CE5400F10055 /* Math16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math16.h; path = Math/Math16.h; sourceTree = "<group>"; };
+		D96ABFEB1950CE5400F10055 /* Math16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math16.m; path = Math/Math16.m; sourceTree = "<group>"; };
 		D9D2B00F1948FEFD00784ABF /* Control01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control01.h; path = Control/Control01.h; sourceTree = "<group>"; };
 		D9D2B0101948FEFD00784ABF /* Control01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control01.m; path = Control/Control01.m; sourceTree = "<group>"; };
 		D9D2B0131948FF5800784ABF /* Control02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control02.h; path = Control/Control02.h; sourceTree = "<group>"; };
@@ -948,6 +996,7 @@
 				C44E69791944E163006244AF /* Labels */,
 				D9D2B0121948FF0D00784ABF /* Control */,
 				D9307F6A194A5A9E00DFF4BC /* Filters */,
+				D96ABFBF1950C1B900F10055 /* Math */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -1112,6 +1161,45 @@
 				D9307FC0194A60E100DFF4BC /* Filter29.m */,
 			);
 			name = Filters;
+			sourceTree = "<group>";
+		};
+		D96ABFBF1950C1B900F10055 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				D96ABFBC1950C1AF00F10055 /* Math01.h */,
+				D96ABFBD1950C1AF00F10055 /* Math01.m */,
+				D96ABFC01950C29800F10055 /* Math02.h */,
+				D96ABFC11950C29800F10055 /* Math02.m */,
+				D96ABFC31950C30600F10055 /* Math03.h */,
+				D96ABFC41950C30600F10055 /* Math03.m */,
+				D96ABFC61950C33E00F10055 /* Math04.h */,
+				D96ABFC71950C33E00F10055 /* Math04.m */,
+				D96ABFC91950C49900F10055 /* Math05.h */,
+				D96ABFCA1950C49900F10055 /* Math05.m */,
+				D96ABFCC1950C6AD00F10055 /* Math06.h */,
+				D96ABFCD1950C6AD00F10055 /* Math06.m */,
+				D96ABFCF1950C6F100F10055 /* Math07.h */,
+				D96ABFD01950C6F100F10055 /* Math07.m */,
+				D96ABFD21950C79200F10055 /* Math08.h */,
+				D96ABFD31950C79200F10055 /* Math08.m */,
+				D96ABFD51950C81D00F10055 /* Math09.h */,
+				D96ABFD61950C81D00F10055 /* Math09.m */,
+				D96ABFD81950C8CB00F10055 /* Math10.h */,
+				D96ABFD91950C8CB00F10055 /* Math10.m */,
+				D96ABFDB1950C9BF00F10055 /* Math11.h */,
+				D96ABFDC1950C9BF00F10055 /* Math11.m */,
+				D96ABFDE1950C9D600F10055 /* Math12.h */,
+				D96ABFDF1950C9D600F10055 /* Math12.m */,
+				D96ABFE11950CAC700F10055 /* Math13.h */,
+				D96ABFE21950CAC700F10055 /* Math13.m */,
+				D96ABFE41950CC1800F10055 /* Math14.h */,
+				D96ABFE51950CC1800F10055 /* Math14.m */,
+				D96ABFE71950CC9400F10055 /* Math15.h */,
+				D96ABFE81950CC9400F10055 /* Math15.m */,
+				D96ABFEA1950CE5400F10055 /* Math16.h */,
+				D96ABFEB1950CE5400F10055 /* Math16.m */,
+			);
+			name = Math;
 			sourceTree = "<group>";
 		};
 		D9D2B0121948FF0D00784ABF /* Control */ = {
@@ -1290,8 +1378,12 @@
 				C44E69F61944F4E2006244AF /* Labels07.m in Sources */,
 				C44E6A4919452A97006244AF /* Fonts03.m in Sources */,
 				D916C38C1943CF2400846C5C /* Shapes06.m in Sources */,
+				D96ABFD71950C81D00F10055 /* Math09.m in Sources */,
+				D96ABFC51950C30600F10055 /* Math03.m in Sources */,
+				D96ABFBE1950C1AF00F10055 /* Math01.m in Sources */,
 				C44E6A4C19452AC9006244AF /* Fonts04.m in Sources */,
 				D9307F4B194A4F3D00DFF4BC /* Control18.m in Sources */,
+				D96ABFCB1950C49900F10055 /* Math05.m in Sources */,
 				D9307FBE194A608F00DFF4BC /* Filter28.m in Sources */,
 				D9307F60194A56A000DFF4BC /* Control25.m in Sources */,
 				D9307F9A194A5DB600DFF4BC /* Filter16.m in Sources */,
@@ -1301,6 +1393,7 @@
 				D916C3791943CF2400846C5C /* Images05.m in Sources */,
 				C44E69F71944F4E2006244AF /* Labels08.m in Sources */,
 				D9307FA9194A5E8700DFF4BC /* Filter21.m in Sources */,
+				D96ABFE91950CC9400F10055 /* Math15.m in Sources */,
 				C44E6A0B1944F7CB006244AF /* Labels17.m in Sources */,
 				D9167F02193E988D00A9602C /* C4Defines.m in Sources */,
 				D9167F12193E988D00A9602C /* C4Label.m in Sources */,
@@ -1313,6 +1406,7 @@
 				D9D2B03619490CC400784ABF /* Control12.m in Sources */,
 				D9307F79194A5B8400DFF4BC /* Filter05.m in Sources */,
 				D9167F1A193E988D00A9602C /* C4Sample.m in Sources */,
+				D96ABFDD1950C9BF00F10055 /* Math11.m in Sources */,
 				D916C3851943CF2400846C5C /* Movies09.m in Sources */,
 				D916C37F1943CF2400846C5C /* Movies03.m in Sources */,
 				D9307F51194A51DF00DFF4BC /* Control20.m in Sources */,
@@ -1336,6 +1430,7 @@
 				D9167F20193E988D00A9602C /* C4Slider.m in Sources */,
 				C44E6A051944F708006244AF /* Labels16.m in Sources */,
 				D9307F3C194A4D6600DFF4BC /* Control14.m in Sources */,
+				D96ABFDA1950C8CB00F10055 /* Math10.m in Sources */,
 				D9307F85194A5C3200DFF4BC /* Filter09.m in Sources */,
 				D9167F04193E988D00A9602C /* C4EAGLESRenderer.m in Sources */,
 				D916C3821943CF2400846C5C /* Movies06.m in Sources */,
@@ -1363,6 +1458,8 @@
 				C44E69821944E1F2006244AF /* Labels02.m in Sources */,
 				D9D2B0271949052B00784ABF /* Control08.m in Sources */,
 				D9307FAF194A5EF300DFF4BC /* Filter23.m in Sources */,
+				D96ABFD41950C79200F10055 /* Math08.m in Sources */,
+				D96ABFCE1950C6AD00F10055 /* Math06.m in Sources */,
 				D9307F94194A5D4800DFF4BC /* Filter14.m in Sources */,
 				D916C3911943CF2400846C5C /* Shapes11.m in Sources */,
 				D9D2B01E1949005D00784ABF /* Control05.m in Sources */,
@@ -1378,9 +1475,11 @@
 				D9307FA0194A5E0E00DFF4BC /* Filter18.m in Sources */,
 				D916C3981943CF2400846C5C /* Shapes18.m in Sources */,
 				D916C37A1943CF2400846C5C /* Images06.m in Sources */,
+				D96ABFD11950C6F100F10055 /* Math07.m in Sources */,
 				D9307F42194A4D9100DFF4BC /* Control15.m in Sources */,
 				D916C37D1943CF2400846C5C /* Movies01.m in Sources */,
 				D9307F5D194A560000DFF4BC /* Control24.m in Sources */,
+				D96ABFE01950C9D600F10055 /* Math12.m in Sources */,
 				D9307F48194A4EDA00DFF4BC /* Control17.m in Sources */,
 				C44E69F41944F4E2006244AF /* Labels05.m in Sources */,
 				C44E6A5519453024006244AF /* Fonts06.m in Sources */,
@@ -1422,6 +1521,7 @@
 				C44E69F11944F4E2006244AF /* Labels01.m in Sources */,
 				D916C3801943CF2400846C5C /* Movies04.m in Sources */,
 				D9167F2A193E988D00A9602C /* C4UIElement.m in Sources */,
+				D96ABFC21950C29800F10055 /* Math02.m in Sources */,
 				D9307F76194A5B5F00DFF4BC /* Filter04.m in Sources */,
 				A972A1091947F3B800AF52B2 /* C4Section.m in Sources */,
 				D9D2B02D1949074200784ABF /* Control10.m in Sources */,
@@ -1432,9 +1532,12 @@
 				D916C37C1943CF2400846C5C /* Images08.m in Sources */,
 				D9D2B02A194906A300784ABF /* Control09.m in Sources */,
 				C44E69F81944F4E2006244AF /* Labels09.m in Sources */,
+				D96ABFE61950CC1800F10055 /* Math14.m in Sources */,
 				D916C3971943CF2400846C5C /* Shapes17.m in Sources */,
 				D916C38B1943CF2400846C5C /* Shapes05.m in Sources */,
+				D96ABFE31950CAC700F10055 /* Math13.m in Sources */,
 				D9D2B039194910F600784ABF /* Control13.m in Sources */,
+				D96ABFEC1950CE5400F10055 /* Math16.m in Sources */,
 				C44E6A2D19451A64006244AF /* Colors03.m in Sources */,
 				D9167F18193E988D00A9602C /* C4Object.m in Sources */,
 				C44E6A5219452ECA006244AF /* Fonts07.m in Sources */,
@@ -1443,6 +1546,7 @@
 				D9307F7F194A5BC700DFF4BC /* Filter07.m in Sources */,
 				C44E69F21944F4E2006244AF /* Labels03.m in Sources */,
 				C44E69F51944F4E2006244AF /* Labels06.m in Sources */,
+				D96ABFC81950C33E00F10055 /* Math04.m in Sources */,
 				D9307F88194A5C5700DFF4BC /* Filter10.m in Sources */,
 				D9307F7C194A5B9600DFF4BC /* Filter06.m in Sources */,
 				C44E6A591945312F006244AF /* Timers01.m in Sources */,
