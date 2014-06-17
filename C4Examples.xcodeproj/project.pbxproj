@@ -212,6 +212,12 @@
 		D96AC0381950DD0C00F10055 /* Interface02.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AC0371950DD0C00F10055 /* Interface02.m */; };
 		D96AC03B1950DE0800F10055 /* Interface03.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AC03A1950DE0800F10055 /* Interface03.m */; };
 		D96AC03E1950E38000F10055 /* Interface04.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AC03D1950E38000F10055 /* Interface04.m */; };
+		D96AC041195103B100F10055 /* Interface06.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AC040195103B100F10055 /* Interface06.m */; };
+		D96AC044195103BE00F10055 /* Interface05.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AC043195103BE00F10055 /* Interface05.m */; };
+		D96AC047195107E700F10055 /* Interface07.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AC046195107E700F10055 /* Interface07.m */; };
+		D96AC04A1951090D00F10055 /* Interface08.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AC0491951090D00F10055 /* Interface08.m */; };
+		D96AC04D195109A100F10055 /* Interface09.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AC04C195109A100F10055 /* Interface09.m */; };
+		D96AC05019510A7800F10055 /* Interface10.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AC04F19510A7800F10055 /* Interface10.m */; };
 		D9D2B0111948FEFD00784ABF /* Control01.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0101948FEFD00784ABF /* Control01.m */; };
 		D9D2B0151948FF5800784ABF /* Control02.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0141948FF5800784ABF /* Control02.m */; };
 		D9D2B0181948FFEC00784ABF /* Control03.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2B0171948FFEC00784ABF /* Control03.m */; };
@@ -630,6 +636,18 @@
 		D96AC03A1950DE0800F10055 /* Interface03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Interface03.m; path = Interface/Interface03.m; sourceTree = "<group>"; };
 		D96AC03C1950E38000F10055 /* Interface04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interface04.h; path = Interface/Interface04.h; sourceTree = "<group>"; };
 		D96AC03D1950E38000F10055 /* Interface04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Interface04.m; path = Interface/Interface04.m; sourceTree = "<group>"; };
+		D96AC03F195103B100F10055 /* Interface06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interface06.h; path = Interface/Interface06.h; sourceTree = "<group>"; };
+		D96AC040195103B100F10055 /* Interface06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Interface06.m; path = Interface/Interface06.m; sourceTree = "<group>"; };
+		D96AC042195103BE00F10055 /* Interface05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interface05.h; path = Interface/Interface05.h; sourceTree = "<group>"; };
+		D96AC043195103BE00F10055 /* Interface05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Interface05.m; path = Interface/Interface05.m; sourceTree = "<group>"; };
+		D96AC045195107E700F10055 /* Interface07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interface07.h; path = Interface/Interface07.h; sourceTree = "<group>"; };
+		D96AC046195107E700F10055 /* Interface07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Interface07.m; path = Interface/Interface07.m; sourceTree = "<group>"; };
+		D96AC0481951090D00F10055 /* Interface08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interface08.h; path = Interface/Interface08.h; sourceTree = "<group>"; };
+		D96AC0491951090D00F10055 /* Interface08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Interface08.m; path = Interface/Interface08.m; sourceTree = "<group>"; };
+		D96AC04B195109A100F10055 /* Interface09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interface09.h; path = Interface/Interface09.h; sourceTree = "<group>"; };
+		D96AC04C195109A100F10055 /* Interface09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Interface09.m; path = Interface/Interface09.m; sourceTree = "<group>"; };
+		D96AC04E19510A7800F10055 /* Interface10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interface10.h; path = Interface/Interface10.h; sourceTree = "<group>"; };
+		D96AC04F19510A7800F10055 /* Interface10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Interface10.m; path = Interface/Interface10.m; sourceTree = "<group>"; };
 		D9D2B00F1948FEFD00784ABF /* Control01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control01.h; path = Control/Control01.h; sourceTree = "<group>"; };
 		D9D2B0101948FEFD00784ABF /* Control01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Control01.m; path = Control/Control01.m; sourceTree = "<group>"; };
 		D9D2B0131948FF5800784ABF /* Control02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Control02.h; path = Control/Control02.h; sourceTree = "<group>"; };
@@ -1226,6 +1244,18 @@
 				D96AC03A1950DE0800F10055 /* Interface03.m */,
 				D96AC03C1950E38000F10055 /* Interface04.h */,
 				D96AC03D1950E38000F10055 /* Interface04.m */,
+				D96AC042195103BE00F10055 /* Interface05.h */,
+				D96AC043195103BE00F10055 /* Interface05.m */,
+				D96AC03F195103B100F10055 /* Interface06.h */,
+				D96AC040195103B100F10055 /* Interface06.m */,
+				D96AC045195107E700F10055 /* Interface07.h */,
+				D96AC046195107E700F10055 /* Interface07.m */,
+				D96AC0481951090D00F10055 /* Interface08.h */,
+				D96AC0491951090D00F10055 /* Interface08.m */,
+				D96AC04B195109A100F10055 /* Interface09.h */,
+				D96AC04C195109A100F10055 /* Interface09.m */,
+				D96AC04E19510A7800F10055 /* Interface10.h */,
+				D96AC04F19510A7800F10055 /* Interface10.m */,
 			);
 			name = Interface;
 			sourceTree = "<group>";
@@ -1428,6 +1458,7 @@
 				D9167F12193E988D00A9602C /* C4Label.m in Sources */,
 				D9167F06193E988D00A9602C /* C4EAGLES1Renderer.m in Sources */,
 				D9167F00193E988D00A9602C /* C4Control.m in Sources */,
+				D96AC047195107E700F10055 /* Interface07.m in Sources */,
 				D9D2B0151948FF5800784ABF /* Control02.m in Sources */,
 				C44E69FA1944F4E2006244AF /* Labels11.m in Sources */,
 				D9167F22193E988D00A9602C /* C4Stepper.m in Sources */,
@@ -1456,6 +1487,7 @@
 				D916C3881943CF2400846C5C /* Shapes02.m in Sources */,
 				C44E6A4F19452CEF006244AF /* Fonts05.m in Sources */,
 				D9D2B01B1949002800784ABF /* Control04.m in Sources */,
+				D96AC04A1951090D00F10055 /* Interface08.m in Sources */,
 				D9167F20193E988D00A9602C /* C4Slider.m in Sources */,
 				C44E6A051944F708006244AF /* Labels16.m in Sources */,
 				D9307F3C194A4D6600DFF4BC /* Control14.m in Sources */,
@@ -1471,6 +1503,7 @@
 				C44E6A391945215D006244AF /* Colors07.m in Sources */,
 				D9167F1E193E988D00A9602C /* C4Shape.m in Sources */,
 				D9167F34193E988D00A9602C /* UIColor+CIColorFix.m in Sources */,
+				D96AC041195103B100F10055 /* Interface06.m in Sources */,
 				D9307FB5194A5FD100DFF4BC /* Filter25.m in Sources */,
 				D9D2B021194900DF00784ABF /* Control06.m in Sources */,
 				D9D2B024194903A300784ABF /* Control07.m in Sources */,
@@ -1491,6 +1524,7 @@
 				D96ABFD41950C79200F10055 /* Math08.m in Sources */,
 				D96ABFCE1950C6AD00F10055 /* Math06.m in Sources */,
 				D9307F94194A5D4800DFF4BC /* Filter14.m in Sources */,
+				D96AC05019510A7800F10055 /* Interface10.m in Sources */,
 				D916C3911943CF2400846C5C /* Shapes11.m in Sources */,
 				D9D2B01E1949005D00784ABF /* Control05.m in Sources */,
 				D9307F73194A5B2200DFF4BC /* Filter03.m in Sources */,
@@ -1501,6 +1535,7 @@
 				C44E6A111944F8BA006244AF /* Labels18.m in Sources */,
 				D9307F5A194A559F00DFF4BC /* Control23.m in Sources */,
 				C44E6A171944F925006244AF /* Labels19.m in Sources */,
+				D96AC044195103BE00F10055 /* Interface05.m in Sources */,
 				D9307FB2194A5F3C00DFF4BC /* Filter24.m in Sources */,
 				D9307FA0194A5E0E00DFF4BC /* Filter18.m in Sources */,
 				D916C3981943CF2400846C5C /* Shapes18.m in Sources */,
@@ -1510,6 +1545,7 @@
 				D916C37D1943CF2400846C5C /* Movies01.m in Sources */,
 				D9307F5D194A560000DFF4BC /* Control24.m in Sources */,
 				D96ABFE01950C9D600F10055 /* Math12.m in Sources */,
+				D96AC04D195109A100F10055 /* Interface09.m in Sources */,
 				D9307F48194A4EDA00DFF4BC /* Control17.m in Sources */,
 				C44E69F41944F4E2006244AF /* Labels05.m in Sources */,
 				D96AC0381950DD0C00F10055 /* Interface02.m in Sources */,

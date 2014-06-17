@@ -25,8 +25,6 @@
     [button run:^{
         self.canvas.backgroundColor = C4GREY;
     } forEvent:TOUCHUPOUTSIDE];
-    
     [self.canvas addControl:button];
 }
-
 @end

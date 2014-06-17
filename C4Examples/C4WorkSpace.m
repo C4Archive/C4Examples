@@ -7,32 +7,10 @@
 
 #import "C4WorkSpace.h"
 
-@implementation C4WorkSpace {
-    
-    C4Button *button;
-}
+@implementation C4WorkSpace
 
--(void)setup {    
-    button = [C4Button buttonWithType:ROUNDEDRECT];
-    button.center = self.canvas.center;
-    
-    button.UIButton.multipleTouchEnabled = YES;
-    [button run:^{
-        self.canvas.backgroundColor = C4RED;
-    } forEvent:TOUCHDOWN];
-    
-    [button run:^{
-        self.canvas.backgroundColor = C4BLUE;
-    } forEvent:TOUCHUPINSIDE];
-    
-    [button run:^{
-        self.canvas.backgroundColor = C4GREY;
-    } forEvent:TOUCHUPOUTSIDE];
-    [self.canvas addControl:button];
-}
-
--(void)tapped {
-    self.canvas.backgroundColor = [UIColor whiteColor];
+-(void)setup {
+    //work your magic here
 }
 
 @end
