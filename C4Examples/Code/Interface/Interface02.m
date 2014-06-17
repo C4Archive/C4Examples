@@ -1,22 +1,19 @@
 //
-//  C4WorkSpace.m
-//  Examples
+//  Interface02.m
+//  C4Examples
 //
-//  Created by Travis Kirton
+//  Created by travis on 2014-06-17.
+//  Copyright (c) 2014 C4. All rights reserved.
 //
 
-#import "C4WorkSpace.h"
+#import "Interface02.h"
 
-@implementation C4WorkSpace {
-    
-    C4Button *button;
-}
+@implementation Interface02
 
--(void)setup {    
-    button = [C4Button buttonWithType:ROUNDEDRECT];
+-(void)setup {
+    C4Button *button = [C4Button buttonWithType:ROUNDEDRECT];
     button.center = self.canvas.center;
     
-    button.UIButton.multipleTouchEnabled = YES;
     [button run:^{
         self.canvas.backgroundColor = C4RED;
     } forEvent:TOUCHDOWN];
@@ -28,11 +25,8 @@
     [button run:^{
         self.canvas.backgroundColor = C4GREY;
     } forEvent:TOUCHUPOUTSIDE];
+    
     [self.canvas addControl:button];
-}
-
--(void)tapped {
-    self.canvas.backgroundColor = [UIColor whiteColor];
 }
 
 @end
