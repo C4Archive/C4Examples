@@ -51,6 +51,27 @@
 		C44E6A591945312F006244AF /* Timers01.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A581945312F006244AF /* Timers01.m */; };
 		C44E6A5C194531D7006244AF /* Timers02.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A5B194531D7006244AF /* Timers02.m */; };
 		C44E6A5F194533EA006244AF /* Timers03.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E6A5E194533EA006244AF /* Timers03.m */; };
+		D9074B5E19521D9D0052D85C /* Listen02.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B5D19521D9D0052D85C /* Listen02.m */; };
+		D9074B6519521ED70052D85C /* Gesture01.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B6419521ED70052D85C /* Gesture01.m */; };
+		D9074B68195220040052D85C /* Gesture02.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B67195220040052D85C /* Gesture02.m */; };
+		D9074B6B195221200052D85C /* Gesture03.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B6A195221200052D85C /* Gesture03.m */; };
+		D9074B6E1952218F0052D85C /* Gesture04.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B6D1952218F0052D85C /* Gesture04.m */; };
+		D9074B71195222300052D85C /* Gesture05.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B70195222300052D85C /* Gesture05.m */; };
+		D9074B74195223090052D85C /* Gesture06.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B73195223090052D85C /* Gesture06.m */; };
+		D9074B77195223560052D85C /* Gesture07.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B76195223560052D85C /* Gesture07.m */; };
+		D9074B7A195223B10052D85C /* Gesture08.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B79195223B10052D85C /* Gesture08.m */; };
+		D9074B7D195224DD0052D85C /* Gesture09.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B7C195224DD0052D85C /* Gesture09.m */; };
+		D9074B801952290C0052D85C /* Gesture10.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B7F1952290C0052D85C /* Gesture10.m */; };
+		D9074B8319522D920052D85C /* Run01.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B8219522D920052D85C /* Run01.m */; };
+		D9074B8719522FFA0052D85C /* Advanced01.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B8619522FFA0052D85C /* Advanced01.m */; };
+		D9074B8B195232550052D85C /* Advanced02.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B8A195232550052D85C /* Advanced02.m */; };
+		D9074B8E195233DC0052D85C /* Advanced03.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B8D195233DC0052D85C /* Advanced03.m */; };
+		D9074B91195236EC0052D85C /* Advanced04.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B90195236EC0052D85C /* Advanced04.m */; };
+		D9074B941952374F0052D85C /* Advanced05.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B931952374F0052D85C /* Advanced05.m */; };
+		D9074B97195238FB0052D85C /* Advanced06.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B96195238FB0052D85C /* Advanced06.m */; };
+		D9074B9A19523A310052D85C /* Advanced07.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B9919523A310052D85C /* Advanced07.m */; };
+		D9074B9D19523A430052D85C /* Advanced08.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B9C19523A430052D85C /* Advanced08.m */; };
+		D9074BA019523B2E0052D85C /* Advanced09.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B9F19523B2E0052D85C /* Advanced09.m */; };
 		D9167EA3193E988C00A9602C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA2193E988C00A9602C /* Accelerate.framework */; };
 		D9167EA5193E988C00A9602C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA4193E988C00A9602C /* AVFoundation.framework */; };
 		D9167EA7193E988C00A9602C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA6193E988C00A9602C /* CoreFoundation.framework */; };
@@ -333,6 +354,48 @@
 		C44E6A5B194531D7006244AF /* Timers02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Timers02.m; path = Timers/Timers02.m; sourceTree = "<group>"; };
 		C44E6A5D194533EA006244AF /* Timers03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timers03.h; path = Timers/Timers03.h; sourceTree = "<group>"; };
 		C44E6A5E194533EA006244AF /* Timers03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Timers03.m; path = Timers/Timers03.m; sourceTree = "<group>"; };
+		D9074B5C19521D9D0052D85C /* Listen02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Listen02.h; path = Listen/Listen02.h; sourceTree = "<group>"; };
+		D9074B5D19521D9D0052D85C /* Listen02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Listen02.m; path = Listen/Listen02.m; sourceTree = "<group>"; };
+		D9074B6319521ED70052D85C /* Gesture01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gesture01.h; path = Gesture/Gesture01.h; sourceTree = "<group>"; };
+		D9074B6419521ED70052D85C /* Gesture01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gesture01.m; path = Gesture/Gesture01.m; sourceTree = "<group>"; };
+		D9074B66195220040052D85C /* Gesture02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gesture02.h; path = Gesture/Gesture02.h; sourceTree = "<group>"; };
+		D9074B67195220040052D85C /* Gesture02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gesture02.m; path = Gesture/Gesture02.m; sourceTree = "<group>"; };
+		D9074B69195221200052D85C /* Gesture03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gesture03.h; path = Gesture/Gesture03.h; sourceTree = "<group>"; };
+		D9074B6A195221200052D85C /* Gesture03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gesture03.m; path = Gesture/Gesture03.m; sourceTree = "<group>"; };
+		D9074B6C1952218F0052D85C /* Gesture04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gesture04.h; path = Gesture/Gesture04.h; sourceTree = "<group>"; };
+		D9074B6D1952218F0052D85C /* Gesture04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gesture04.m; path = Gesture/Gesture04.m; sourceTree = "<group>"; };
+		D9074B6F195222300052D85C /* Gesture05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gesture05.h; path = Gesture/Gesture05.h; sourceTree = "<group>"; };
+		D9074B70195222300052D85C /* Gesture05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gesture05.m; path = Gesture/Gesture05.m; sourceTree = "<group>"; };
+		D9074B72195223090052D85C /* Gesture06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gesture06.h; path = Gesture/Gesture06.h; sourceTree = "<group>"; };
+		D9074B73195223090052D85C /* Gesture06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gesture06.m; path = Gesture/Gesture06.m; sourceTree = "<group>"; };
+		D9074B75195223560052D85C /* Gesture07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gesture07.h; path = Gesture/Gesture07.h; sourceTree = "<group>"; };
+		D9074B76195223560052D85C /* Gesture07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gesture07.m; path = Gesture/Gesture07.m; sourceTree = "<group>"; };
+		D9074B78195223B10052D85C /* Gesture08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gesture08.h; path = Gesture/Gesture08.h; sourceTree = "<group>"; };
+		D9074B79195223B10052D85C /* Gesture08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gesture08.m; path = Gesture/Gesture08.m; sourceTree = "<group>"; };
+		D9074B7B195224DD0052D85C /* Gesture09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gesture09.h; path = Gesture/Gesture09.h; sourceTree = "<group>"; };
+		D9074B7C195224DD0052D85C /* Gesture09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gesture09.m; path = Gesture/Gesture09.m; sourceTree = "<group>"; };
+		D9074B7E1952290C0052D85C /* Gesture10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gesture10.h; path = Gesture/Gesture10.h; sourceTree = "<group>"; };
+		D9074B7F1952290C0052D85C /* Gesture10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gesture10.m; path = Gesture/Gesture10.m; sourceTree = "<group>"; };
+		D9074B8119522D920052D85C /* Run01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Run01.h; path = Code/Run/Run01.h; sourceTree = "<group>"; };
+		D9074B8219522D920052D85C /* Run01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Run01.m; path = Code/Run/Run01.m; sourceTree = "<group>"; };
+		D9074B8519522FFA0052D85C /* Advanced01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Advanced01.h; path = Advanced/Advanced01.h; sourceTree = "<group>"; };
+		D9074B8619522FFA0052D85C /* Advanced01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advanced01.m; path = Advanced/Advanced01.m; sourceTree = "<group>"; };
+		D9074B89195232550052D85C /* Advanced02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Advanced02.h; path = Advanced/Advanced02.h; sourceTree = "<group>"; };
+		D9074B8A195232550052D85C /* Advanced02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advanced02.m; path = Advanced/Advanced02.m; sourceTree = "<group>"; };
+		D9074B8C195233DC0052D85C /* Advanced03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Advanced03.h; path = Advanced/Advanced03.h; sourceTree = "<group>"; };
+		D9074B8D195233DC0052D85C /* Advanced03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advanced03.m; path = Advanced/Advanced03.m; sourceTree = "<group>"; };
+		D9074B8F195236EC0052D85C /* Advanced04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Advanced04.h; path = Advanced/Advanced04.h; sourceTree = "<group>"; };
+		D9074B90195236EC0052D85C /* Advanced04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advanced04.m; path = Advanced/Advanced04.m; sourceTree = "<group>"; };
+		D9074B921952374F0052D85C /* Advanced05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Advanced05.h; path = Advanced/Advanced05.h; sourceTree = "<group>"; };
+		D9074B931952374F0052D85C /* Advanced05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advanced05.m; path = Advanced/Advanced05.m; sourceTree = "<group>"; };
+		D9074B95195238FB0052D85C /* Advanced06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Advanced06.h; path = Advanced/Advanced06.h; sourceTree = "<group>"; };
+		D9074B96195238FB0052D85C /* Advanced06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advanced06.m; path = Advanced/Advanced06.m; sourceTree = "<group>"; };
+		D9074B9819523A310052D85C /* Advanced07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Advanced07.h; path = Advanced/Advanced07.h; sourceTree = "<group>"; };
+		D9074B9919523A310052D85C /* Advanced07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advanced07.m; path = Advanced/Advanced07.m; sourceTree = "<group>"; };
+		D9074B9B19523A430052D85C /* Advanced08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Advanced08.h; path = Advanced/Advanced08.h; sourceTree = "<group>"; };
+		D9074B9C19523A430052D85C /* Advanced08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advanced08.m; path = Advanced/Advanced08.m; sourceTree = "<group>"; };
+		D9074B9E19523B2E0052D85C /* Advanced09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Advanced09.h; path = Advanced/Advanced09.h; sourceTree = "<group>"; };
+		D9074B9F19523B2E0052D85C /* Advanced09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advanced09.m; path = Advanced/Advanced09.m; sourceTree = "<group>"; };
 		D9167E9F193E988C00A9602C /* C4Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9167EA2193E988C00A9602C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D9167EA4193E988C00A9602C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -818,6 +881,68 @@
 			name = Timers;
 			sourceTree = "<group>";
 		};
+		D9074B5F19521DBA0052D85C /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				D9074B6319521ED70052D85C /* Gesture01.h */,
+				D9074B6419521ED70052D85C /* Gesture01.m */,
+				D9074B66195220040052D85C /* Gesture02.h */,
+				D9074B67195220040052D85C /* Gesture02.m */,
+				D9074B69195221200052D85C /* Gesture03.h */,
+				D9074B6A195221200052D85C /* Gesture03.m */,
+				D9074B6C1952218F0052D85C /* Gesture04.h */,
+				D9074B6D1952218F0052D85C /* Gesture04.m */,
+				D9074B6F195222300052D85C /* Gesture05.h */,
+				D9074B70195222300052D85C /* Gesture05.m */,
+				D9074B72195223090052D85C /* Gesture06.h */,
+				D9074B73195223090052D85C /* Gesture06.m */,
+				D9074B75195223560052D85C /* Gesture07.h */,
+				D9074B76195223560052D85C /* Gesture07.m */,
+				D9074B78195223B10052D85C /* Gesture08.h */,
+				D9074B79195223B10052D85C /* Gesture08.m */,
+				D9074B7B195224DD0052D85C /* Gesture09.h */,
+				D9074B7C195224DD0052D85C /* Gesture09.m */,
+				D9074B7E1952290C0052D85C /* Gesture10.h */,
+				D9074B7F1952290C0052D85C /* Gesture10.m */,
+			);
+			name = Gesture;
+			sourceTree = "<group>";
+		};
+		D9074B8419522E960052D85C /* Run */ = {
+			isa = PBXGroup;
+			children = (
+				D9074B8119522D920052D85C /* Run01.h */,
+				D9074B8219522D920052D85C /* Run01.m */,
+			);
+			name = Run;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D9074B881952300B0052D85C /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				D9074B8519522FFA0052D85C /* Advanced01.h */,
+				D9074B8619522FFA0052D85C /* Advanced01.m */,
+				D9074B89195232550052D85C /* Advanced02.h */,
+				D9074B8A195232550052D85C /* Advanced02.m */,
+				D9074B8C195233DC0052D85C /* Advanced03.h */,
+				D9074B8D195233DC0052D85C /* Advanced03.m */,
+				D9074B8F195236EC0052D85C /* Advanced04.h */,
+				D9074B90195236EC0052D85C /* Advanced04.m */,
+				D9074B921952374F0052D85C /* Advanced05.h */,
+				D9074B931952374F0052D85C /* Advanced05.m */,
+				D9074B95195238FB0052D85C /* Advanced06.h */,
+				D9074B96195238FB0052D85C /* Advanced06.m */,
+				D9074B9819523A310052D85C /* Advanced07.h */,
+				D9074B9919523A310052D85C /* Advanced07.m */,
+				D9074B9B19523A430052D85C /* Advanced08.h */,
+				D9074B9C19523A430052D85C /* Advanced08.m */,
+				D9074B9E19523B2E0052D85C /* Advanced09.h */,
+				D9074B9F19523B2E0052D85C /* Advanced09.m */,
+			);
+			name = Advanced;
+			sourceTree = "<group>";
+		};
 		D9167E96193E988C00A9602C = {
 			isa = PBXGroup;
 			children = (
@@ -1031,7 +1156,10 @@
 				D9307F6A194A5A9E00DFF4BC /* Filters */,
 				D96ABFBF1950C1B900F10055 /* Math */,
 				D96AC054195110CB00F10055 /* Listen */,
+				D9074B5F19521DBA0052D85C /* Gesture */,
 				D96AC0321950DB8900F10055 /* Interface */,
+				D9074B8419522E960052D85C /* Run */,
+				D9074B881952300B0052D85C /* Advanced */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -1269,6 +1397,8 @@
 			children = (
 				D96AC05119510C6400F10055 /* Listen01.h */,
 				D96AC05219510C6400F10055 /* Listen01.m */,
+				D9074B5C19521D9D0052D85C /* Listen02.h */,
+				D9074B5D19521D9D0052D85C /* Listen02.m */,
 			);
 			name = Listen;
 			sourceTree = "<group>";
@@ -1441,10 +1571,12 @@
 				D9167F10193E988D00A9602C /* C4Image.m in Sources */,
 				D916C3941943CF2400846C5C /* Shapes14.m in Sources */,
 				D9167F28193E988D00A9602C /* C4Timer.m in Sources */,
+				D9074B941952374F0052D85C /* Advanced05.m in Sources */,
 				C44E6A431945290C006244AF /* Fonts01.m in Sources */,
 				D9307F8E194A5CB100DFF4BC /* Filter12.m in Sources */,
 				D9D2B0181948FFEC00784ABF /* Control03.m in Sources */,
 				D916C3961943CF2400846C5C /* Shapes16.m in Sources */,
+				D9074B97195238FB0052D85C /* Advanced06.m in Sources */,
 				C44E6A46194529D8006244AF /* Fonts02.m in Sources */,
 				C44E69F61944F4E2006244AF /* Labels07.m in Sources */,
 				C44E6A4919452A97006244AF /* Fonts03.m in Sources */,
@@ -1461,9 +1593,11 @@
 				D9307F9A194A5DB600DFF4BC /* Filter16.m in Sources */,
 				D916C3901943CF2400846C5C /* Shapes10.m in Sources */,
 				C44E69F31944F4E2006244AF /* Labels04.m in Sources */,
+				D9074B71195222300052D85C /* Gesture05.m in Sources */,
 				D9167EFC193E988D00A9602C /* C4Camera.m in Sources */,
 				D916C3791943CF2400846C5C /* Images05.m in Sources */,
 				C44E69F71944F4E2006244AF /* Labels08.m in Sources */,
+				D9074B8319522D920052D85C /* Run01.m in Sources */,
 				D9307FA9194A5E8700DFF4BC /* Filter21.m in Sources */,
 				D96ABFE91950CC9400F10055 /* Math15.m in Sources */,
 				C44E6A0B1944F7CB006244AF /* Labels17.m in Sources */,
@@ -1472,6 +1606,7 @@
 				D9167F06193E988D00A9602C /* C4EAGLES1Renderer.m in Sources */,
 				D9167F00193E988D00A9602C /* C4Control.m in Sources */,
 				D96AC047195107E700F10055 /* Interface07.m in Sources */,
+				D9074B8B195232550052D85C /* Advanced02.m in Sources */,
 				D9D2B0151948FF5800784ABF /* Control02.m in Sources */,
 				C44E69FA1944F4E2006244AF /* Labels11.m in Sources */,
 				D9167F22193E988D00A9602C /* C4Stepper.m in Sources */,
@@ -1479,7 +1614,9 @@
 				D9D2B03619490CC400784ABF /* Control12.m in Sources */,
 				D9307F79194A5B8400DFF4BC /* Filter05.m in Sources */,
 				D9167F1A193E988D00A9602C /* C4Sample.m in Sources */,
+				D9074B8E195233DC0052D85C /* Advanced03.m in Sources */,
 				D96ABFDD1950C9BF00F10055 /* Math11.m in Sources */,
+				D9074B77195223560052D85C /* Gesture07.m in Sources */,
 				D916C3851943CF2400846C5C /* Movies09.m in Sources */,
 				D916C37F1943CF2400846C5C /* Movies03.m in Sources */,
 				D9307F51194A51DF00DFF4BC /* Control20.m in Sources */,
@@ -1515,6 +1652,7 @@
 				C44E6A3619452003006244AF /* Colors06.m in Sources */,
 				C44E6A391945215D006244AF /* Colors07.m in Sources */,
 				D9167F1E193E988D00A9602C /* C4Shape.m in Sources */,
+				D9074B9D19523A430052D85C /* Advanced08.m in Sources */,
 				D9167F34193E988D00A9602C /* UIColor+CIColorFix.m in Sources */,
 				D96AC041195103B100F10055 /* Interface06.m in Sources */,
 				D9307FB5194A5FD100DFF4BC /* Filter25.m in Sources */,
@@ -1529,6 +1667,7 @@
 				D916C37B1943CF2400846C5C /* Images07.m in Sources */,
 				D9307F6D194A5AD600DFF4BC /* Filter01.m in Sources */,
 				D9307F91194A5D0A00DFF4BC /* Filter13.m in Sources */,
+				D9074B6519521ED70052D85C /* Gesture01.m in Sources */,
 				D96AC0351950DCC200F10055 /* Interface01.m in Sources */,
 				C44E69FC1944F4E2006244AF /* Labels13.m in Sources */,
 				C44E69821944E1F2006244AF /* Labels02.m in Sources */,
@@ -1541,6 +1680,7 @@
 				D916C3911943CF2400846C5C /* Shapes11.m in Sources */,
 				D9D2B01E1949005D00784ABF /* Control05.m in Sources */,
 				D9307F73194A5B2200DFF4BC /* Filter03.m in Sources */,
+				D9074BA019523B2E0052D85C /* Advanced09.m in Sources */,
 				D9307F70194A5AF700DFF4BC /* Filter02.m in Sources */,
 				C44E6A1D1944FA96006244AF /* Labels20.m in Sources */,
 				C44E6A5C194531D7006244AF /* Timers02.m in Sources */,
@@ -1561,6 +1701,7 @@
 				D96AC05319510C6400F10055 /* Listen01.m in Sources */,
 				D96AC04D195109A100F10055 /* Interface09.m in Sources */,
 				D9307F48194A4EDA00DFF4BC /* Control17.m in Sources */,
+				D9074B6E1952218F0052D85C /* Gesture04.m in Sources */,
 				C44E69F41944F4E2006244AF /* Labels05.m in Sources */,
 				D96AC0381950DD0C00F10055 /* Interface02.m in Sources */,
 				C44E6A5519453024006244AF /* Fonts06.m in Sources */,
@@ -1569,6 +1710,7 @@
 				C44E6A201944FAC8006244AF /* Labels21.m in Sources */,
 				D9167F40193E988D00A9602C /* C4WorkSpace.m in Sources */,
 				D9167F0A193E988D00A9602C /* C4Foundation.m in Sources */,
+				D9074B74195223090052D85C /* Gesture06.m in Sources */,
 				C44E6A3019451EA0006244AF /* Colors04.m in Sources */,
 				A972A10C1947F82500AF52B2 /* C4ExampleCell.m in Sources */,
 				D916C3921943CF2400846C5C /* Shapes12.m in Sources */,
@@ -1576,6 +1718,7 @@
 				D9307FBB194A603B00DFF4BC /* Filter27.m in Sources */,
 				D96AC03E1950E38000F10055 /* Interface04.m in Sources */,
 				D916C3751943CF2400846C5C /* Images01.m in Sources */,
+				D9074B7D195224DD0052D85C /* Gesture09.m in Sources */,
 				D9307F54194A542400DFF4BC /* Control21.m in Sources */,
 				D9307F97194A5D6900DFF4BC /* Filter15.m in Sources */,
 				D9D2B0111948FEFD00784ABF /* Control01.m in Sources */,
@@ -1597,8 +1740,10 @@
 				D9167F0E193E988D00A9602C /* C4GL1Renderer.m in Sources */,
 				D9167EBF193E988C00A9602C /* main.m in Sources */,
 				D916C38F1943CF2400846C5C /* Shapes09.m in Sources */,
+				D9074B91195236EC0052D85C /* Advanced04.m in Sources */,
 				D9167EFE193E988D00A9602C /* C4CanvasController.m in Sources */,
 				C44E6A24194517FF006244AF /* Colors01.m in Sources */,
+				D9074B8719522FFA0052D85C /* Advanced01.m in Sources */,
 				D9307F45194A4E6200DFF4BC /* Control16.m in Sources */,
 				C44E69F11944F4E2006244AF /* Labels01.m in Sources */,
 				D916C3801943CF2400846C5C /* Movies04.m in Sources */,
@@ -1613,8 +1758,13 @@
 				D9167F2C193E988D00A9602C /* C4Vector.m in Sources */,
 				D916C37C1943CF2400846C5C /* Images08.m in Sources */,
 				D9D2B02A194906A300784ABF /* Control09.m in Sources */,
+				D9074B7A195223B10052D85C /* Gesture08.m in Sources */,
 				C44E69F81944F4E2006244AF /* Labels09.m in Sources */,
 				D96ABFE61950CC1800F10055 /* Math14.m in Sources */,
+				D9074B801952290C0052D85C /* Gesture10.m in Sources */,
+				D9074B9A19523A310052D85C /* Advanced07.m in Sources */,
+				D9074B68195220040052D85C /* Gesture02.m in Sources */,
+				D9074B6B195221200052D85C /* Gesture03.m in Sources */,
 				D916C3971943CF2400846C5C /* Shapes17.m in Sources */,
 				D916C38B1943CF2400846C5C /* Shapes05.m in Sources */,
 				D96ABFE31950CAC700F10055 /* Math13.m in Sources */,
@@ -1637,6 +1787,7 @@
 				D916C3781943CF2400846C5C /* Images04.m in Sources */,
 				D9167EEE193E988D00A9602C /* C4AppDelegate.m in Sources */,
 				D916C3991943CF2400846C5C /* Shapes19.m in Sources */,
+				D9074B5E19521D9D0052D85C /* Listen02.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
