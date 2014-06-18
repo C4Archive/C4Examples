@@ -523,6 +523,7 @@
 }
 
 - (void)onPan:(C4PanGestureBlock)block {
+    [self removeSwipeGestures];
     self.panBlock = block;
     
     if (self.panBlock && !_panGestureRecognizer) {
@@ -596,6 +597,7 @@
 }
 
 - (void)onSwipeRight:(C4SwipeGestureBlock)block {
+    [self removePanGesture];
     self.swipeRightBlock = block;
     
     if (self.swipeRightBlock && !_swipeRightGestureRecognizer) {
@@ -607,6 +609,7 @@
 }
 
 - (void)onSwipeLeft:(C4SwipeGestureBlock)block {
+    [self removePanGesture];
     self.swipeLeftBlock = block;
     
     if (self.swipeLeftBlock && !_swipeLeftGestureRecognizer) {
@@ -618,6 +621,7 @@
 }
 
 - (void)onSwipeUp:(C4SwipeGestureBlock)block {
+    [self removePanGesture]; //swipes and pans should never be combined
     self.swipeUpBlock = block;
     
     if (self.swipeUpBlock && !_swipeUpGestureRecognizer) {
@@ -629,6 +633,7 @@
 }
 
 - (void)onSwipeDown:(C4SwipeGestureBlock)block {
+    [self removePanGesture]; //swipes and pans should never be combined
     self.swipeDownBlock = block;
     
     if (self.swipeDownBlock && !_swipeDownGestureRecognizer) {
@@ -636,6 +641,40 @@
         _swipeDownGestureRecognizer.direction = UISwipeGestureRecognizerDirectionDown;
         _swipeDownGestureRecognizer.delegate = self;
         [self.view addGestureRecognizer:_swipeDownGestureRecognizer];
+    }
+}
+
+- (void)removePanGesture {
+    if(_panGestureRecognizer != nil) {
+        [_panGestureRecognizer removeTarget:self action:nil];
+        [self.view removeGestureRecognizer:_panGestureRecognizer];
+        _panGestureRecognizer = nil;
+    }
+}
+
+-(void)removeSwipeGestures {
+    if(_swipeUpGestureRecognizer != nil) {
+        [_swipeUpGestureRecognizer removeTarget:self action:nil];
+        [self.view removeGestureRecognizer:_swipeUpGestureRecognizer];
+        _swipeUpGestureRecognizer = nil;
+    }
+    
+    if(_swipeDownGestureRecognizer != nil) {
+        [_swipeDownGestureRecognizer removeTarget:self action:nil];
+        [self.view removeGestureRecognizer:_swipeDownGestureRecognizer];
+        _swipeDownGestureRecognizer = nil;
+    }
+
+    if(_swipeLeftGestureRecognizer != nil) {
+        [_swipeLeftGestureRecognizer removeTarget:self action:nil];
+        [self.view removeGestureRecognizer:_swipeLeftGestureRecognizer];
+        _swipeLeftGestureRecognizer = nil;
+    }
+
+    if(_swipeRightGestureRecognizer != nil) {
+        [_swipeRightGestureRecognizer removeTarget:self action:nil];
+        [self.view removeGestureRecognizer:_swipeRightGestureRecognizer];
+        _swipeRightGestureRecognizer = nil;
     }
 }
 
@@ -650,9 +689,9 @@
         self.swipeDownBlock([gr locationInView:self.view]);
 }
 
-- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
-    return  (touch.view == self.view);
-}
+//- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
+//    return  (touch.view == self.view);
+//}
 
 #pragma mark Gesture Additions
 - (void)tapped {
