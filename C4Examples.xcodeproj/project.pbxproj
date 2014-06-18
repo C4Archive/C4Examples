@@ -72,6 +72,7 @@
 		D9074B9A19523A310052D85C /* Advanced07.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B9919523A310052D85C /* Advanced07.m */; };
 		D9074B9D19523A430052D85C /* Advanced08.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B9C19523A430052D85C /* Advanced08.m */; };
 		D9074BA019523B2E0052D85C /* Advanced09.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074B9F19523B2E0052D85C /* Advanced09.m */; };
+		D9074C1219525BAF0052D85C /* Shapes21.m in Sources */ = {isa = PBXBuildFile; fileRef = D9074C1119525BAF0052D85C /* Shapes21.m */; };
 		D9167EA3193E988C00A9602C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA2193E988C00A9602C /* Accelerate.framework */; };
 		D9167EA5193E988C00A9602C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA4193E988C00A9602C /* AVFoundation.framework */; };
 		D9167EA7193E988C00A9602C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9167EA6193E988C00A9602C /* CoreFoundation.framework */; };
@@ -396,6 +397,8 @@
 		D9074B9C19523A430052D85C /* Advanced08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advanced08.m; path = Advanced/Advanced08.m; sourceTree = "<group>"; };
 		D9074B9E19523B2E0052D85C /* Advanced09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Advanced09.h; path = Advanced/Advanced09.h; sourceTree = "<group>"; };
 		D9074B9F19523B2E0052D85C /* Advanced09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advanced09.m; path = Advanced/Advanced09.m; sourceTree = "<group>"; };
+		D9074C1019525BAF0052D85C /* Shapes21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes21.h; sourceTree = "<group>"; };
+		D9074C1119525BAF0052D85C /* Shapes21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes21.m; sourceTree = "<group>"; };
 		D9167E9F193E988C00A9602C /* C4Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9167EA2193E988C00A9602C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D9167EA4193E988C00A9602C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -1257,6 +1260,8 @@
 				D916C3721943CF2400846C5C /* Shapes19.m */,
 				D916C3731943CF2400846C5C /* Shapes20.h */,
 				D916C3741943CF2400846C5C /* Shapes20.m */,
+				D9074C1019525BAF0052D85C /* Shapes21.h */,
+				D9074C1119525BAF0052D85C /* Shapes21.m */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -1769,6 +1774,7 @@
 				D916C38B1943CF2400846C5C /* Shapes05.m in Sources */,
 				D96ABFE31950CAC700F10055 /* Math13.m in Sources */,
 				D9D2B039194910F600784ABF /* Control13.m in Sources */,
+				D9074C1219525BAF0052D85C /* Shapes21.m in Sources */,
 				D96ABFEC1950CE5400F10055 /* Math16.m in Sources */,
 				C44E6A2D19451A64006244AF /* Colors03.m in Sources */,
 				D9167F18193E988D00A9602C /* C4Object.m in Sources */,
