@@ -38,11 +38,11 @@
     //animate the line2 with a repeating 1 second animation
     line2.animationDuration = 1.0f;
     line2.animationOptions = AUTOREVERSE | REPEAT;
-    line2.pointA = CGPointMake(line2.pointA.x, line2.pointA.y + 200);
+    [line2 setPoint:CGPointMake(line2.firstPoint.x, line2.firstPoint.y + 200) atIndex:0];
     
     //animate the line3 with a repeating 1 second animation
     line3.animationDuration = 1.0f;
     line3.animationOptions = AUTOREVERSE | REPEAT;
-    line3.pointB = CGPointMake(line2.pointB.x, line2.pointB.y - 200);
+    [line3 setPoint:CGPointMake(line2.lastPoint.x, line2.lastPoint.y - 200) atIndex:1];
 }
 @end

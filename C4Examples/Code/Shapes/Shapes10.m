@@ -62,10 +62,10 @@
         l.textColor = [UIColor whiteColor];
         
         C4Shape* a = [C4Shape ellipse:CGRectMake(0, 0, 10, 10)];
-        a.center = line.pointA;
+        a.center = line.firstPoint;
         
         C4Shape *b = [C4Shape ellipse:CGRectMake(0, 0, 10, 10)];
-        b.center = line.pointB;
+        b.center = line.lastPoint;
         
         [self.canvas addObjects:@[l,a,b]];
     }
