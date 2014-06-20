@@ -12,7 +12,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="ub5-eo-q39" kind="relationship" relationship="rootViewController" id="l8z-3g-JNv"/>
+                        <segue destination="GS3-xT-xTZ" kind="relationship" relationship="rootViewController" id="5Ca-vN-Rg5"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dSb-LX-pWa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -35,7 +35,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ExampleCell" id="7cc-BX-aRL" customClass="C4ExampleCell">
-                                <rect key="frame" x="4" y="54" width="150" height="150"/>
+                                <rect key="frame" x="4" y="118" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -62,7 +62,7 @@
                             </collectionViewCell>
                         </cells>
                         <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Header" id="z1u-zQ-UZr" customClass="C4SectionHeaderView">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                            <rect key="frame" x="0.0" y="64" width="320" height="50"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Section" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgS-ON-N0I">
@@ -87,25 +87,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="raV-jA-avm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="308" y="37"/>
-        </scene>
-        <!--Work Space-->
-        <scene sceneID="cb5-cu-EVU">
-            <objects>
-                <viewController id="ub5-eo-q39" customClass="C4WorkSpace" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GcQ-v2-pGd"/>
-                        <viewControllerLayoutGuide type="bottom" id="rch-ed-fV3"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="NCR-wI-qa5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="ZfA-uM-UPo"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6kr-ct-ndp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="308" y="688"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
